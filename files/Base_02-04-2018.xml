@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Victor Gois Vieira</Author>
+  <LastAuthor>Victor Gois Vieira</LastAuthor>
+  <Created>2018-04-02T11:07:41Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9630</WindowHeight>
+  <WindowWidth>24000</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Arial" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#666699" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet 1">
+  <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="102.75" ss:Span="22"/>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID do Incidente*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID da Solicitação</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nome*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nome do Meio</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Sumário*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Status*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Criado em</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Site+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Prioridade*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Data da Última Resolução</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Data de Fechamento</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">IC+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Empresa*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Grupo Designado*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Empresa de Suporte*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Grupo Proprietário+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Empresa de Suporte do Proprietário</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Organização de Suporte*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Notas</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Modificado por</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nível de Categorização do Produto 3</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Resolução</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002054226</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CX7261NT822= COLD START TRAP</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 15:24:36</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 16:28:45</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7261SLB-CX7261NT822</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -15=24=26&#10;O EQUIPAMENTO CX7261NT822 ENVIOU UMA TRAP DE &quot;COLD START&quot; PARA O SPECTRUM&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - CEPTISP BLOCO 4 SALA CP-BANCARIO&#10;      CONTATO - CEPTISP22&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) O EQUIPAMENTO REINICIOU, APÓS UMA MUDANÇA DE CONFIGURAÇÃO&#10;2) O EQUIPAMENTO SOFREU UMA PERDA DE ENERGIA ELÉTRICA&#10;3) O EQUIPAMENTO REINICIOU APÓS UM &quot;CRASH&quot;&#10;AÇÕES RECOMENDADAS&#10;VERIFICAR AS LOGS DO EQUIPAMENTO PARA IDENTIFICAR A CAUSA DO REBOOT&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;CELSO - SUPORTE WINDOWS - WO16258908</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Em contato com CGR N2, foi informado que está tendo atuação da engenharia OS 25180555.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002054223</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW022.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.32</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 11:55:14</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 13:05:23</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW022</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -11=55=09&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW022.CORESP.CAIXA&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo encontra-se operacional.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002054215</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR003= INT CEPTISP_SE5/6_CEXC_ORBITALL_SIORB_ITG_«OCOSPOCPL028277» (172.30.3.101) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 02:25:58</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 05:52:42</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 05:52:42</Data></Cell>
+    <Cell><Data ss:Type="String">7562ROT-CSEXTRRR003</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">TIVIT TERC DE PROC SERV TECN S/A</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -02=23=54&#10;CSEXTRRR003 - A INTERFACE&#10;NOME= 0 SE5/6&#10;DESC= CEPTISP_SE5/6_CEXC_ORBITALL_SIORB_ITG_«OCOSPOCPL028277»&#10;IP=172.30.3.101 ESTA DOWN&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Serviço contigenciado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002054214</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CX7261NT360= DISPOSITIVO NAO RESPONDE - IP 10.1.32.95</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">31/03/2018 23:33:33</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 04:25:58</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7261SLB-CX7261NT360</Data></Cell>
+    <Cell><Data ss:Type="String">CTIS</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SAT 31 MAR, 2018 -23=33=27&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CX7261NT360&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - UNDEFINED SYSTEM LOCATION&#10;      CONTATO - UNDEFINED SYSTEM CONTACT&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;CELSO - SUPORTE WINDOWS - WO16258908</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Servidor disponível sem atuação da equipe de suporte.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053459</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW022.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.32</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 14:33:20</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 16:27:11</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW022</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -14=33=17&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW022.CORESP.CAIXA&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo encontra-se operacional.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053458</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW037= DISPOSITIVO NAO RESPONDE - IP 10.1.9.50</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 12:50:35</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 13:31:39</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW037</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -12=50=29&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW037&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Em contato com CGR N2, foi informado que está tendo atuação da engenharia OS 25180555.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053457</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW016.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.31</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 12:45:12</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 13:32:03</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW016</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -12=45=08&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW016.CORESP.CAIXA&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Em contato com CGR N2, foi informado que está tendo atuação da engenharia OS 25180555.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053456</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW021.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.36</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 12:30:32</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 13:30:07</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW021</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -12=30=27&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW021.CORESP.CAIXA&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Em contato com CGR N2, foi informado que está tendo atuação da engenharia OS 25180555.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053455</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW037= DISPOSITIVO NAO RESPONDE - IP 10.1.9.50</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 11:45:20</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 12:40:03</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW037</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -11=45=14&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW037&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Conforme verificado dispositivo encontra-se operacional.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053454</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW016.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.31</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 11:44:51</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 12:38:19</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW016</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -11=44=44&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW016.CORESP.CAIXA&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo encontra-se operacional.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053453</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW021.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.36</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 11:44:44</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 12:20:47</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SWI-CS7261SW021</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -11=44=40&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW021.CORESP.CAIXA&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV MARTIN LUTHER KING,762 - OSASCO-SP&#10;      CONTATO - REROP/SP (11)3201-6500&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo encontra-se operacional.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002053452</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW111= DISPOSITIVO NAO RESPONDE - IP 10.1.9.68</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 11:43:55</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/04/2018 13:02:30</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562SLB-AR7562LX001</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">SUN 01 APR, 2018 -11=43=48&#10;HOUVE UMA PERDA DE COMUNICACAO COM O EQUIPAMENTO CS7261SW111&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;*SOLICITAR CORREÇÃO, SE AS INFORMAÇÕES, ABAIXO, ESTIVEREM ERRADAS=&#10;&#10;      LOCAL   - REROP/SP-AV&#10;      CONTATO - MARTIN&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;&#10;CAUSAS PROVAVEIS=&#10;1) EQUIPAMENTO FOI REINICIALIZADO;&#10;2) EQUIPAMENTO FOI DESLIGADO (QUEDA DE ENERGIA / MANUTENCAO );&#10;3) QUEDA DOS CIRCUITOS DE BACKBONE;&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE SERVIDOR&#10;   EFETUAR PING PARA O SERVIDOR.&#10;   CASO NAO HAJA RESPOSTA, ACIONAR SUPORTE RESPONSAVEL.&#10;   CASO O PING SEJA RESPONDIDO NORMALMENTE, ACIONAR EQUIPE SUPORTE A REDE.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;ACOES PARA NODE DOWN DE DEMAIS EQUIPAMENTOS&#10;   CONTATAR A CETEC PARA IDENTIFICAR A CAUSA.&#10;   FECHAR ESTE REGISTRO APOS O RESTABELECIMENTO DO ATIVO.&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P784300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo encontra-se operacional.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

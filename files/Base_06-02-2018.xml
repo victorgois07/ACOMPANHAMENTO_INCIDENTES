@@ -1,0 +1,1721 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Marcelo Junio da Silva</Author>
+  <LastAuthor>Marcelo Junio da Silva</LastAuthor>
+  <Created>2018-02-06T09:25:38Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9600</WindowHeight>
+  <WindowWidth>24210</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Arial" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#666699" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet 1">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='Sheet 1'!R1C1:R1C17"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="86" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="102.75" ss:Span="17"/>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID do Incidente*+</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID da Solicitação</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nome*+</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nome do Meio</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Sumário*</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Status*</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Criado em</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Site+</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Prioridade*</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Data da Última Resolução</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Organização de Suporte*</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Grupo Designado*+</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Designado+</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Data Alvo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Status do SLM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Modificado por</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Modificado em</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001837207</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1-G1/2/2«=»DFTSRCTC1_G5/0/0_OI_«BSA7187425» (192.168.252.109) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 02:33:22</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 03:28:02</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">RODRIGO S DE SOUZA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:03:21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001837208</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1-G1/2/2«=»DFTSRCTC1_G5/0/0_OI_«BSA7187425» (192.168.252.109) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 02:33:42</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 03:46:33</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">DANILO R BISPO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:03:21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001837209</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRCTC1= INT BKB_C-DFTSRCTC1-G5/0/0«=»SPTSROCO1_G1/2/2_OI_«BSA7187425» (192.168.252.110) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 02:41:04</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 03:47:11</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">DANILO R BISPO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:03:20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001837319</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023674005</Data></Cell>
+    <Cell><Data ss:Type="String">PERSIO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIING.Indisponibilidade</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 10:08:15</Data></Cell>
+    <Cell><Data ss:Type="String">7445-GITEC</Data></Cell>
+    <Cell><Data ss:Type="String">Alto</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 10:34:46</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">PROINFO PRODUCAO</Data></Cell>
+    <Cell><Data ss:Type="String">ANDRE L TORRES PEREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">Remedy Application Service</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 10:48:51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001837712</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023681074</Data></Cell>
+    <Cell><Data ss:Type="String">THIAGO</Data></Cell>
+    <Cell><Data ss:Type="String">DA</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIIVG.Disponibilidade Parcial</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 12:14:32</Data></Cell>
+    <Cell><Data ss:Type="String">7875-GITEC</Data></Cell>
+    <Cell><Data ss:Type="String">Média</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 12:39:15</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">PROINFO PRODUCAO</Data></Cell>
+    <Cell><Data ss:Type="String">ANDRE L TORRES PEREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">P716776</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 12:39:19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845681</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DCPINTRASW0002= INT BKB_MGRRBHE1_G0/3.997(-)DFTSRDTC2_GI5/0/3.66_LV3_(L25693) (N/A) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 15:22:33</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 15:31:56</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:02:09</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845820</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DCPINTRASW0002= INT BKB_MGRRBHE1_G0/3.997(-)DFTSRDTC2_GI5/0/3.66_LV3_(L25693) (N/A) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:03:22</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:19:35</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">SUZANE FATIMA LIMA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:43</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845821</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RJRRRJO5= INT BKB_C-RJRRRJO5-G3/0/6«=»DFTSRDTC1_G2/2/0_LV3_«T21012» (192.168.253.158) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:28:13</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:40:01</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845822</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BARRSDR1= INT BKB_C-BARRSDR1-G0/3«=»DFTSRDTC1_G2/2/14_LV3_«500003968» (192.168.252.158) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:28:21</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:55:24</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845824</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRCTC2= INT BKB-DFTSRCTC2-G2/2/9«=»SCRSFNS4-G0/1.75_LV3_«500008975» (192.168.255.150) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:51:40</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 15:08:23</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845825</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRDTC1= INT BKB_C-DFTSRDTC1-G2/2/14«=»BARRSDR1_G0/3_LV3_«500003968» (192.168.252.157) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:51:46</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:59:28</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">PEDRO H DANTAS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845826</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RJRRRJO5_ GE3/0/7.500_CEF_DATAMEC_GCI_RJ7469SW622-P40_WCS= DISPOSITIVO NAO RESPONDE - IP 172.29</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:52:49</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 15:10:57</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845867</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DF0001SW003.DF.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.243.0.1</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 18:30:24</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 18:50:00</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845869</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SCRSFNS9= INT BKB-SCRSFNS9F-G0/1.72«-»DFTSRDTC2C-G5/0/3.72_GVTSEC«301KPXLI4» (192.168.254.53) D</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 21:02:37</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 21:36:36</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">LEONE C VACCA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:41</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845870</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SC7448SW009= INT BKB_C-SC7448SW009_G20«=»DPCINTRASW0002_G12_GVT_«FNS-301KPXLI4» (N/A) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 21:04:03</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 22:23:39</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">SILVIO M BARROS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P776830</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 22:23:40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845901</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023670874</Data></Cell>
+    <Cell><Data ss:Type="String">MARCOS</Data></Cell>
+    <Cell><Data ss:Type="String">PAULO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIGSC.Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 11:10:19</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:39:28</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">MARCEL M MARTINS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845902</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023670898</Data></Cell>
+    <Cell><Data ss:Type="String">GRACILDO</Data></Cell>
+    <Cell><Data ss:Type="String">PEREIRA</Data></Cell>
+    <Cell><Data ss:Type="String">Produção - SIGSC - Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 11:41:39</Data></Cell>
+    <Cell><Data ss:Type="String">7259-CEPTI</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 17:51:59</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">MARCEL M MARTINS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845908</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023697038</Data></Cell>
+    <Cell><Data ss:Type="String">MARCOS</Data></Cell>
+    <Cell><Data ss:Type="String">PAULO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIGSC.Disponibilidade Parcial</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 18:09:58</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 20:47:53</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">CALEBE A ROSA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P673853</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 20:48:21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001845916</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023741629</Data></Cell>
+    <Cell><Data ss:Type="String">MARCOS</Data></Cell>
+    <Cell><Data ss:Type="String">PAULO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIGSC.Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 12:12:46</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:47:07</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">CALEBE A ROSA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P719604</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:47:36</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001846001</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023678946</Data></Cell>
+    <Cell><Data ss:Type="String">ROSANGELA</Data></Cell>
+    <Cell><Data ss:Type="String">DE</Data></Cell>
+    <Cell><Data ss:Type="String">Produção - SIGSC - Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 11:39:42</Data></Cell>
+    <Cell><Data ss:Type="String">7435-GITEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:48:03</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">MARCEL M MARTINS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:39</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001846002</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023688631</Data></Cell>
+    <Cell><Data ss:Type="String">THIAGO</Data></Cell>
+    <Cell><Data ss:Type="String">COUTINHO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção - SIGSC - Base Desatualizada</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 14:41:23</Data></Cell>
+    <Cell><Data ss:Type="String">7259-CEPTI</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/02/2018 15:15:39</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">KRISTIAN P DIAS PACHECO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:39</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001846042</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023719100</Data></Cell>
+    <Cell><Data ss:Type="String">THIAGO</Data></Cell>
+    <Cell><Data ss:Type="String">COUTINHO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção - SIGSC - Base Desatualizada</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 15:17:33</Data></Cell>
+    <Cell><Data ss:Type="String">7259-CEPTI</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:08:27</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">KRISTIAN P DIAS PACHECO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:02:44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001846628</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR007= INT CEPTISP_SE1/1/0_CEXC_TRF5_PERNAMBUCO_1M_OI_RCE 7194478 (172.30.5.213) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 00:42:40</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 00:52:14</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 02:01:16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001847428</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023712527</Data></Cell>
+    <Cell><Data ss:Type="String">THIAGO</Data></Cell>
+    <Cell><Data ss:Type="String">DA</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIIVG.Disponibilidade Parcial</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 12:50:18</Data></Cell>
+    <Cell><Data ss:Type="String">7875-GITEC</Data></Cell>
+    <Cell><Data ss:Type="String">Média</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 13:05:15</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">PROINFO PRODUCAO</Data></Cell>
+    <Cell><Data ss:Type="String">ANDRE L TORRES PEREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">P716776</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 13:05:20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001847432</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023715100</Data></Cell>
+    <Cell><Data ss:Type="String">RODRIGO</Data></Cell>
+    <Cell><Data ss:Type="String">DO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção - SIGSC - Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 13:58:34</Data></Cell>
+    <Cell><Data ss:Type="String">7392-CERAT</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 15:12:02</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">MARCEL M MARTINS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:02:32</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001850293</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRDTC1= INT BKB-DFTSRDTC1C_G2/2/13«=»PARSBLM6-G0/3_OI_«BLM7179182» (192.168.253.208) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 08:35:45</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 08:54:22</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">ALINE K OGAWA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856381</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSINTRARR000.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.0.128.36</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 15:47:59</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 17:22:19</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">FERNANDO M CAMARA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P940425</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 17:22:20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856382</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CERRFLA5= INT BKB_CERRFLA5F-G3/0/7«=»BKB_C-DFTSRDTC2C_G5/0/3.65_LV3_«L25691» (192.168.252.86) D</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 15:54:41</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:05:28</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">DIEGO D SILVA FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856383</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1-G1/0/15«=»PARSBLM5_G0/3_LV3_«500012799» (192.168.254.214) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 15:54:47</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:14:13</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">ALINE K OGAWA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856384</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PARSBLM5= INT BKB_C-PARSBLM5F_G0/1.72«=»SPTSROCO1_G4/0/4.72_LV3_«500012596» (192.168.253.213) D</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 15:55:17</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:13:30</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">ALINE K OGAWA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856385</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS7261SW008.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.1.9.23</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:45:19</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 17:03:44</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">ALINE K OGAWA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856386</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSINTRARR000.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.0.128.36</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:51:44</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 16:55:53</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">DIEGO D SILVA FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856394</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1-G1/0/4«=»RJRRRJO5_G3/0/5_LV3_«T206891BRAM1110002» (192.168.253.2</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 20:44:52</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 21:03:25</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">RODOLFO D SANTOS FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:03</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856395</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1-G1/0/4«=»RJRRRJO5_G3/0/5_LV3_«T206891BRAM1110002» (192.168.253.2</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 20:47:05</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 21:09:23</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">RODOLFO D SANTOS FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:03</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856399</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PARSBLM5= INT BKB_PARSBLM5_G0/1.70«=»DFTSRDTC2_G5/0/3.70_TIM1_BLMBSA_CPL097528 (192.168.252.98)</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 02:14:11</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 02:17:54</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">RODOLFO D SANTOS FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783665</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 02:17:55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856502</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RTDJFCE= DISPOSITIVO NAO RESPONDE - IP 172.30.4.214</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 13:00:09</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/02/2018 13:04:15</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">ALINE K OGAWA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856517</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PARSBLM6= INT BKB - PARSBLM6-G0/2.71 «-»DFTSRDTC2C_G5/0/3.71_TIM2_«BLMBSA_CPL1 (192.168.252.174</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 01:29:25</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 01:51:09</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">RODOLFO D SANTOS FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">AR_ESCALATOR</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 02:01:00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856518</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRDTC2= INT BKB- DFTSRDTC2C-G5/0/3.70«-»PARSBLM5-G0/1.70_TIM1_«BLMBSA_CPL097528» (192.168.25</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 01:29:33</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 02:38:05</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">SILVIO M BARROS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P776830</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 02:38:06</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856532</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PRRRCTA6.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.0.6</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 07:23:15</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 07:32:30</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">PEDRO H DANTAS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P731938</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 07:32:30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001856863</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023736500</Data></Cell>
+    <Cell><Data ss:Type="String">RODRIGO</Data></Cell>
+    <Cell><Data ss:Type="String">DO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção - SIGSC - Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 10:38:18</Data></Cell>
+    <Cell><Data ss:Type="String">7392-CERAT</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:48:24</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">MARCEL M MARTINS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P719604</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:48:44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001857105</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">ZABBIXSP</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DEPLOY-Consumo de Processador acima de 90% on cs0000nt147</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 06:30:52</Data></Cell>
+    <Cell><Data ss:Type="String">7261-CEPTI</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 11:25:25</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Engenharia de Rede - Gerenciamento</Data></Cell>
+    <Cell><Data ss:Type="String">DANIEL M DA SILVA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">P591094</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 11:25:25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001861875</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR002= INT CEPTISP_SE6/3_CEXC_EMBRATEL_FILE-TRANS_EBT_«OCO_LK_RJOAM_DHP_000 (172.30.0.161</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 09:50:40</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 09:54:25</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 09:54:26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001861878</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR020= INT CEPTISP_SE3/0_CEXE_EMBRATEL_PEC_DESENV_EBT_256KB_«RJODNOCOLKDHP0 (172.30.128.2</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 09:50:44</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 16:37:52</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">FERNANDO M CAMARA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P940425</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 16:37:53</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001872813</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CREXTRRR001= INT CEPTIRJ_CREXTRRR001_SE1/3_CEXC_JN-RN_CONSULTA-DE-PROCESSOS_OI_1M (172.29.31.1)</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 16:54:41</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 17:00:56</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 17:00:57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001872815</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW104.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.1.31</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:12:43</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:20:51</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:20:52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001872816</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PRRRCTA6.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.0.6</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:12:51</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:18:45</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:18:46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001872910</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW800.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.1.28</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:06:11</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:14:02</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:14:03</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001872911</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW801= DISPOSITIVO NAO RESPONDE - IP 10.96.1.27</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:06:17</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:16:07</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 18:16:08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001873009</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">AUTOMACAO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CTRLM - SISRS - WKFSRSCARGAFLUXO1 - MP - ABEND ORDER ID 063rz</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">03/02/2018 20:04:05</Data></Cell>
+    <Cell><Data ss:Type="String">7259-CEPTI</Data></Cell>
+    <Cell><Data ss:Type="String">Alto</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:05:48</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">PROINFO PRODUCAO</Data></Cell>
+    <Cell><Data ss:Type="String">DIEGO R MARTINS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P698435</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:06:01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001873184</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">AUTOMACAO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">ZBX - SNI -  - INDISPONIBILIDADE NA PAGINA_INICIAL_PORTAL_EMPREGADO</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:07:54</Data></Cell>
+    <Cell><Data ss:Type="String">7259-CEPTI</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 02:42:04</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">OPERADORES B2BR</Data></Cell>
+    <Cell><Data ss:Type="String">EVANDRO M DE ALBUQUERQUE</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P734023</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 02:42:08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001873746</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RJRRRJO5= DISPOSITIVO NAO RESPONDE - IP 10.132.0.5</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:25:21</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:39:11</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:39:12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001874092</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RJRRRJO5.RJ.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.132.0.5</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:26:08</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:42:59</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:43:00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875466</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RJ7469FW001.RJ.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.132.102.180</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:30:36</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:52:54</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 00:52:54</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875803</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS0000SW117= DISPOSITIVO NAO RESPONDE - IP 10.0.128.196</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:03:22</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:23:37</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:23:38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875804</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS0000SW112= DISPOSITIVO NAO RESPONDE - IP 10.0.128.211</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:03:31</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:21:17</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:21:18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875805</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CS0000SW108= DISPOSITIVO NAO RESPONDE - IP 10.0.128.198</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:03:37</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:18:36</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:18:36</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875806</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSINTRARR000.CORESP.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.0.128.36</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:04:09</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:25:59</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:26:00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875808</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SERVISAVEA_10.3.130.14= DISPOSITIVO NAO RESPONDE - IP 10.3.130.14</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:13:16</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 05:01:29</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 05:01:29</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875809</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW801= DISPOSITIVO NAO RESPONDE - IP 10.96.1.27</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:20:16</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:27:47</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:27:47</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875810</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DEXTRRT002= DISPOSITIVO NAO RESPONDE - IP 1.222.0.5</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:28:20</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:44:36</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:44:36</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875811</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DEXTRRT002_ ETH-TRUNK2.4081_CEF_DATAMEC_GCI_DCPEXTRASW0001-TE15_VVO «BSA-301L15CH0»= DISPOSITIV</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:28:27</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 03:47:29</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">SILVIO M BARROS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P776830</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 03:47:30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875812</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR020= INT CEPTISP_SE3/0_CEXE_EMBRATEL_PEC_DESENV_EBT_256KB_«RJODNOCOLKDHP0 (172.30.128.2</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:28:33</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 04:02:37</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">SILVIO M BARROS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P776830</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 04:02:38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875813</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR002= INT CEPTISP_SE6/3_CEXC_EMBRATEL_FILE-TRANS_EBT_«OCO_LK_RJOAM_DHP_000 (172.30.0.161</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:28:40</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 02:12:25</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 02:12:25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875814</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DEXTRRT002= WARM START TRAP</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:32:33</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:45:23</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:45:23</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875841</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1C_G1/0/7«=»GORRGNA5F_G0/1.661_TIM_«OCOGNACPL141041» (192.168.255.</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 10:15:00</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 10:51:06</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">ROBERTO H WATANABE</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P731938</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 11:00:21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875912</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DEXTRRT002= DISPOSITIVO NAO RESPONDE - IP 1.222.0.5</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:26:56</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:36:25</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 01:36:26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875925</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PARSBLM6= INT BKB-PARSBLM6_G0/3«=»DFTSRDTC1C_G2/2/13_OI_«BLM7179182» (192.168.253.209) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 20:30:38</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 20:53:42</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">RODOLFO D SANTOS FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783665</Data></Cell>
+    <Cell><Data ss:Type="String">04/02/2018 20:53:43</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875934</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PREXTRRA1= DISPOSITIVO NAO RESPONDE - IP 172.30.4.18</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:09:44</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:25:21</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:25:22</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875935</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">RSEXTRRA2= DISPOSITIVO NAO RESPONDE - IP 172.30.3.214</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:09:53</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:55:17</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">MARCIO M MENEGUIM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P651131</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:55:18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875936</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SCEXTRRA1= DISPOSITIVO NAO RESPONDE - IP 172.30.4.22</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:09:58</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:38:42</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:38:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875937</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR007= INT CEPTISP_SE12/1/6_CEXC_JF-SC_PETICION-ELETR_OI_2MB_«TCS10597011» (172.30.4.21)</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:11:03</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:44:57</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">MARCIO M MENEGUIM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P651131</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 06:44:57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875959</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRCTC2= INT BKB-DFTSRCTC2-G2/2/9«=»SCRSFNS4-G0/1.75_LV3_«500008975» (192.168.255.150) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 10:39:47</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 11:14:21</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">PEDRO H DANTAS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P731938</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 11:14:26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001875960</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRDTC1= INT BKB_C-DFTSRDTC1-G2/2/14«=»BARRSDR1_G0/3_LV3_«500003968» (192.168.252.157) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 10:39:53</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 11:11:30</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 11:11:42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001877461</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRCTC2= INT BKB-DFTSRCTC2-G2/2/9«=»SCRSFNS4-G0/1.75_LV3_«500008975» (192.168.255.150) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 13:06:37</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:38:06</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">PEDRO H DANTAS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:38:07</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001877462</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRDTC1= INT BKB_C-DFTSRDTC1-G2/2/14«=»BARRSDR1_G0/3_LV3_«500003968» (192.168.252.157) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 13:06:43</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:58:56</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">FABIO H HAJDUK</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:58:57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001877737</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRCTC2= INT BKB-DFTSRCTC2-G2/2/9«=»SCRSFNS4-G0/1.75_LV3_«500008975» (192.168.255.150) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:00:49</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:44:14</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">PEDRO H DANTAS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P686828</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:44:22</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001877757</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR007= INT CEPTISP_SE12/1/7_CEXC_JF-PR_PETICION-ELETR_OI_2MB_«TCS10596852» (172.30.4.17)</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:23:56</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:25:07</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">FERNANDO M CAMARA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P940425</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:25:08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001878002</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000023745335</Data></Cell>
+    <Cell><Data ss:Type="String">OCTAVIA</Data></Cell>
+    <Cell><Data ss:Type="String">ELIZA</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento.7562APL-SIAGS.Disponibilidade Parcial</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 14:32:30</Data></Cell>
+    <Cell><Data ss:Type="String">5088-GEPEM</Data></Cell>
+    <Cell><Data ss:Type="String">Média</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 15:04:29</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">PROINFO PRODUCAO</Data></Cell>
+    <Cell><Data ss:Type="String">ANDREWS G VIEIRA ALVES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Remedy Application Service</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 17:06:04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001878111</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SUZANE</Data></Cell>
+    <Cell><Data ss:Type="String">DE</Data></Cell>
+    <Cell><Data ss:Type="String">CETAD-CP2RT01-VICOM - 99.244.5.17</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:28:45</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Alto</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:52:05</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">MAURICIO K DOS SANTOS</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">P501886</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 16:52:06</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001878693</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRCTC2= INT BKB-DFTSRCTC2-G2/2/9«=»SCRSFNS4-G0/1.75_LV3_«500008975» (192.168.255.150) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 21:07:19</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 21:25:34</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 21:25:35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001878810</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFEXTRCTC1_ETH-TRUNK2.4083_CEF_DATAMEC_GCI_CADCAEXTSW0001-TE-3_OI «BSA TCS10598364 «-» RJO 7194</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 18:58:44</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 19:46:59</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 19:46:59</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001879101</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW801= DISPOSITIVO NAO RESPONDE - IP 10.96.1.27</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 22:49:52</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 23:05:33</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Indicadores Violados</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">05/02/2018 23:05:34</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001879106</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW104.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.1.31</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:16:06</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:21:51</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">CESAR L FRANCISCO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P783367</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:21:52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001879107</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PRRRCTA6.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.0.6</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:16:16</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:26:51</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:26:51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000001879108</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PR0000SW800.PR.CAIXA= DISPOSITIVO NAO RESPONDE - IP 10.96.1.28</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:16:20</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:21:24</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER R DE OLIVEIRA</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do Indicador</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String">06/02/2018 05:21:25</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
