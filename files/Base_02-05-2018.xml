@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Victor Gois Vieira</Author>
+  <LastAuthor>Victor Gois Vieira</LastAuthor>
+  <Created>2018-05-02T21:37:15Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9630</WindowHeight>
+  <WindowWidth>24000</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Arial" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#666699" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet 1">
+  <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="102.75" ss:Span="22"/>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID do Incidente*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ID da Solicitação</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nome*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nome do Meio</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Sumário*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Status*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Criado em</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Site+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Prioridade*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Data da Última Resolução</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Data de Fechamento</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">IC+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Empresa*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Grupo Designado*+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Empresa de Suporte*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Grupo Proprietário+</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Empresa de Suporte do Proprietário</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Organização de Suporte*</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Notas</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Modificado por</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Nível de Categorização do Produto 3</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Resolução</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002203801</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000025659669</Data></Cell>
+    <Cell><Data ss:Type="String">RAFAEL</Data></Cell>
+    <Cell><Data ss:Type="String">FERREIRA</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIJUR.Indisponibilidade</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">30/04/2018 23:41:56</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Alto</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 02:47:29</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 02:47:34</Data></Cell>
+    <Cell><Data ss:Type="String">7562APL-SIJUR</Data></Cell>
+    <Cell><Data ss:Type="String">B2BR BUSINESS TO BUS INF DO BRASIL LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">OPERADORES B2BR</Data></Cell>
+    <Cell><Data ss:Type="String">B2BR BUSINESS TO BUS INF DO BRASIL LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">Central de Atendimento</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Servidor APL5498WN001 está indisponível.&#10;Real Sistema Afetado: Portal Jurídico</Data></Cell>
+    <Cell><Data ss:Type="String">P734023</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Servidor reiniciado e aplicação funcionado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002203802</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000025659355</Data></Cell>
+    <Cell><Data ss:Type="String">BRUNO</Data></Cell>
+    <Cell><Data ss:Type="String">PINHEIRO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIACG.Base Desatualizada</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">30/04/2018 23:43:09</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 03:07:28</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 03:07:34</Data></Cell>
+    <Cell><Data ss:Type="String">7562APL-SIACG</Data></Cell>
+    <Cell><Data ss:Type="String">B2BR BUSINESS TO BUS INF DO BRASIL LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">OPERADORES B2BR</Data></Cell>
+    <Cell><Data ss:Type="String">B2BR BUSINESS TO BUS INF DO BRASIL LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">Central de Atendimento</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">As rotinas de BI do SIACG não foram executadas. Favor executar.</Data></Cell>
+    <Cell><Data ss:Type="String">P734023</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Prezados,&#10;&#10;Foi realizada atualização da base e rotina está OK,&#10;&#10;Att,&#10;&#10;Equipe Mais2X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002207100</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000025662799</Data></Cell>
+    <Cell><Data ss:Type="String">BRUNO</Data></Cell>
+    <Cell><Data ss:Type="String">PINHEIRO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIDEV.Disponibilidade Parcial</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 00:36:53</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Média</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 03:50:56</Data></Cell>
+    <Cell><Data ss:Type="String">01/05/2018 03:51:00</Data></Cell>
+    <Cell><Data ss:Type="String">7562APL-SIDEV</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">OPERADORES B2BR</Data></Cell>
+    <Cell><Data ss:Type="String">B2BR BUSINESS TO BUS INF DO BRASIL LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">Central de Atendimento</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">API em PRD retornando HTTP500. &#10;Evidência:&#10;[ERRO AO INSERIR VIA API br.gov.caixa.siecg.model.ServicoAPI@1cfd987] :: [ FALHA AO ADICIONAR VIA API - HTTP CODIGO DO ERRO: 500]</Data></Cell>
+    <Cell><Data ss:Type="String">P734023</Data></Cell>
+    <Cell><Data ss:Type="String">Centralizadoras de TI</Data></Cell>
+    <Cell><Data ss:Type="String">Prezados,&#10;&#10;Informamos que houve indisponibilidade do SIGSC no dia 30/04/2018 e o incidente só entrou na fila do PROINFO na madrugada. Foi realizado tratativas no ambiente que provavelmente refletiu no SIDEV. Por este motivo solicitamos gentilmente realizar novos testes e caso seja necessário fator reabrir o incidente.&#10;&#10;Att,&#10;&#10;Equipe Mais2X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002210013</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000025672882</Data></Cell>
+    <Cell><Data ss:Type="String">MARIA</Data></Cell>
+    <Cell><Data ss:Type="String">ELAINE</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIGSC.Lentidão</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">02/05/2018 08:51:49</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/05/2018 16:34:27</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562APL-SIGSC</Data></Cell>
+    <Cell><Data ss:Type="String">CAPGEMINI BRASIL S/A</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">CSC BRASIL SISTEMAS LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">Central de Atendimento</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Prezados(as), &#10;&#10;1.	Informamos que o ITSM (serviços.caixa) encontra-se com extrema lentidão no que tange os módulos de Incidente, Serviço e Mudanças.&#10;&#10;Período da Ocorrência:&#10;- Data Início: 02/05/2018                                                 &#10;- Hora Início: 08h40&#10;&#10;&#10;Atenciosamente &#10;Central de Atendimento &#10;CN – Operações de TI Brasília/DF&#10;M.E.S</Data></Cell>
+    <Cell><Data ss:Type="String">P719604</Data></Cell>
+    <Cell><Data ss:Type="String">Centralizadoras de TI</Data></Cell>
+    <Cell><Data ss:Type="String">Prezado(a), boa tarde.&#10;&#10;Ambiente normalizado.&#10;&#10;Por favor, realize LOGOUT, limpeza de cache nos navegadores (ctrl+shift+del) e um novo login.&#10;&#10;Atenciosamente,&#10;Equipe Sustentação GSC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002210204</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000025672728</Data></Cell>
+    <Cell><Data ss:Type="String">JOAO</Data></Cell>
+    <Cell><Data ss:Type="String">CARLOS</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7562APL-SIGSC.Indisponibilidade</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">02/05/2018 08:02:31</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/05/2018 08:25:14</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562APL-SIGSC</Data></Cell>
+    <Cell><Data ss:Type="String">CAPGEMINI BRASIL S/A</Data></Cell>
+    <Cell><Data ss:Type="String">ATENDIMENTO</Data></Cell>
+    <Cell><Data ss:Type="String">CSC BRASIL SISTEMAS LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">Central de Atendimento</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Prezados(as), &#10;&#10;Informamos que o (relatorios.servicos.Caixa) encontra-se com indisponível. &#10;&#10;- Data Início: 02/05/2018                                                 &#10;- Hora Início: 07:00</Data></Cell>
+    <Cell><Data ss:Type="String">P727606</Data></Cell>
+    <Cell><Data ss:Type="String">Centralizadoras de TI</Data></Cell>
+    <Cell><Data ss:Type="String">reciclagem do plugin do servidor ARS</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

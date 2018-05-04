@@ -2,6 +2,7 @@
     <body>
 
         <?php
+
             use SimpleExcel\SimpleExcel;
             require_once "lib/SimpleExcel/SimpleExcel.php";
             require_once "class/ManipulacaoDados.php";
@@ -12,11 +13,13 @@
             $texth1 = strtoupper("Acompanhamento incidentes - PERÍODO ".$txtData->h1InforDate());
             $xml = new ManipuladorExcel(new SimpleExcel('xml'));
             $classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
-            $tot = $classME->totalIncidente();
+            $data = new DateTime('now');
+            $tot = $classME->totalIncidente($data->format("m"));
             $qtd = $classME->divisaoTempo();
-            $pont = $classME->calcPorcentagemTemp();
+            $pont = $classME->calcPorcentagemTemp($qtd,$tot);
             $p = $pont[0];
             $j=0;
+            $y ="OK";
 
         ?>
 
@@ -59,21 +62,21 @@
                                     </th>
 
                                     <th><?= $qtd[$j] ?></th>
-                                    <th><?= $pont[$j] ?>%</th>
+                                    <th><?= round($pont[$j]) ?>%</th>
                                     <th><?php
 
                                         switch ($i){
                                             case 1:
-                                                echo $pont[0];
+                                                echo round($pont[0]);
                                                 break;
                                             case 2:
-                                                echo $pont[0]+$pont[1];
+                                                echo round($pont[0]+$pont[1]);
                                                 break;
                                             case 3:
-                                                echo $pont[0]+$pont[1]+$pont[2];
+                                                echo round($pont[0]+$pont[1]+$pont[2]);
                                                 break;
                                             case 4:
-                                                echo $pont[0]+$pont[1]+$pont[2]+$pont[3];
+                                                echo round($pont[0]+$pont[1]+$pont[2]+$pont[3]);
                                                 break;
                                         }
 
@@ -89,8 +92,8 @@
                                 <strong>Superior a 8h</strong>
 
                             </th>
-                            <th><?= $qtd[count($qtd)-1] ?></th>
-                            <th><?= $pont[count($pont)-1] ?>%</th>
+                            <th><?= round($qtd[count($qtd)-1]) ?></th>
+                            <th><?= round($pont[count($pont)-1]) ?>%</th>
                             <th>100%</th>
 
 

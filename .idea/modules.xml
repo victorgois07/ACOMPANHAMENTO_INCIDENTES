@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PAINEL INCIDENTE.iml" filepath="$PROJECT_DIR$/.idea/PAINEL INCIDENTE.iml" />
+      <module fileurl="file://Y:/.idea/PAINEL INCIDENTE.iml" filepath="Y:/.idea/PAINEL INCIDENTE.iml" />
     </modules>
   </component>
 </project>

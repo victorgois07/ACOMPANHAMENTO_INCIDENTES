@@ -1,4 +1,5 @@
 <?php
+    ini_set('max_execution_time', 300); //300 seconds = 5 minutes
     use SimpleExcel\SimpleExcel;
     require_once "lib/SimpleExcel/SimpleExcel.php";
     require_once "class/ManipuladorExcel.php";    

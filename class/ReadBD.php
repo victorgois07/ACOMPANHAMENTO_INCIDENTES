@@ -83,10 +83,10 @@ class ReadBD extends ConectBD{
         }
     }
 
-    public function calcPorcentagemTemp(){
+    public function calcPorcentagemTemp($dado,$tot){
         
-        foreach ($this->divisaoTempo() as $v){
-            $porcent[] = round(($v / $this->totalIncidente()) * 100,0);
+        foreach ($dado as $v){
+            $porcent[] = round(($v / $tot) * 100,1);
         }
 
         if (isset($porcent)) {
@@ -94,9 +94,8 @@ class ReadBD extends ConectBD{
         }
     }
 
-    public function totalIncidente(){
-        $date = new DateTime("now");
-        $sql = $this->conectBD()->prepare("SELECT `tb_ocorrencia`.`incidente` FROM `tb_ocorrencia` WHERE MONTH(`criado`) = '{$date->format('m')}'");
+    public function totalIncidente($mes){
+        $sql = $this->conectBD()->prepare("SELECT `tb_ocorrencia`.`incidente` FROM `tb_ocorrencia` WHERE MONTH(`resolucao`) = '{$mes}'");
         if($sql->execute()){
             return $sql->rowCount();
         }else{

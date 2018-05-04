@@ -6,16 +6,16 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Author>Victor Gois Vieira</Author>
-  <LastAuthor>Victor Gois Vieira</LastAuthor>
-  <Created>2018-04-02T22:14:41Z</Created>
-  <Version>16.00</Version>
+  <Author>Tassio Rodrigues da Silva</Author>
+  <LastAuthor>Tassio Rodrigues da Silva</LastAuthor>
+  <Created>2018-04-03T12:53:42Z</Created>
+  <Version>15.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9630</WindowHeight>
+  <WindowHeight>9735</WindowHeight>
   <WindowWidth>24000</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
@@ -32,12 +32,12 @@
    <Protection/>
   </Style>
   <Style ss:ID="s22">
-   <Font ss:FontName="Arial" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF" ss:Bold="1"/>
    <Interior ss:Color="#666699" ss:Pattern="Solid"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet 1">
-  <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="25" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="30" x:FullColumns="1"
    x:FullRows="1">
    <Column ss:AutoFitWidth="0" ss:Width="102.75" ss:Span="22"/>
    <Row>
@@ -65,6 +65,30 @@
     <Cell ss:StyleID="s22"><Data ss:Type="String">Resolução</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">INC000002055763</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">SPTSROCO1= INT BKB_C-SPTSROCO1-P6/0/0«=»MGRRBHE5_P2/0_OI_«BHE7185925» (192.168.255.89) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/04/2018 00:50:53</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/04/2018 01:59:11</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7562ROT-SPTSROCO1</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">TUE 03 APR, 2018 -00=50=36&#10;SPTSROCO1 - A INTERFACE&#10;NOME= 0 POS6/0/0&#10;DESC= BKB_C-SPTSROCO1-P6/0/0«=»MGRRBHE5_P2/0_OI_«BHE7185925»&#10;IP=192.168.255.89 ESTA DOWN&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">|Informe que circuito teve uma oscilação conforme log</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">INC000002055723</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
     <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
@@ -87,6 +111,54 @@
     <Cell><Data ss:Type="String">P776729</Data></Cell>
     <Cell><Data ss:Type="String"></Data></Cell>
     <Cell><Data ss:Type="String">Circuito operacional.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002055383</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DFTSRDTC1= INT BKB_C-DFTSRDTC1-P3/0/0«=»CERRFLA1_P2/0_OI_«BSA7185991» (192.168.255.181) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Resolvido</Data></Cell>
+    <Cell><Data ss:Type="String">03/04/2018 02:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">03/04/2018 02:16:37</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">7366ROT-DFTSRDTC1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">TUE 03 APR, 2018 -01=59=54&#10;DFTSRDTC1 - A INTERFACE&#10;NOME= 0 POS3/0/0&#10;DESC= BKB_C-DFTSRDTC1-P3/0/0«=»CERRFLA1_P2/0_OI_«BSA7185991»&#10;IP=192.168.255.181 ESTA DOWN&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P725604</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">alarme foi devido a uma oscilação, conforme evidencia do campo notas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002055374</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">GERSPSPECTRUM</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">CSEXTRRR002= INT CEPTISP_SE3/2_CEXC_FINGERPRINT_VVO_«3681-1693» (172.30.4.105) DOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 19:00:22</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 20:12:52</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 20:12:52</Data></Cell>
+    <Cell><Data ss:Type="String">7562ROT-CSEXTRRR002</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">TIVIT TERC DE PROC SERV TECN S/A</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - MONITORAÇÃO N1</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">MON 02 APR, 2018 -18=58=07&#10;CSEXTRRR002 - A INTERFACE&#10;NOME= 0 SE3/2&#10;DESC= CEPTISP_SE3/2_CEXC_FINGERPRINT_VVO_«3681-1693»&#10;IP=172.30.4.105 ESTA DOWN&#10;&#10;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-&#10;INFORMAÇÃO ADICIONAL DO CAMPO &quot;NOTES&quot; DO SPECTRUM=&#10;NENHUMA INFORMAÇÃO</Data></Cell>
+    <Cell><Data ss:Type="String">P940425</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">INC000002055373</Data></Cell>
@@ -617,6 +689,30 @@
     <Cell><Data ss:Type="String">Dispositivo encontra-se operacional.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">INC000002052478</Data></Cell>
+    <Cell><Data ss:Type="String">REQ000025012617</Data></Cell>
+    <Cell><Data ss:Type="String">MARCOS</Data></Cell>
+    <Cell><Data ss:Type="String">PAULO</Data></Cell>
+    <Cell><Data ss:Type="String">Produção.7260APL-SICOP.Disponibilidade Parcial</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 16:33:57</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Baixo</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 20:39:28</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 20:39:36</Data></Cell>
+    <Cell><Data ss:Type="String">7260APL-SICOP</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">PROINFO PRODUCAO</Data></Cell>
+    <Cell><Data ss:Type="String">B2BR BUSINESS TO BUS INF DO BRASIL LTDA</Data></Cell>
+    <Cell><Data ss:Type="String">Gestão de Incidentes</Data></Cell>
+    <Cell><Data ss:Type="String">CAIXA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Informamos que este Service Desk está recebendo demandas nas quais os usuários relatam:&#10;Não permite consulta das operações da Pessoa Física, fica carregando indefinidamente.&#10;&#10;Segue tela em anexo.</Data></Cell>
+    <Cell><Data ss:Type="String">P789016</Data></Cell>
+    <Cell><Data ss:Type="String">Centralizadoras de TI</Data></Cell>
+    <Cell><Data ss:Type="String">“Prezados (a) informamos que este incidente foi resolvido com as seguintes medidas:&#10;&#10;Ao realizamos o primeiro teste de comunicação com o banco nos deparamos com a seguinte mensagem:&#10;&#10;&quot;[domain@localhost:9999 /] /host=cctdcapllx0102/server=srv0102_SIBDO/subsystem=datasources/data-source=SibdoDS:test-connection-in-pool&#10;{&#10;    &quot;outcome&quot; =&gt; &quot;success&quot;,&#10;    &quot;result&quot; =&gt; [true],&#10;    &quot;response-headers&quot; =&gt; {&quot;process-state&quot; =&gt; &quot;restart-required&quot;}&#10;}&#10;&quot;&#10;&#10;&#10;Informamos que foi realizado teste de conexão com o banco e o mesmo não apresentou falhas &#10;[domain@localhost:9999 /] /host=cctdcapllx0102/server=srv0102_SIBDO/subsystem=datasources/data-source=SibdoDS:test-connection-in-pool&#10;{&#10;    &quot;outcome&quot; =&gt; &quot;success&quot;,&#10;    &quot;result&quot; =&gt; [true]&#10;}&#10;&#10;&#10;pedimos a gentileza de realizar um novo teste de consulta.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">INC000002052469</Data></Cell>
     <Cell><Data ss:Type="String">REQ000025000594</Data></Cell>
     <Cell><Data ss:Type="String">FABIA</Data></Cell>
@@ -640,6 +736,30 @@
     <Cell><Data ss:Type="String">Centralizadoras de TI</Data></Cell>
     <Cell><Data ss:Type="String">Prezado(a), boa tarde.&#10;&#10;Ambiente normalizado.&#10;&#10;Por favor, realize LOGOUT, limpeza de cache nos navegadores (ctrl+shift+del) e um novo login.&#10;&#10;Atenciosamente,&#10;Equipe Sustentação GSC</Data></Cell>
    </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INC000002051847</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">WAGNER</Data></Cell>
+    <Cell><Data ss:Type="String">ROBERTO</Data></Cell>
+    <Cell><Data ss:Type="String">CTC_BSA_0475748_CTC_Se0/0.2_CEXE_CELG_PEC_OI_&lt;TCS1-0475748&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">Fechado</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 20:33:07</Data></Cell>
+    <Cell><Data ss:Type="String">7562-CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">Média</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 21:18:47</Data></Cell>
+    <Cell><Data ss:Type="String">02/04/2018 21:18:47</Data></Cell>
+    <Cell><Data ss:Type="String">7366ROT-DFEXTRCTC2</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - Suporte N2</Data></Cell>
+    <Cell><Data ss:Type="String">TIVIT TERC DE PROC SERV TECN S/A</Data></Cell>
+    <Cell><Data ss:Type="String">CGR - N1 - REDE DE ACESSO</Data></Cell>
+    <Cell><Data ss:Type="String">STEFANINI CONS ASSESSORIA INFORMATICA SA</Data></Cell>
+    <Cell><Data ss:Type="String">CETEC</Data></Cell>
+    <Cell><Data ss:Type="String">CTC_BSA_0475748_CTC_Se0/0.2_CEXE_CELG_PEC_OI_&lt;TCS1-0475748&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">P712846</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">circuito contingenciado</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -652,14 +772,6 @@
     <VerticalResolution>300</VerticalResolution>
    </Print>
    <Selected/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>7</ActiveRow>
-     <ActiveCol>4</ActiveCol>
-     <RangeSelection>R1C1:R25C22</RangeSelection>
-    </Pane>
-   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>

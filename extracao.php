@@ -102,9 +102,10 @@ $txtData = new ManipulacaoDados();
 $texth1 = strtoupper("Acompanhamento incidentes - PERÍODO ".$txtData->h1InforDate());
 $xml = new ManipuladorExcel(new SimpleExcel('xml'));
 $classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
-$tot = $classME->totalIncidente();
+$data = new DateTime('now');
+$tot = $classME->totalIncidente($data->format("m"));
 $qtd = $classME->divisaoTempo();
-$pont = $classME->calcPorcentagemTemp();
+$pont = $classME->calcPorcentagemTemp($qtd,$tot);
 $p = $pont[0];
 $j=0;
 
