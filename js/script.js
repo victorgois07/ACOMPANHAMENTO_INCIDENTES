@@ -1,26 +1,30 @@
 $(document).ready(function () {
-    $("#example").DataTable({
-        "paging":   false,
-        "ordering": false,
-        "info":     false,
-        "searching": false,
-        "autoWidth": false,
-        "bAutoWidth": false,
-        "columns": [
-            { "width": "50%" },
-            { "width": "5%" },
-            { "width": "5%" },
-            { "width": "5%" }
-          ]
+
+    $.getJSON('phpJson.php', function (data) {
+        var dado = data;
+        $('#tableIncidentes').dynatable({
+            features: {
+                paginate: false,
+                sort: false,
+                pushState: false,
+                search: false,
+                recordCount: false,
+                perPageSelect: false
+            },
+            dataset: {
+                records: dado
+            }
+        });
+        $("table#tableIncidentes tbody tr:last-child td:nth-child(3)").attr('colspan',"2");
+        $("table#tableIncidentes tbody tr:last-child td:nth-child(4)").remove();
     });
-    var larg = $(window).width();
-    larg -= 60;
 
-    $("#example").width(larg);
+    $("button#aExtracao").click(function(event) {
 
-    if(larg <= 1600){
-        $("#example tbody").css("font-size","50");
-    }else{
-        $("#example tbody").css("font-size","90");
-    }
+        $("#dados_a_enviar").val( $("<div>").append( $("div#containerTableInfo").eq(0).clone()).html());
+
+        $("form#formExtracao").submit();
+
+    });
+
 });

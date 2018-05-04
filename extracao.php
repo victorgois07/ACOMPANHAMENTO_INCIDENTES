@@ -8,119 +8,76 @@
     <meta http-equiv="refresh" content="5000; url=index.php">
 </head>
 <style>
-    *{
+
+    * {
         font-family: 'Arial', sans-serif;
     }
 
-    body{
-        padding-top: 5px;
+    table#tableIncidentes {
+        font-weight: 700;
     }
 
-    table {
-        border: 2px solid #000;
+    th {
+        background: #B8DAFF;
     }
 
-    table th, table tr{
-        border: 2px solid #000 !important;
+    td, th, tr {
+        border: 3px solid #000;
+        text-align: center !important;
     }
 
-    table thead{
-        border: 2px solid #000;
+    thead tr:nth-child(1){
+        background-color: #fff !important;
     }
 
-    h1{
+    thead{
         font-size: 35px;
     }
 
-    h3{
+    tbody{
+        font-size: 55px;
+    }
+    tbody tr:nth-child(2), tbody tr:nth-child(4), tbody tr:nth-child(6){
+        background-color: #E0EFFF;
+    }
+
+    th a {
+        color: #000;
+    }
+
+    th a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        border-top: 1px solid #000;
+        border-bottom: transparent;
+        border-left: 2px solid #000;
+        border-right: 2px solid #000;
         font-size: 45px;
-        font-weight: 900;
+        font-weight: 700;
+        margin: 0;
+        padding: 5px 0;
     }
 
-    #containerTable{
-        padding: 0 30px 30px 30px;
-    }
-
-    #example thead{/* LINHA COM OS IDENFITICADORES */
-        font-size: 35px;
-        color: #000000;
-    }
-
-    #example tbody{/* Letras do Indice */
-        font-size: 80px;
+    b, strong {
         font-weight: bolder;
-    }
-
-    #example{/* Tamanho da Tabela */
-        font-size: 50px;
-    }
-
-    #example tbody tr{/* COR DA LINHAS */
-        background-color: #ffffff;
-    }
-
-    #example tbody tr:nth-child(2),#example tbody tr:nth-child(4){ /* Cores azul claro nas linhas */
-        background-color: #e0efff;
-    }
-
-    table.dataTable tbody th, table.dataTable tbody td {/* Espaçamento nas celulas */
-        padding: 7px 5px;
-    }
-
-    @media only screen and (max-width: 1600px){/* Responsivo para tela de usúários */
-        #example tbody {
-            font-size: 50px;
-        }
-    }
-
-    .blueTr{
-        background-color: #E0EFFF !important;
+        font-size: 35px;
     }
 </style>
-
-<script type="text/javascript">
-    var larg = $(window).width();
-    larg -= 60;
-
-    $("#example").width(larg);
-
-    if(larg <= 1600){
-        $("#example tbody").css("font-size","50");
-    }else{
-        $("#example tbody").css("font-size","90");
-    }
-</script>
 <?php
 
-use SimpleExcel\SimpleExcel;
-require_once "lib/SimpleExcel/SimpleExcel.php";
-require_once "class/ManipulacaoDados.php";
-require_once "class/ManipuladorExcel.php";
-require_once "class/ReadBD.php";
+header ("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header ("Last-Modified: " . gmdate("D,d M YH:i:s") . " GMT");
+header ("Cache-Control: no-cache, must-revalidate");
+header ("Pragma: no-cache");
+header ("Content-type: application/x-msexcel");
+header ("Content-Disposition: attachment; filename=extracaoIncidente.xls" );
+header ("Content-Description: PHP Generated Data" );
 
-$txtData = new ManipulacaoDados();
-$texth1 = strtoupper("Acompanhamento incidentes - PERÍODO ".$txtData->h1InforDate());
-$xml = new ManipuladorExcel(new SimpleExcel('xml'));
-$classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
-$data = new DateTime('now');
-$tot = $classME->totalIncidente($data->format("m"));
-$qtd = $classME->divisaoTempo();
-$pont = $classME->calcPorcentagemTemp($qtd,$tot);
-$p = $pont[0];
-$j=0;
+echo $_POST['dados_a_enviar'];
 
 ?>
-
-<h1><strong><?= $texth1 ?></strong></h1>
-
-<?php
-
-if (array_key_exists("a", $_GET)){
-    if(isset($_GET["a"])){
-        $txtData->extracaoExcel($pont,$qtd);
-    }
-}
-
-?>
-
-
+</html>
