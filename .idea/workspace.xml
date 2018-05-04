@@ -2,199 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d30979-302b-495d-8f30-0e8d9bba74da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ACOMPANHAMENTO_INCIDENTES.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/dynatable/jquery.dynatable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/dynatable/jquery.dynatable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpJson.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projeto_sublime_acompanhamento_incidentes.sublime-project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projeto_sublime_acompanhamento_incidentes.sublime-workspace" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/.datatables-commit-sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/Contributing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/dataTables.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/column_render.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/complex_header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/defaults.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/dom_multiple_elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/dom_toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/dt_events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/events_live.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/footer_callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/html5-data-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/html5-data-options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/language_file.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/length_menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/object_dom_read.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/row_callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/row_grouping.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/advanced_init/sort_direction_control.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/custom_data_flat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/custom_data_property.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/arrays.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/arrays_custom_prop.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/arrays_subobjects.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/objects.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/objects_deep.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/objects_root_array.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/objects_subarrays.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/data/orthogonal.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/deep.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/defer_render.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/null_data_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/objects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/objects_subarrays.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/orthogonal-data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/ajax/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/add_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/api_in_init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/counter_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/highlight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/multi_filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/multi_filter_select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/regex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/row_details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/select_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/select_single_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/show_hide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/api/tabs_and_scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/alt_pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/comma-decimal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/complex_header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/dom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/filter_only.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/flexible_width.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/hidden_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/multi_col_sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/multiple_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/scroll_x.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/scroll_xy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/scroll_y.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/scroll_y_dynamic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/state_save.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/table_sorting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/basic_init/zero_configuration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/data_sources/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/data_sources/dom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/data_sources/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/data_sources/js_array.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/data_sources/server_side.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/plug-ins/api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/plug-ins/dom_sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/plug-ins/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/plug-ins/range_filtering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/plug-ins/sorting_auto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/plug-ins/sorting_manual.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/details_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/details_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/examples.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/syntax/Syntax Highlighter license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/syntax/shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/resources/syntax/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/custom_vars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/defer_loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/ids.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/jsonp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/object_data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/pipeline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/row_details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/ids-arrays.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/ids-objects.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/jsonp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/mysql.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/objects.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/oracle.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/postgres.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/server_processing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/sqlite.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/sqlserver.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/scripts/ssp.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/select_rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/server_side/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/bootstrap4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/cell-border.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/compact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/display.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/foundation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/hover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/jqueryUI.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/material.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/no-classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/order-column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/row-border.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/semanticui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/stripe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/examples/styling/uikit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.bootstrap4.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.jqueryui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.material.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.semanticui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.semanticui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.uikit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/dataTables.uikit.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.bootstrap4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.material.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.material.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.semanticui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.semanticui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.uikit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/dataTables.uikit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/media/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/DataTables/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/load.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jqueryconfirm/jquery.confirm.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ManipulacaoDados.php" afterPath="$PROJECT_DIR$/class/ManipulacaoDados.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/insertBD.php" afterPath="$PROJECT_DIR$/class/insertBD.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extracao.php" afterPath="$PROJECT_DIR$/extracao.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/Base_04-05-2018.xml" afterPath="$PROJECT_DIR$/files/Base_04-05-2018.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/footer.php" afterPath="$PROJECT_DIR$/inc/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leituraBaseXML.php" afterPath="$PROJECT_DIR$/leituraBaseXML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.css" afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.js" afterPath="$PROJECT_DIR$/lib/bootstrap/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bootstrap/popper.min.js" afterPath="$PROJECT_DIR$/lib/bootstrap/popper.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projeto_sublime_acompanhamento_incidentes.sublime-workspace" afterPath="$PROJECT_DIR$/projeto_sublime_acompanhamento_incidentes.sublime-workspace" />
     </list>
     <ignored path="PAINEL INCIDENTE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -219,38 +42,51 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="518">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extracao.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extracao.php">
+      <file leaf-file-name="leituraBaseXML.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leituraBaseXML.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManipulacaoDados.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/ManipulacaoDados.php">
+      <file leaf-file-name="insertBD.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/insertBD.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="314">
+              <caret line="246" column="37" selection-start-line="246" selection-start-column="37" selection-end-line="246" selection-end-column="37" />
+              <folding>
+                <marker date="1525468670398" expanded="true" signature="1347:1400" placeholder="SELECT `${$i... ${$table}" />
+                <marker date="1525468670398" expanded="true" signature="1898:1963" placeholder="SELECT `desc... tb_empresa" />
+                <marker date="1525468670398" expanded="true" signature="2107:2212" placeholder="INSERT INTO `tb_empresa`... " />
+                <marker date="1525468670398" expanded="true" signature="2849:2912" placeholder="SELECT `grup... tb_grupo_designado" />
+                <marker date="1525468670398" expanded="true" signature="3056:3251" placeholder="INSERT INTO `tb_grupo_designado`... " />
+                <marker date="1525468670398" expanded="true" signature="3847:3906" placeholder="SELECT `desc... tb_ic" />
+                <marker date="1525468670398" expanded="true" signature="4050:4139" placeholder="INSERT INTO `tb_ic`... " />
+                <marker date="1525468670398" expanded="true" signature="4756:4821" placeholder="SELECT `desc... tb_sumario" />
+                <marker date="1525468670398" expanded="true" signature="4965:5070" placeholder="INSERT INTO `tb_sumario`... " />
+                <marker date="1525468670398" expanded="true" signature="5865:5929" placeholder="SELECT `inci... tb_ocorrencia" />
+                <marker date="1525468670398" expanded="true" signature="6876:6944" placeholder="SELECT `inci... tb_ocorrencia" />
+                <marker date="1525468670398" expanded="true" signature="7087:7572" placeholder="INSERT INTO `tb_ocorrencia`... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+            <state relative-caret-position="-17">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -259,18 +95,8 @@
       <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phpJson.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpJson.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+            <state relative-caret-position="620">
+              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -309,12 +135,14 @@
         <option value="Y:/class/ReadBD.php" />
         <option value="Y:/index.php" />
         <option value="Y:/leituraBaseXML.php" />
-        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/phpJson.php" />
         <option value="$PROJECT_DIR$/extracao.php" />
+        <option value="$PROJECT_DIR$/class/ManipulacaoDados.php" />
+        <option value="$PROJECT_DIR$/class/insertBD.php" />
+        <option value="$PROJECT_DIR$/leituraBaseXML.php" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/class/ManipulacaoDados.php" />
       </list>
     </option>
   </component>
@@ -392,11 +220,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PAINEL INCIDENTE\class" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\PAINEL INCIDENTE" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES" />
+      <recent name="C:\xampp\htdocs\PAINEL INCIDENTE\class" />
       <recent name="C:\xampp\htdocs\PAINEL INCIDENTE" />
     </key>
   </component>
@@ -459,20 +288,21 @@
       <workItem from="1522878787758" duration="445000" />
       <workItem from="1525437727349" duration="969000" />
       <workItem from="1525443221437" duration="11000" />
-      <workItem from="1525443963930" duration="10132000" />
+      <workItem from="1525443963930" duration="10335000" />
+      <workItem from="1525463279362" duration="6868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65305000" />
+    <option name="totallyTimeSpent" value="72376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28084832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -481,10 +311,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -508,12 +338,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://Y:/class/ManipuladorExcel.php" />
-    <entry file="file://Y:/class/ManipulacaoDados.php" />
-    <entry file="file://Y:/js/script.js" />
-    <entry file="file://Y:/css/estilo.css" />
-    <entry file="file://Y:/index.php" />
-    <entry file="file://Y:/class/ManipulacaoDados.php" />
     <entry file="file://Y:/class/ManipuladorExcel.php" />
     <entry file="file://Y:/js/script.js" />
     <entry file="file://Y:/css/estilo.css" />
@@ -553,50 +377,115 @@
     <entry file="file://Y:/css/estilo.css" />
     <entry file="file://Y:/js/script.js" />
     <entry file="file://Y:/index.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpJson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="1088">
           <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extracao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/ManipulacaoDados.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="256">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extracao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMLTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PHPExcel-1.8/Classes/PHPExcel/IOFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1250">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/ReadBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522675721786" expanded="true" signature="919:994" placeholder="SELECT `cria... tb_ocorrencia" />
+            <marker date="1522675721786" expanded="true" signature="2693:2784" placeholder="SELECT `tb_o... tb_ocorrencia" />
+            <marker date="1522675721786" expanded="true" signature="3006:3070" placeholder="SELECT `inci... tb_ocorrencia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/Base_04-05-2018.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leituraBaseXML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/insertBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="246" column="37" selection-start-line="246" selection-start-column="37" selection-end-line="246" selection-end-column="37" />
+          <folding>
+            <marker date="1525468670398" expanded="true" signature="1347:1400" placeholder="SELECT `${$i... ${$table}" />
+            <marker date="1525468670398" expanded="true" signature="1898:1963" placeholder="SELECT `desc... tb_empresa" />
+            <marker date="1525468670398" expanded="true" signature="2107:2212" placeholder="INSERT INTO `tb_empresa`... " />
+            <marker date="1525468670398" expanded="true" signature="2849:2912" placeholder="SELECT `grup... tb_grupo_designado" />
+            <marker date="1525468670398" expanded="true" signature="3056:3251" placeholder="INSERT INTO `tb_grupo_designado`... " />
+            <marker date="1525468670398" expanded="true" signature="3847:3906" placeholder="SELECT `desc... tb_ic" />
+            <marker date="1525468670398" expanded="true" signature="4050:4139" placeholder="INSERT INTO `tb_ic`... " />
+            <marker date="1525468670398" expanded="true" signature="4756:4821" placeholder="SELECT `desc... tb_sumario" />
+            <marker date="1525468670398" expanded="true" signature="4965:5070" placeholder="INSERT INTO `tb_sumario`... " />
+            <marker date="1525468670398" expanded="true" signature="5865:5929" placeholder="SELECT `inci... tb_ocorrencia" />
+            <marker date="1525468670398" expanded="true" signature="6876:6944" placeholder="SELECT `inci... tb_ocorrencia" />
+            <marker date="1525468670398" expanded="true" signature="7087:7572" placeholder="INSERT INTO `tb_ocorrencia`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding />
         </state>
       </provider>

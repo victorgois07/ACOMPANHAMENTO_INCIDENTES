@@ -242,9 +242,9 @@ class insertBD extends ConectBD{
         $ocorrencia = $this->db_insert_ocorrencia();
 
         if($empresa == 0 && $grupo == 0 && $ic == 0 && $sumario  == 0 && $ocorrencia == 0){
-            return "<h1 class='font-weight-bold'>BASE JÁ FOI ATUALIZADA</h1>";
+            return "BASE JA FOI ATUALIZADA";
         }else{
-            return "<h1 class='font-weight-bold'>BASE ATUALIZADA</h1>";
+            return "BASE ATUALIZADA";
         }
     }
     
