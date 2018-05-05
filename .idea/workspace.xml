@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83d30979-302b-495d-8f30-0e8d9bba74da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ConectBD.php" afterPath="$PROJECT_DIR$/class/ConectBD.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ManipuladorExcel.php" afterPath="$PROJECT_DIR$/class/ManipuladorExcel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ReadBD.php" afterPath="$PROJECT_DIR$/class/ReadBD.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpJson.php" afterPath="$PROJECT_DIR$/phpJson.php" />
     </list>
     <ignored path="PAINEL INCIDENTE.iws" />
@@ -63,8 +59,8 @@
       <file leaf-file-name="phpJson.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpJson.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -73,16 +69,16 @@
       <file leaf-file-name="ManipuladorExcel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/ManipuladorExcel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+            <state relative-caret-position="1037">
+              <caret line="240" column="28" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="28" />
               <folding>
-                <element signature="e#2840#3953#0#PHP" expanded="false" />
-                <element signature="e#3959#5971#0#PHP" expanded="false" />
-                <element signature="e#5981#6547#0#PHP" expanded="false" />
-                <element signature="e#6553#6791#0#PHP" expanded="false" />
-                <element signature="e#6797#7032#0#PHP" expanded="false" />
-                <element signature="e#7038#7310#0#PHP" expanded="false" />
-                <element signature="e#7316#7422#0#PHP" expanded="false" />
+                <element signature="e#1731#2844#0#PHP" expanded="false" />
+                <element signature="e#2850#4862#0#PHP" expanded="false" />
+                <element signature="e#4872#5438#0#PHP" expanded="false" />
+                <element signature="e#5444#5682#0#PHP" expanded="false" />
+                <element signature="e#5688#5923#0#PHP" expanded="false" />
+                <element signature="e#5929#6201#0#PHP" expanded="false" />
+                <element signature="e#6207#6313#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -314,7 +310,7 @@
       <workItem from="1525443963930" duration="10335000" />
       <workItem from="1525463279362" duration="6868000" />
       <workItem from="1525525947077" duration="1114000" />
-      <workItem from="1525529633428" duration="10321000" />
+      <workItem from="1525529633428" duration="11685000" />
     </task>
     <task id="LOCAL-00001" summary="Resolvido Erro!!">
       <created>1525526309104</created>
@@ -323,18 +319,26 @@
       <option name="project" value="LOCAL" />
       <updated>1525526309104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Class Manipulação Excel termino!">
+      <created>1525541226390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525541226390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83811000" />
+    <option name="totallyTimeSpent" value="85175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17246597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17246597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -344,7 +348,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -368,7 +371,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Resolvido Erro!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolvido Erro!!" />
+    <MESSAGE value="Class Manipulação Excel termino!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Manipulação Excel termino!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,24 +503,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phpJson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/ManipuladorExcel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+        <state relative-caret-position="1037">
+          <caret line="240" column="28" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="28" />
           <folding>
-            <element signature="e#2840#3953#0#PHP" expanded="false" />
-            <element signature="e#3959#5971#0#PHP" expanded="false" />
-            <element signature="e#5981#6547#0#PHP" expanded="false" />
-            <element signature="e#6553#6791#0#PHP" expanded="false" />
-            <element signature="e#6797#7032#0#PHP" expanded="false" />
-            <element signature="e#7038#7310#0#PHP" expanded="false" />
-            <element signature="e#7316#7422#0#PHP" expanded="false" />
+            <element signature="e#1731#2844#0#PHP" expanded="false" />
+            <element signature="e#2850#4862#0#PHP" expanded="false" />
+            <element signature="e#4872#5438#0#PHP" expanded="false" />
+            <element signature="e#5444#5682#0#PHP" expanded="false" />
+            <element signature="e#5688#5923#0#PHP" expanded="false" />
+            <element signature="e#5929#6201#0#PHP" expanded="false" />
+            <element signature="e#6207#6313#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

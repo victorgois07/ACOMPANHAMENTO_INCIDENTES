@@ -7,7 +7,7 @@
     /*echo json_encode($excel->getContainerDataXml());
     header('Content-Type: application/json');*/
 
-    $excel->printr($excel->getContainerDataXml());
+    $excel->printr($excel->getTotal());
 
     /*$classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
     $data = new DateTime('now');

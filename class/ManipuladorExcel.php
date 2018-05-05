@@ -6,7 +6,7 @@ use SimpleExcel\SimpleExcel;
 require_once dirname(__FILE__)."/../lib/SimpleExcel/SimpleExcel.php";
 
 class ManipuladorExcel extends SimpleExcel{
-    public $arquivosXml, $containerDataXml;
+    public $arquivosXml, $containerDataXml, $total;
 
     public function __construct(){
         parent::__construct();
@@ -23,17 +23,7 @@ class ManipuladorExcel extends SimpleExcel{
             "nota" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Notas"))),
             "ic" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("IC+")))
         );
-        /*$this->prioridade = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Prioridade*")));
-        $this->criado = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Criado em")));
-        $this->resolvido = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Data da Última Resolução")));
-        $this->empresa = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Empresa de Suporte*")));
-        $this->grupo = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Grupo Designado*+")));
-        $this->incidente = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("ID do Incidente*+")));
-        $this->resolucao = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Resolução")));
-        $this->ic = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("IC+")));
-        $this->sumario = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Sumário*")));
-        $this->nota = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Notas")));
-        $this->total = count($this->getCriado());*/
+        $this->total = count($this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Prioridade*"))));
     }
 
     /*
@@ -247,8 +237,14 @@ class ManipuladorExcel extends SimpleExcel{
     public function setContainerDataXml($containerDataXml){
         $this->containerDataXml = $containerDataXml;
     }
-
-
+    
+    public function getTotal(){
+        return $this->total;
+    }
+    
+    public function setTotal($total){
+        $this->total = $total;
+    }
 
 }
 
