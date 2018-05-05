@@ -10,7 +10,7 @@ button#aExtracao {
     top: 5px;
 }
 
-button#buttonReadBaseAtual {
+a#buttonReadBaseAtual {
     position: absolute;
     top: 5px;
     left: 10px;

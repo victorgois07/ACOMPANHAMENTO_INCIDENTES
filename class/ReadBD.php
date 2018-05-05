@@ -1,4 +1,5 @@
 <?php
+namespace Classes;
 
 require_once "ConectBD.php";
 

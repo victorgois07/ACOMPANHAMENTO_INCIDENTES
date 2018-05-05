@@ -1,5 +1,7 @@
 <?php
 
+namespace Classes;
+
 class ConectBD{
     private $host, $root, $password;
     protected $bd;

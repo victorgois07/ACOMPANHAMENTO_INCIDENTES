@@ -1,12 +1,15 @@
 <?php
-    use SimpleExcel\SimpleExcel;
-    require_once "lib/SimpleExcel/SimpleExcel.php";
-    require_once "class/ManipulacaoDados.php";
+
     require_once "class/ManipuladorExcel.php";
-    require_once "class/ReadBD.php";
-    
-    $xml = new ManipuladorExcel(new SimpleExcel('xml'));
-    $classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
+    use Classes\ManipuladorExcel;
+    $excel = new ManipuladorExcel();
+
+    /*echo json_encode($excel->getContainerDataXml());
+    header('Content-Type: application/json');*/
+
+    $excel->printr($excel->getContainerDataXml());
+
+    /*$classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
     $data = new DateTime('now');
     $tot = $classME->totalIncidente($data->format("m"));
     $qtd = $classME->divisaoTempo();
@@ -73,6 +76,6 @@
             echo json_encode($dados);
         }
 
-    }
+    }*/
 
 ?>

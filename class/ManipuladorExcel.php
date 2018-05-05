@@ -1,17 +1,29 @@
 <?php
 
+namespace Classes;
 
-class ManipuladorExcel{
-    protected $diretorio, $arquivos, $nameXML;
-    private $dados;
-    public $teste;
+use SimpleExcel\SimpleExcel;
+require_once dirname(__FILE__)."/../lib/SimpleExcel/SimpleExcel.php";
 
-    public function __construct($obj){
-        $this->diretorio = "files/";
-        $this->arquivos = glob($this->getDiretorio()."{*.xml}", GLOB_BRACE);
-        $this->nameXML = array();
-        $this->obj = $obj;
-        $this->prioridade = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Prioridade*")));
+class ManipuladorExcel extends SimpleExcel{
+    public $arquivosXml, $containerDataXml;
+
+    public function __construct(){
+        parent::__construct();
+        $this->arquivosXml = $this->arquivosLocal();
+        $this->containerDataXml = array(
+            "prioridade" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Prioridade*"))),
+            "criado" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Criado em"))),
+            "resolvido" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Data da Última Resolução"))),
+            "empresa" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Empresa de Suporte*"))),
+            "grupo" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Grupo Designado*+"))),
+            "incidente" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("ID do Incidente*+"))),
+            "resolucao" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Resolução"))),
+            "sumario" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Sumário*"))),
+            "nota" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Notas"))),
+            "ic" => $this->organizeARRAY($this->parser->getColumn($this->localizarColuna("IC+")))
+        );
+        /*$this->prioridade = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Prioridade*")));
         $this->criado = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Criado em")));
         $this->resolvido = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Data da Última Resolução")));
         $this->empresa = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Empresa de Suporte*")));
@@ -21,99 +33,159 @@ class ManipuladorExcel{
         $this->ic = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("IC+")));
         $this->sumario = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Sumário*")));
         $this->nota = $this->organizeARRAY($this->obj->parser->getColumn($this->localizarColuna("Notas")));
-        $this->total = count($this->getCriado());
+        $this->total = count($this->getCriado());*/
     }
 
     /*
      * Função para verificar quantos arquivos tem no diretorio;
      */
-    private function verificarDiretorio(){
-        $i=0;
-        foreach ($this->arquivos as $nome){
-            $arrayDados[$i] = $nome;
-            $i++;
-        }
+    protected function validateFilesName():array{
 
-        if (isset($arrayDados)) {
-            $this->setNameXML($arrayDados);
-        }
-    }
-    
-    /*
-     * Função de comparação para saber o arquivos mais novo para extração dos dados
-     */
+        try {
 
-    private function compararData($data1,$data2){
-        if(strtotime($data1) > strtotime($data2)) {
-            return $data1;
-        }
-        elseif(strtotime($data1) < strtotime($data2)){
-            return $data2;
-        }
-        elseif(strtotime($data1) == strtotime($data2)){
-            return "Arquivo Duplicado";
-        }
-    }
-    
-    /*
-     * Retorno o valor maior para extração do dados
-     */
-    
-    private function dataMaiorLaco(){
-        $this->verificarDiretorio();
-        $arrayDatas = $this->stringDataValor();
-        
-        $k=1;
-        for($i=0; $i<count($arrayDatas); $i++){
-            if(strtotime($arrayDatas[$k]) > strtotime($arrayDatas[$i])){
-                $posicao = $k;
-            }
-            elseif (strtotime($arrayDatas[$k]) < strtotime($arrayDatas[$i])){
-                $k = $i;
-                $posicao = $k;
-            }            
-        }
+            if (is_dir(dirname(__FILE__,2).DIRECTORY_SEPARATOR."files")) {
 
-        if (isset($posicao)) {
-            return $posicao;
-        }
-    }
+                $arquivos = glob("files/" . "{*.xml}", GLOB_BRACE);
 
-    public function teste(){
-        return $this->getTeste();
-    }
+                if (!empty($arquivos)) {
 
-    private function stringDataValor(){
+                    foreach ($arquivos as $nome) {
+                        
+                        $arrayDados[] = $nome;
+                        
+                    }
 
-        $file = $this->getNameXML();
+                    if (isset($arrayDados)) {
+                        
+                        return $arrayDados;
+                        
+                    }else{
 
-        if(isset($file)){
-            for($i=0; $i<count($file); $i++){
-                if (file_exists($file[$i])){
-                    $fileExplode[$i] = explode("_",$file[$i]);
-                    $valorData[$i] = $fileExplode[$i][1];
-                }else{
-                    return "ERRO ARQUIVOS NÃO EXISTEM";
+                        throw new \Exception("ERRO: Variavel arrayDados encontra-se sem valores!");
+
+                    }
+
+                } else {
+
+                    throw new \Exception("Não Existem arquivos dentro do diretorio files");
+
                 }
+
+            } else {
+
+                throw new \Exception("O Diretorio files não existe!");
+
             }
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
         }
+    }
 
-        if (isset($valorData)) {
-            for ($i = 0; $i < count($valorData); $i++) {
-                $exValorData[$i] = explode(".", $valorData[$i]);
-                $finalValor[$i] = $exValorData[$i][0];
+    protected function separatorStringRenameFile(){
+
+        try {
+
+            $file = $this->validateFilesName();
+
+            if(!preg_match("/ERRO:/i", $file[0])){
+
+                foreach ($file as $k => $f) {
+
+                    $fileExplode = explode("_", $f);
+
+                    if (isset($fileExplode[1])) {
+
+                        $ponto = explode(".", $fileExplode[1]);
+
+                        if (isset($ponto[0])) {
+
+                            $valorData[] = $ponto[0];
+
+                        }else{
+
+                            throw new \Exception("ERRO: Variavel ponto encontra-se sem valores!");
+
+                        }
+
+                    }else{
+
+                        throw new \Exception("ERRO: Variavel fileExplode encontra-se sem valores!");
+
+                    }
+                }
+
+                if (isset($valorData)) {
+
+                    $k=1;
+
+                    for($i=0; $i<count($valorData); $i++){
+                        if(strtotime($valorData[$k]) > strtotime($valorData[$i])){
+                            $posicao = $k;
+                        }
+                        elseif (strtotime($valorData[$k]) < strtotime($valorData[$i])){
+                            $k = $i;
+                            $posicao = $k;
+                        }
+                    }
+
+                    if (isset($posicao)) {
+
+                        return $posicao;
+
+                    }else{
+
+                        throw new \Exception("ERRO: Variavel posicao encontra-se sem valores!");
+
+                    }
+
+                }else{
+
+                    throw new \Exception("ERRO: Variavel valorData encontra-se sem valores!");
+
+                }
+
+            }else{
+
+                throw new \Exception($file[0]);
+
             }
 
-            if (isset($finalValor)) {
-                return $finalValor;
-            }
-        }        
+        } catch (\Exception $e) {
+
+            $dado = array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
+            array_map("utf8_encode",$dado);
+
+            return json_encode($dado);
+
+        }
     }
     
-    public function arquivosLocal(){
-        $this->verificarDiretorio();
-        $file = $this->getNameXML();
-        return $file[$this->dataMaiorLaco()];
+    protected function arquivosLocal():string{
+        try {
+            $file = $this->validateFilesName();
+
+            if(!preg_match("/ERRO:/i", $file[0])){
+
+                return $file[$this->separatorStringRenameFile()];
+
+            }else{
+
+                throw new \Exception($file[0]);
+                
+            }
+
+        } catch (\Exception $e) {
+
+            $dado = array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
+            array_map("utf8_encode",$dado);
+
+            return json_encode($dado);
+
+        }
     }
 
     public function keyOrganizarOrdem($var){
@@ -145,150 +217,38 @@ class ManipuladorExcel{
     }
 
     private function localizarColuna($col){
-        $this->obj->parser->loadFile($this->arquivosLocal());
-        $row = $this->obj->parser->getRow(1);
+        $this->parser->loadFile($this->arquivosLocal());
+        $row = $this->parser->getRow(1);
         for($i=0; $i<count($row); $i++){
             if($row[$i] == $col) {
                 return $i+1;
             }
         }
     }
-    
-    public function getDados(){
-        return $this->dados;
+
+    public function printr($data) {
+        echo "<pre>";
+        print_r($data);
+        echo "</pre>";
     }
     
-    public function setDados($dados){
-        $this->dados = $dados;
+    public function getArquivosXml(){
+        return $this->arquivosXml;
     }
     
-    public function getNameXML(){
-        return $this->nameXML;
-    }
-    
-    public function setNameXML($nameXML){
-        $this->nameXML = $nameXML;
-    }
-    
-    public function getDiretorio(){
-        return $this->diretorio;
-    }
-    
-    public function setDiretorio($diretorio){
-        $this->diretorio = $diretorio;
-    }
-    
-    public function getArquivos(){
-        return $this->arquivos;
-    }
-    
-    public function setArquivos($arquivos){
-        $this->arquivos = $arquivos;
-    }
-    
-    public function getTeste(){
-        return $this->teste;
-    }
-    
-    public function setTeste($teste){
-        $this->teste = $teste;
-    }
-    
-    public function getCriado(){
-        return $this->criado;
-    }
-    
-    public function setCriado($criado){
-        $this->criado = $criado;
-    }
-    
-    public function getEmpresa(){
-        return $this->empresa;
-    }
-    
-    public function setEmpresa($empresa){
-        $this->empresa = $empresa;
-    }
-    
-    public function getGrupo(){
-        return $this->grupo;
-    }
-    
-    public function setGrupo($grupo){
-        $this->grupo = $grupo;
-    }
-    
-    public function getIc(){
-        return $this->ic;
-    }
-    
-    public function setIc($ic){
-        $this->ic = $ic;
-    }
-    
-    public function getIncidente(){
-        return $this->incidente;
-    }
-    
-    public function setIncidente($incidente){
-        $this->incidente = $incidente;
-    }
-    
-    public function getNota(){
-        return $this->nota;
-    }
-    
-    public function setNota($nota){
-        $this->nota = $nota;
-    }
-    
-    public function getObj(){
-        return $this->obj;
-    }
-    
-    public function setObj($obj){
-        $this->obj = $obj;
-    }
-    
-    public function getPrioridade(){
-        return $this->prioridade;
-    }
-    
-    public function setPrioridade($prioridade){
-        $this->prioridade = $prioridade;
-    }
-    
-    public function getResolucao(){
-        return $this->resolucao;
-    }
-    
-    public function setResolucao($resolucao){
-        $this->resolucao = $resolucao;
-    }
-    
-    public function getResolvido(){
-        return $this->resolvido;
-    }
-    
-    public function setResolvido($resolvido){
-        $this->resolvido = $resolvido;
-    }
-    
-    public function getSumario(){
-        return $this->sumario;
+    public function setArquivosXml($arquivosXml){
+        $this->arquivosXml = $arquivosXml;
     }
 
-    public function setSumario($sumario){
-        $this->sumario = $sumario;
+    public function getContainerDataXml(){
+        return $this->containerDataXml;
     }
-    
-    public function getTotal(){
-        return $this->total;
+
+    public function setContainerDataXml($containerDataXml){
+        $this->containerDataXml = $containerDataXml;
     }
-    
-    public function setTotal($total){
-        $this->total = $total;
-    }
+
+
 
 }
 

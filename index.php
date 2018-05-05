@@ -31,9 +31,18 @@
             </button>
         </form>
 
-        <button id="buttonReadBaseAtual" class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#uploadModal">
-            <i class="fa fa-upload" aria-hidden="true"></i> UPDATE
-        </button>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Opções
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Visualizar Mês!</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a id="buttonReadBaseAtual" data-toggle="modal" data-target="#uploadModal" class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> UPDATE</a>
+            </div>
+        </div>
 
         <!-- Modal -->
         <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
