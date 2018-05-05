@@ -38,7 +38,11 @@ class ReadBD extends ConectBD{
             $sql = $this->conectBD()->prepare("SELECT `criado`,`resolucao` FROM `tb_ocorrencia` WHERE `incidente` = '{$v}'");
             if($sql->execute()){
                 $d = $sql->fetchAll(\PDO::FETCH_NUM);
-                $result[$v] = $d[0];
+
+                if (isset($d[0])) {
+                    $result[$v] = $d[0];
+                }
+                
             }else{
                 return $sql->errorInfo();
             }

@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     $.getJSON('phpJson.php', function (data) {
         var dado = data;
+        console.log(data);
         $('#tableIncidentes').dynatable({
             features: {
                 paginate: false,
