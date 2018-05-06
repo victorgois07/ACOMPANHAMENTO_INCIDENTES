@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - db_table_incidentes@localhost" uuid="748f0651-81c7-442f-bab0-beac69fcf57a">
+    <database-info product="MySQL" version="5.5.5-10.1.26-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="db_table_incidentes"/>
+      <table id="2" parent="1" name="tb_empresa"/>
+      <table id="3" parent="1" name="tb_grupo_designado"/>
+      <table id="4" parent="1" name="tb_ic"/>
+      <table id="5" parent="1" name="tb_ocorrencia"/>
+      <table id="6" parent="1" name="tb_prioridade"/>
+      <table id="7" parent="1" name="tb_sumario"/>
+      <column id="8" parent="2" name="id_empresa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="9" parent="2" name="descricao">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="10" parent="2" name="PRIMARY">
+        <columns>id_empresa</columns>
+        <primary>1</primary>
+      </key>
+      <column id="11" parent="3" name="id_grupo_designado">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="12" parent="3" name="grupo">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="13" parent="3" name="fk_empresa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="14" parent="3" name="fk_empresa">
+        <columns>fk_empresa</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="15" parent="3" name="PRIMARY">
+        <columns>id_grupo_designado</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="16" parent="3" name="tb_grupo_designado_ibfk_1">
+        <columns>fk_empresa</columns>
+        <ref-key>~.tb_empresa.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="17" parent="4" name="id_ic">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="18" parent="4" name="descricao">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="19" parent="4" name="PRIMARY">
+        <columns>id_ic</columns>
+        <primary>1</primary>
+      </key>
+      <column id="20" parent="5" name="incidente">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="21" parent="5" name="criado">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="22" parent="5" name="resolucao">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="23" parent="5" name="descricao_problema">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="24" parent="5" name="descricao_solucao">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="25" parent="5" name="fk_grupo_designado">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="26" parent="5" name="fk_ic">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="27" parent="5" name="fk_prioridade">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="28" parent="5" name="fk_sumario">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="29" parent="5" name="fk_grupo_designado">
+        <columns>fk_grupo_designado</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="30" parent="5" name="fk_ic">
+        <columns>fk_ic</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="31" parent="5" name="fk_prioridade">
+        <columns>fk_prioridade</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="32" parent="5" name="tb_ocorrencia_ibfk_4">
+        <columns>fk_sumario</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="33" parent="5" name="PRIMARY">
+        <columns>incidente</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="34" parent="5" name="tb_ocorrencia_ibfk_1">
+        <columns>fk_grupo_designado</columns>
+        <ref-key>~.tb_grupo_designado.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="35" parent="5" name="tb_ocorrencia_ibfk_2">
+        <columns>fk_ic</columns>
+        <ref-key>~.tb_ic.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="36" parent="5" name="tb_ocorrencia_ibfk_3">
+        <columns>fk_prioridade</columns>
+        <ref-key>~.tb_prioridade.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="37" parent="5" name="tb_ocorrencia_ibfk_4">
+        <columns>fk_sumario</columns>
+        <ref-key>~.tb_sumario.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="38" parent="6" name="id_prioridade">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="39" parent="6" name="pri_descricao">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <key id="40" parent="6" name="PRIMARY">
+        <columns>id_prioridade</columns>
+        <primary>1</primary>
+      </key>
+      <column id="41" parent="7" name="id_sumario">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="42" parent="7" name="descricao">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <key id="43" parent="7" name="PRIMARY">
+        <columns>id_sumario</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

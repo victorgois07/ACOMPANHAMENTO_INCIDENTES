@@ -3,7 +3,7 @@
     use SimpleExcel\SimpleExcel;
     require_once "lib/SimpleExcel/SimpleExcel.php";
     require_once "class/ManipuladorExcel.php";
-    require_once "class/insertBD.php";
+    require_once "class/InsertBD.php";
 
     if(isset($_FILES['fileUpload'])){
       date_default_timezone_set("Brazil/East");

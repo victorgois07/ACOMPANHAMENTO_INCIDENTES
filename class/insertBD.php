@@ -1,21 +1,10 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: p742651
- * Date: 23/03/2018
- * Time: 08:17
- */
+namespace Classes;
 
-require_once "ConectBD.php";
+require_once "ReadBD.php";
 
-class insertBD extends ConectBD{
-    public $obj;
-
-    public function __construct($obj){
-        parent::__construct();
-        $this->obj = $obj;
-    }
+class InsertBD extends \Classes\ReadBD{
 
     protected function firstTable($table){
         $sql = $this->conectBD()->query("DESC `$table`");

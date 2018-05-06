@@ -2,11 +2,14 @@
 
 namespace Classes;
 
-class ConectBD{
+require_once "ManipuladorExcel.php";
+
+class ConectBD extends ManipuladorExcel{
     private $host, $root, $password;
     protected $bd;
 
     public function __construct(){
+        parent::__construct();
         $this->host = "localhost";
         $this->root = "root";
         $this->password = "";
@@ -14,19 +17,13 @@ class ConectBD{
     }
 
     protected function conectBD(){
-        $PDO = new PDO('mysql:host='.$this->getHost().';dbname='.$this->getBd(),$this->getRoot(),$this->getPassword());
+        $PDO = new \PDO('mysql:host='.$this->getHost().';dbname='.$this->getBd(),$this->getRoot(),$this->getPassword());
         $PDO->exec("set names utf8");
         if ($PDO){
             return $PDO;
         }else{
             return "Erro ao conectar com o MySQL";
         }
-    }
-
-    public function print_r($valor){
-        echo "<pre>";
-        print_r($valor);
-        echo "</pre>";
     }
 
     public function getHost(){

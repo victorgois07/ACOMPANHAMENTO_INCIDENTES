@@ -1,13 +1,13 @@
 <?php
 
-    require_once "class/ManipuladorExcel.php";
-    use Classes\ManipuladorExcel;
-    $excel = new ManipuladorExcel();
+    require_once "class/InsertBD.php";
+
+    $insert = new \Classes\InsertBD();
 
     /*echo json_encode($excel->getContainerDataXml());
     header('Content-Type: application/json');*/
 
-    $excel->printr($excel->getTotal());
+    $insert->printr($insert->analiseIncidenteDB());
 
     /*$classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
     $data = new DateTime('now');

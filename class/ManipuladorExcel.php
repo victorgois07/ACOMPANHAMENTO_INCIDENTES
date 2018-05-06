@@ -5,7 +5,7 @@ namespace Classes;
 use SimpleExcel\SimpleExcel;
 require_once dirname(__FILE__)."/../lib/SimpleExcel/SimpleExcel.php";
 
-class ManipuladorExcel extends SimpleExcel{
+abstract class ManipuladorExcel extends SimpleExcel{
     public $arquivosXml, $containerDataXml, $total;
 
     public function __construct(){
@@ -25,10 +25,7 @@ class ManipuladorExcel extends SimpleExcel{
         );
         $this->total = count($this->organizeARRAY($this->parser->getColumn($this->localizarColuna("Prioridade*"))));
     }
-
-    /*
-     * Função para verificar quantos arquivos tem no diretorio;
-     */
+    
     protected function validateFilesName():array{
 
         try {

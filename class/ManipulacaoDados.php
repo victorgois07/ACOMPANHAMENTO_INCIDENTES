@@ -23,12 +23,6 @@ class ManipulacaoDados{
         date_default_timezone_set('America/Sao_Paulo');
     }
 
-    public function printr($data) {
-        echo "<pre>";
-        print_r($data);
-        echo "</pre>";
-    }
-
     public function getMes(){
         return $this->mes;
     }
