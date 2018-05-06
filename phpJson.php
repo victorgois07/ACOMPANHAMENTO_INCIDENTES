@@ -4,78 +4,53 @@
 
     $insert = new \Classes\InsertBD();
 
-    /*echo json_encode($excel->getContainerDataXml());
-    header('Content-Type: application/json');*/
+    echo json_encode($insert->implantDataDB());
+    header('Content-Type: application/json');
 
-    $insert->printr($insert->analiseIncidenteDB());
+    /*$date = new \DateTime('now');
 
-    /*$classME = new ReadBD(new ManipuladorExcel(new SimpleExcel('xml')),$xml->getIncidente());
-    $data = new DateTime('now');
-    $tot = $classME->totalIncidente($data->format("m"));
-    $qtd = $classME->divisaoTempo();
-    $pont = $classME->calcPorcentagemTemp($qtd,$tot);
-    $p = $pont[0];
+    $_GET["m"] = !empty($_GET["m"])?$_GET["m"]:$date->format("Y-m");
 
-    $k=0;
+    $dados = $insert->calculoEntreHoras($_GET["m"]);
 
-    for($i=1; $i<=4; $i++){
-        switch ($i){
-            case 1:
-                $acumulado[$k] = round($pont[0]);
-                break;
-            case 2:
-                $acumulado[$k] = round($pont[0]+$pont[1]);
-                break;
-            case 3:
-                $acumulado[$k] = round($pont[0]+$pont[1]+$pont[2]);
-                break;
-            case 4:
-                $acumulado[$k] = round($pont[0]+$pont[1]+$pont[2]+$pont[3]);
-                break;
+    if (isset($dados)) {
+
+        foreach ($dados as $key => $d) {
+            foreach ($d as $k => $v) {
+                if ($k == 4) {
+                    $json[] = array(
+                        "tempoDeResolução" => "Superior a 8h",
+                        "quantidade" => $dados[0][$k],
+                        "%" => $dados[1][$k] . "%",
+                        "acumulado" => $dados[2][$k] > 100?"100%":$dados[2][$k] . "%",
+                    );
+                } else {
+                    $json[] = array(
+                        "tempoDeResolução" => "Até " . (2 * ($k + 1)) . "h",
+                        "quantidade" => $dados[0][$k],
+                        "%" => $dados[1][$k] . "%",
+                        "acumulado" => $dados[2][$k] > 100?"100%":$dados[2][$k]."%",
+                    );
+                }
+            }
+            break;
         }
-        $k++;
-    }
 
-    if (isset($acumulado)) {
+        if (isset($json)) {
 
-        $j = 0;
-
-        for ($i = 1; $i <= 6; $i++) {
-
-            if ($i == 5) {
-
-                $dados[$j] = array(
-                    "tempoDeResolução" => "Superior a 8h",
-                    "quantidade" => round($qtd[count($qtd)-1]),
-                    "%" => round($pont[count($pont)-1])."%",
-                    "acumulado" => "100%"
-                );
-
-            }else if ($i == 6){
-
-                $dados[$j] = array(
+            array_push(
+                $json,
+                array(
                     "tempoDeResolução" => "TOTAL",
-                    "quantidade" => $tot,
+                    "quantidade" => $insert->calculoTotal($_GET["m"]),
                     "%" => "100%",
                     "acumulado" => "100%"
-                );
+                )
+            );
 
-            } else {
-                $dados[$j] = array(
-                    "tempoDeResolução" => "Até " . (2 * $i) . "h",
-                    "quantidade" => $qtd[$j],
-                    "%" => round($pont[$j])."%",
-                    "acumulado" => $acumulado[$j]."%"
-                );
-            }
-
-            $j++;
+            echo json_encode($json, JSON_UNESCAPED_UNICODE);
+            header('Content-Type: application/json');
         }
-
-        if(isset($dados)){
-            echo json_encode($dados);
-        }
-
     }*/
 
 ?>

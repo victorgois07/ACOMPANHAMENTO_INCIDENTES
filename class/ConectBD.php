@@ -17,13 +17,33 @@ class ConectBD extends ManipuladorExcel{
     }
 
     protected function conectBD(){
-        $PDO = new \PDO('mysql:host='.$this->getHost().';dbname='.$this->getBd(),$this->getRoot(),$this->getPassword());
-        $PDO->exec("set names utf8");
-        if ($PDO){
-            return $PDO;
-        }else{
-            return "Erro ao conectar com o MySQL";
+
+        try {
+
+            $PDO = new \PDO('mysql:host=' . $this->getHost() . ';dbname=' . $this->getBd(), $this->getRoot(), $this->getPassword(), array(
+                \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
+                \PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+            ));
+
+            $PDO->exec("set names utf8");
+            $PDO->exec("SET lc_time_names = 'pt_BR'");
+
+            if ($PDO) {
+
+                return $PDO;
+
+            } else {
+
+                throw new \Exception("Erro ao conectar com o MySQL");
+
+            }
+
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
         }
+        
     }
 
     public function getHost(){

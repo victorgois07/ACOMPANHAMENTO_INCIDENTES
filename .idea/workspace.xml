@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83d30979-302b-495d-8f30-0e8d9bba74da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/Base_06-05-2018.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fontawesome/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ConectBD.php" afterPath="$PROJECT_DIR$/class/ConectBD.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ManipulacaoDados.php" afterPath="$PROJECT_DIR$/class/ManipulacaoDados.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ManipuladorExcel.php" afterPath="$PROJECT_DIR$/class/ManipuladorExcel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/ReadBD.php" afterPath="$PROJECT_DIR$/class/ReadBD.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/insertBD.php" afterPath="$PROJECT_DIR$/class/insertBD.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leituraBaseXML.php" afterPath="$PROJECT_DIR$/leituraBaseXML.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpJson.php" afterPath="$PROJECT_DIR$/phpJson.php" />
     </list>
     <ignored path="PAINEL INCIDENTE.iws" />
@@ -43,18 +48,20 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="76">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="47" />
+              <folding>
+                <marker date="1525634153664" expanded="true" signature="4018:4153" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpJson.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpJson.php">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="68">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,77 +70,70 @@
       <file leaf-file-name="ManipuladorExcel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/ManipuladorExcel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#1665#2778#0#PHP" expanded="false" />
-                <element signature="e#2784#4796#0#PHP" expanded="false" />
-                <element signature="e#4806#5372#0#PHP" expanded="false" />
-                <element signature="e#5378#5616#0#PHP" expanded="false" />
-                <element signature="e#5622#5857#0#PHP" expanded="false" />
-                <element signature="e#5863#6135#0#PHP" expanded="false" />
-                <element signature="e#6141#6247#0#PHP" expanded="false" />
-                <element signature="e#6257#6331#0#PHP" expanded="false" />
-                <element signature="e#6341#6435#0#PHP" expanded="false" />
-                <element signature="e#6441#6525#0#PHP" expanded="false" />
-                <element signature="e#6531#6645#0#PHP" expanded="false" />
-                <element signature="e#6655#6717#0#PHP" expanded="false" />
-                <element signature="e#6727#6797#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConectBD.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class/ConectBD.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadBD.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/estilo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpJson.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpJson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadBD.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/ReadBD.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="47" />
               <folding>
-                <marker date="1525574937579" expanded="true" signature="637:680" placeholder="SELECT incid... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="545:588" placeholder="SELECT incid... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="2769:2829" placeholder="SELECT COUNT... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="4894:5018" placeholder="SELECT COUNT... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="5043:5219" placeholder="SELECT COUNT... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="5244:5421" placeholder="SELECT COUNT... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="5446:5623" placeholder="SELECT COUNT... tb_ocorrencia" />
+                <marker date="1525635619177" expanded="true" signature="5648:5772" placeholder="SELECT COUNT... tb_ocorrencia" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertBD.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class/InsertBD.php">
+      <file leaf-file-name="insertBD.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/insertBD.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3298">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="153" column="36" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="36" />
               <folding>
-                <marker date="1525571465807" expanded="true" signature="1166:1219" placeholder="SELECT `${$i... ${$table}" />
-                <marker date="1525571465807" expanded="true" signature="1717:1782" placeholder="SELECT `desc... tb_empresa" />
-                <marker date="1525571465807" expanded="true" signature="1926:2031" placeholder="INSERT INTO `tb_empresa`... " />
-                <marker date="1525571465807" expanded="true" signature="2668:2731" placeholder="SELECT `grup... tb_grupo_designado" />
-                <marker date="1525571465807" expanded="true" signature="2875:3070" placeholder="INSERT INTO `tb_grupo_designado`... " />
-                <marker date="1525571465807" expanded="true" signature="3666:3725" placeholder="SELECT `desc... tb_ic" />
-                <marker date="1525571465807" expanded="true" signature="3869:3958" placeholder="INSERT INTO `tb_ic`... " />
-                <marker date="1525571465807" expanded="true" signature="4575:4640" placeholder="SELECT `desc... tb_sumario" />
-                <marker date="1525571465807" expanded="true" signature="4784:4889" placeholder="INSERT INTO `tb_sumario`... " />
-                <marker date="1525571465807" expanded="true" signature="5684:5748" placeholder="SELECT `inci... tb_ocorrencia" />
-                <marker date="1525571465807" expanded="true" signature="6695:6763" placeholder="SELECT `inci... tb_ocorrencia" />
-                <marker date="1525571465807" expanded="true" signature="6906:7391" placeholder="INSERT INTO `tb_ocorrencia`... " />
+                <marker date="1525643642915" expanded="true" signature="3256:3295" placeholder="SELECT * FRO... ${$table}" />
+                <marker date="1525643642915" expanded="true" signature="4908:4920" placeholder="INSERT INTO ${$talbe}... " />
+                <marker date="1525643642915" expanded="true" signature="4908:4928" placeholder="INSERT INTO ${$table}... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/748f0651-81c7-442f-bab0-beac69fcf57a/console.sql">
+      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/78f27941-80f7-4121-9c3c-d1334f5d0657/console_1.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <caret line="0" column="143" selection-start-line="0" selection-start-column="130" selection-end-line="0" selection-end-column="143" />
               <folding />
             </state>
           </provider>
@@ -174,17 +174,20 @@
         <option value="Y:/leituraBaseXML.php" />
         <option value="$PROJECT_DIR$/extracao.php" />
         <option value="$PROJECT_DIR$/leituraBaseXML.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/estilo.css" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/class/ManipulacaoDados.php" />
-        <option value="$PROJECT_DIR$/class/insertBD.php" />
         <option value="$PROJECT_DIR$/class/InsertBD.php" />
-        <option value="$PROJECT_DIR$/class/ConectBD.php" />
         <option value="$PROJECT_DIR$/class/ManipuladorExcel.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/748f0651-81c7-442f-bab0-beac69fcf57a/console.sql" />
-        <option value="$PROJECT_DIR$/phpJson.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/78f27941-80f7-4121-9c3c-d1334f5d0657/console.sql" />
+        <option value="$PROJECT_DIR$/class/ConectBD.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/78f27941-80f7-4121-9c3c-d1334f5d0657/console_1.sql" />
+        <option value="$PROJECT_DIR$/class/ManipulacaoDados.php" />
+        <option value="$PROJECT_DIR$/inc/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/class/ReadBD.php" />
+        <option value="$PROJECT_DIR$/phpJson.php" />
+        <option value="$PROJECT_DIR$/class/insertBD.php" />
       </list>
     </option>
   </component>
@@ -204,8 +207,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -252,8 +255,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,12 +267,12 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/ACOMPANHAMENTO_INCIDENTES/index.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PAINEL INCIDENTE" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES" />
       <recent name="C:\xampp\htdocs\PAINEL INCIDENTE\class" />
+      <recent name="C:\xampp\htdocs\PAINEL INCIDENTE" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\PAINEL INCIDENTE" />
     </key>
   </component>
@@ -337,6 +340,7 @@
       <workItem from="1525525947077" duration="1114000" />
       <workItem from="1525529633428" duration="11708000" />
       <workItem from="1525570681096" duration="4258000" />
+      <workItem from="1525602500085" duration="33978000" />
     </task>
     <task id="LOCAL-00001" summary="Resolvido Erro!!">
       <created>1525526309104</created>
@@ -363,21 +367,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89456000" />
+    <option name="totallyTimeSpent" value="123434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17673522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -390,6 +393,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -415,10 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://Y:/index.php" />
-    <entry file="file://Y:/class/ManipulacaoDados.php" />
-    <entry file="file://Y:/class/ManipuladorExcel.php" />
-    <entry file="file://Y:/js/script.js" />
     <entry file="file://Y:/css/estilo.css" />
     <entry file="file://Y:/index.php" />
     <entry file="file://Y:/class/ManipulacaoDados.php" />
@@ -471,61 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/ManipulacaoDados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/ManipuladorExcel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#1665#2778#0#PHP" expanded="false" />
-            <element signature="e#2784#4796#0#PHP" expanded="false" />
-            <element signature="e#4806#5372#0#PHP" expanded="false" />
-            <element signature="e#5378#5616#0#PHP" expanded="false" />
-            <element signature="e#5622#5857#0#PHP" expanded="false" />
-            <element signature="e#5863#6135#0#PHP" expanded="false" />
-            <element signature="e#6141#6247#0#PHP" expanded="false" />
-            <element signature="e#6257#6331#0#PHP" expanded="false" />
-            <element signature="e#6341#6435#0#PHP" expanded="false" />
-            <element signature="e#6441#6525#0#PHP" expanded="false" />
-            <element signature="e#6531#6645#0#PHP" expanded="false" />
-            <element signature="e#6655#6717#0#PHP" expanded="false" />
-            <element signature="e#6727#6797#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,49 +482,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/InsertBD.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/78f27941-80f7-4121-9c3c-d1334f5d0657/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3298">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="173" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/ManipulacaoDados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
-            <marker date="1525571465807" expanded="true" signature="1166:1219" placeholder="SELECT `${$i... ${$table}" />
-            <marker date="1525571465807" expanded="true" signature="1717:1782" placeholder="SELECT `desc... tb_empresa" />
-            <marker date="1525571465807" expanded="true" signature="1926:2031" placeholder="INSERT INTO `tb_empresa`... " />
-            <marker date="1525571465807" expanded="true" signature="2668:2731" placeholder="SELECT `grup... tb_grupo_designado" />
-            <marker date="1525571465807" expanded="true" signature="2875:3070" placeholder="INSERT INTO `tb_grupo_designado`... " />
-            <marker date="1525571465807" expanded="true" signature="3666:3725" placeholder="SELECT `desc... tb_ic" />
-            <marker date="1525571465807" expanded="true" signature="3869:3958" placeholder="INSERT INTO `tb_ic`... " />
-            <marker date="1525571465807" expanded="true" signature="4575:4640" placeholder="SELECT `desc... tb_sumario" />
-            <marker date="1525571465807" expanded="true" signature="4784:4889" placeholder="INSERT INTO `tb_sumario`... " />
-            <marker date="1525571465807" expanded="true" signature="5684:5748" placeholder="SELECT `inci... tb_ocorrencia" />
-            <marker date="1525571465807" expanded="true" signature="6695:6763" placeholder="SELECT `inci... tb_ocorrencia" />
-            <marker date="1525571465807" expanded="true" signature="6906:7391" placeholder="INSERT INTO `tb_ocorrencia`... " />
+            <marker date="1525618765109" expanded="true" signature="812:974" placeholder="SELECT DISTI... tb_ocorrencia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/ConectBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="115" selection-start-line="10" selection-start-column="115" selection-end-line="10" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/78f27941-80f7-4121-9c3c-d1334f5d0657/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="143" selection-start-line="0" selection-start-column="130" selection-end-line="0" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="299" column="9" selection-start-line="299" selection-start-column="9" selection-end-line="299" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="47" />
+          <folding>
+            <marker date="1525634153664" expanded="true" signature="4018:4153" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpJson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/ConectBD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/ReadBD.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="47" />
           <folding>
-            <marker date="1525574937579" expanded="true" signature="637:680" placeholder="SELECT incid... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="545:588" placeholder="SELECT incid... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="2769:2829" placeholder="SELECT COUNT... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="4894:5018" placeholder="SELECT COUNT... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="5043:5219" placeholder="SELECT COUNT... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="5244:5421" placeholder="SELECT COUNT... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="5446:5623" placeholder="SELECT COUNT... tb_ocorrencia" />
+            <marker date="1525635619177" expanded="true" signature="5648:5772" placeholder="SELECT COUNT... tb_ocorrencia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/ManipuladorExcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/insertBD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="153" column="36" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="36" />
+          <folding>
+            <marker date="1525643642915" expanded="true" signature="3256:3295" placeholder="SELECT * FRO... ${$table}" />
+            <marker date="1525643642915" expanded="true" signature="4908:4920" placeholder="INSERT INTO ${$talbe}... " />
+            <marker date="1525643642915" expanded="true" signature="4908:4928" placeholder="INSERT INTO ${$table}... " />
           </folding>
         </state>
       </provider>

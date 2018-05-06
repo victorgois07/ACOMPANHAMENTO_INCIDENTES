@@ -10,14 +10,13 @@ button#aExtracao {
     top: 5px;
 }
 
-a#buttonReadBaseAtual {
+div#divDropdown{
     position: absolute;
-    top: 5px;
     left: 10px;
-    width: 112px;
+    top: 5px;
 }
 
-table#tableIncidentes {
+table#tableIncidentes, table#tableIncidentes2 {
     width: 100%;
     font-weight: 700;
 }
@@ -107,4 +106,12 @@ div#loaderModal{
     border-radius: 50px;
     -webkit-animation: spinning 0.75s infinite linear;
     animation: spinning 0.75s infinite linear;
+}
+
+img#imgClose{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 40px;
+    cursor: pointer;
 }

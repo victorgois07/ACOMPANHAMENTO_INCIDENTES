@@ -4,55 +4,253 @@ namespace Classes;
 require_once "ConectBD.php";
 
 class ReadBD extends ConectBD{
-    protected function identical_values( $arrayA , $arrayB ) {
-        sort($arrayA);
-        sort($arrayB);
-        return $arrayA == $arrayB;
-    }
 
-    public function analiseIncidenteDB(){
-        $arrayDadosXml = $this->getContainerDataXml();
-        $inc = $arrayDadosXml["incidente"];
-        $incReplace = str_replace("INC00000", "", $inc);
+    protected function analiseIncidenteDB(){
 
-        foreach ($incReplace as $in){
-            $twoString[] = $in[0].$in[1];
-        }
+        try {
 
-        if (isset($twoString)) {
-            $twoString = array_unique($twoString);
+            $arrayDadosXml = $this->getContainerDataXml();
+            $inc = $arrayDadosXml["incidente"];
+            $incReplace = str_replace("INC00000", "", $inc);
 
-            $comando = "SELECT incidente FROM `tb_ocorrencia` WHERE ";
-
-            foreach ($twoString as $k => $two){
-                $finalString[] = "INC00000".$two."%";
-
-                if ((count($twoString) - 1) == $k) {
-                    $comando .= "incidente LIKE ? ORDER BY incidente";
-                } else {
-                    $comando .= "incidente LIKE ? OR ";
-                }
+            foreach ($incReplace as $in) {
+                $twoString[] = $in[0] . $in[1];
             }
 
-            if(isset($finalString)){
-                $sql = $this->conectBD()->prepare($comando);
+            if (isset($twoString)) {
+                $twoString = array_unique($twoString);
 
-                $sql->execute($finalString);
+                $comando = "SELECT incidente FROM `tb_ocorrencia` WHERE ";
 
-                foreach ($sql->fetchAll(\PDO::FETCH_NUM) as $val){
-                    $incDB[] = $val[0];
-                }
+                foreach ($twoString as $k => $two) {
+                    $finalString[] = "INC00000" . $two . "%";
 
-                if (isset($incDB)) {
-                    if ($this->identical_values($incDB, $inc)) {
-                        $result = array_diff($incDB, $inc);
-                        return $result;
-                    }else{
-                        return false;
+                    if ((count($twoString) - 1) == $k) {
+                        $comando .= "incidente LIKE ? ORDER BY incidente";
+                    } else {
+                        $comando .= "incidente LIKE ? OR ";
                     }
                 }
 
+                if (isset($finalString)) {
+
+                    $sql = $this->conectBD()->prepare($comando);
+
+                    if ($sql->execute($finalString)) {
+
+                        foreach ($sql->fetchAll(\PDO::FETCH_NUM) as $val) {
+
+                            $incDB[] = $val[0];
+
+                        }
+
+                        if (isset($incDB)) {
+
+                            $intersect = array_intersect($inc, $incDB);
+
+                            $diff = array_diff($inc, $intersect);
+
+                            foreach ($diff as $item) {
+
+                                $df[] = $item;
+
+                            }
+
+                            if (isset($df)) {
+
+                                return $df;
+
+                            }else{
+
+                                throw new \Exception("ERRO: Variavel df encontra-se sem valores!");
+
+                            }
+
+                        }else{
+
+                            throw new \Exception("ERRO: Variavel finalString encontra-se sem valores!");
+
+                        }
+
+                    } else {
+
+                        throw new \Exception("ERRO: ".implode(" ",$sql->errorInfo()));
+
+                    }
+
+
+
+                }else{
+
+                    throw new \Exception("ERRO: Variavel finalString encontra-se sem valores!");
+
+                }
+
+            }else{
+
+                throw new \Exception("ERRO: Variavel twoString encontra-se sem valores!");
+
             }
+
+
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
+        }
+        
+    }
+
+    public function calculoTotal($mes){
+
+        try {
+
+            if (isset($mes) && !empty($mes)) {
+
+                $sql = $this->conectBD()->prepare("SELECT COUNT(*) FROM tb_ocorrencia WHERE resolucao LIKE :MES");
+
+                $sql->bindValue(":MES", $mes."-%");
+
+                if ($sql->execute()) {
+
+                    $sqlDados = $sql->fetchAll(\PDO::FETCH_NUM);
+
+                    return intval($sqlDados[0][0]);
+
+                } else {
+
+                    throw new \Exception("ERRO: " . implode(" ", $sql->errorInfo()));
+
+                }
+
+            } else {
+
+                throw new \Exception("ERRO: Variavel mes encontra-se sem valores ou vazia!");
+
+            }
+
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
+        }
+    }
+
+    protected function calculoPoncentagemAcumulado($data,$mes){
+
+        try {
+
+            if (isset($data) && isset($mes) && !empty($data) && !empty($mes)) {
+
+                foreach ($data as $d) {
+
+                    $porcentagem[] = round(($d / $this->calculoTotal($mes)) * 100);
+
+                }
+
+                if (isset($porcentagem)) {
+
+                    $ac = 0;
+
+                    foreach ($porcentagem as $key => $p) {
+
+                        $ac += $porcentagem[$key];
+
+                        $acumulado[] = $ac;
+
+                    }
+
+                    if (isset($acumulado)) {
+
+                        return array($porcentagem, $acumulado);
+
+                    }else{
+
+                        throw new \Exception("ERRO: Variavel acumulado encontra-se sem valores ou vazia!");
+
+                    }
+
+                }else{
+
+                    throw new \Exception("ERRO: Variavel porcentagem encontra-se sem valores ou vazia!");
+
+                }
+
+            }else{
+
+                throw new \Exception("ERRO: Variavel mes e data encontra-se sem valores ou vazia!");
+
+            }
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+
+        }
+
+    }
+    
+    public function calculoEntreHoras($mes){
+
+        try {
+
+            if (!empty($mes)) {
+                $comando = array(
+                    "SELECT COUNT(*) FROM tb_ocorrencia WHERE resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, criado,resolucao) <= 7200",
+
+                    "SELECT COUNT(*) FROM tb_ocorrencia WHERE resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, criado,resolucao) <= 14400 AND TIMESTAMPDIFF(SECOND, criado,resolucao) > 7200",
+
+                    "SELECT COUNT(*) FROM tb_ocorrencia WHERE resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, criado,resolucao) <= 21600 AND TIMESTAMPDIFF(SECOND, criado,resolucao) > 14400",
+
+                    "SELECT COUNT(*) FROM tb_ocorrencia WHERE resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, criado,resolucao) <= 28800 AND TIMESTAMPDIFF(SECOND, criado,resolucao) > 21600",
+
+                    "SELECT COUNT(*) FROM tb_ocorrencia WHERE resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, criado,resolucao) > 28800"
+                );
+
+                foreach ($comando as $key => $cmd) {
+                    $sql = $this->conectBD()->prepare($cmd);
+
+
+                    if ($sql->execute()) {
+
+                        foreach ($sql->fetchAll(\PDO::FETCH_NUM) as $val) {
+
+                            $dataCount[$key] = intval($val[0]);
+
+                        }
+
+                    } else {
+
+                        throw new \Exception("ERRO: ".implode(" ",$sql->errorInfo()));
+
+                        break;
+
+                    }
+
+                }
+
+                if (isset($dataCount)) {
+
+                    $data = $this->calculoPoncentagemAcumulado($dataCount,$mes);
+
+                    array_unshift($data,$dataCount);
+
+                    return $data;
+
+                }else{
+
+                    throw new \Exception("ERRO: Variavel dataCount encontra-se sem valores!");
+
+                }
+
+            } else {
+
+                throw new \Exception("ERRO: Variavel mes encontra-se vazia!");
+
+            }
+
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
 
         }
         
