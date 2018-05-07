@@ -44,7 +44,11 @@ function nomeData(v) {
 
 $(document).ready(function () {
 
+    var url = window.location;
+
     $.getJSON('phpJson.php', function (data) {
+        $("div#loader").delay(2000).fadeOut("slow");
+        
         var dado = data;
         
         $('#tableIncidentes').dynatable({
@@ -103,7 +107,12 @@ $(document).ready(function () {
             type : 'get',
             url : 'phpJson.php',
             data : {m: $("#selectMes").val()},
+            beforeSend: function(){
+                $("div#loaderModal").removeClass("d-none");
+            },
             success: function (data) {
+
+                $("div#loaderModal").addClass("d-none").delay(2000).fadeOut("slow");
 
                 var sel = $("select#selectMes").val().toUpperCase();
                 $("h2#h2data").text(nomeData(sel));
@@ -120,8 +129,12 @@ $(document).ready(function () {
                     "margin": "5px"
                 });
 
+                $("table#tableIncidentes2 thead").css({
+                    "font-size": "25px"
+                });
+
                 $("table#tableIncidentes2 tbody").css({
-                    "font-size": "60px"
+                    "font-size": "50px"
                 });
 
                 $("div#containerTableInfo2").css({
@@ -158,68 +171,10 @@ $(document).ready(function () {
         event.preventDefault();
     });
 
-    $(function () {
-        var form;
-        $('#fileInputData').change(function (event) {
-            form = new FormData();
-            form.append('fileUpload', event.target.files[0]); // para apenas 1 arquivo
-            //var name = event.target.files[0].content.name; // para capturar o nome do arquivo com sua extenção
-        });
+    $("form#formUpload").on("submit", function (event) {
 
-        $('#btnEnviar').click(function () {
-            $.ajax({
-                url: 'leituraBaseXML.php', // Url do lado server que vai receber o arquivo
-                data: form,
-                type: 'POST',
-                processData: false,
-                contentType: false,
-                dataType : 'json',
-                encode : true,
-                beforeSend: function () {
-                    $(".square").removeClass("d-none");
-                },
-                success: function (data) {
-                    
-                    $(".square").addClass("d-none");
 
-                    if (data == "BASE ATUALIZADA") {
-                        $("div#loaderModal").addClass("d-none");
 
-                        $.confirm({
-                            title: 'SUCESSO',
-                            content: 'Base atualizada!',
-                            icon: 'fas fa-check-square',
-                            theme: 'modern',
-                            closeIcon: false,
-                            animation: 'scale',
-                            type: 'green',
-                            buttons: {
-                                ok: function () {
-                                    location.reload(true);
-                                }
-                            }
-                        });
-                    }else if(data == "BASE JA FOI ATUALIZADA"){
-                        
-                        $.confirm({
-                            title: 'SUCESSO',
-                            content: 'Base já foi atualizada!',
-                            icon: 'fas fa-check-square',
-                            theme: 'modern',
-                            closeIcon: false,
-                            animation: 'scale',
-                            type: 'green',
-                            buttons: {
-                                ok: function () {
-                                    location.reload(true);
-                                }
-                            }
-                        });
-                        
-                    }
-                }
-            });
-        });
-    });
-
+        event.preventDefault();
+    })
 });

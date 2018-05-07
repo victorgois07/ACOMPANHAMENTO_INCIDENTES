@@ -180,6 +180,7 @@ class InsertBD extends \Classes\ReadBD{
     protected function insertIntoData($table, $values){
 
         if ($table != "tb_ocorrencia") {
+            $values =  count($values) == 1?array($values):$values;
             array_unshift($values, $this->idNumTable($table));
         }
 
@@ -243,18 +244,15 @@ class InsertBD extends \Classes\ReadBD{
 
                 $this->conectBD()->rollBack();
 
-                throw new \Exception("ERRO: " . implode(" ", $sql->errorInfo())."COMANDO: ".$comando);
+                throw new \Exception("ERRO: " . implode(" ", $sql->errorInfo()));
 
             }
 
         } catch (\Exception $e) {
 
-            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile(),"COMANDO: ".$comando,"VALOR: " => $values);
 
         }
-
-
-        
     }
     
     public function implantDataDB(){
@@ -264,69 +262,196 @@ class InsertBD extends \Classes\ReadBD{
         $emp = $arrayDadosXml["empresa"];
         $ic = $arrayDadosXml["ic"];
         $sumario = $arrayDadosXml["sumario"];
+        $prioridade = $arrayDadosXml["prioridade"];
+        $grupoDesignado = $arrayDadosXml["grupo"];
+        $criado = $arrayDadosXml["criado"];
+        $resolvido = $arrayDadosXml["resolvido"];
+        $descricaoProblema = $arrayDadosXml["nota"];
+        $descricaoResolvido = $arrayDadosXml["resolucao"];
         
         $incidentes = $this->analiseIncidenteDB();
 
-        foreach ($incidentes as $incident){
-            $keySearch[] = array_search($incident, $inc);
-        }
-
-        if (isset($keySearch)) {
-
-            foreach ($keySearch as $key => $ks) {
-                if ($this->tryDataDB('tb_empresa', 'descricao', $emp[$ks])) {
-
-                    $empresa[] = $this->idReturn('tb_empresa', 'descricao', $emp[$ks]);
-
-                }else{
-
-                    $this->insertIntoData('tb_empresa',$emp[$ks]);
-
-                    $empresa[] = $this->idReturn('tb_empresa', 'descricao', $emp[$ks]);
-
-                }
+        if ($incidentes != false) {
+            foreach ($incidentes as $incident) {
+                $keySearch[] = array_search($incident, $inc);
             }
 
-            if (isset($empresa)) {
+            if (isset($keySearch)) {
 
                 foreach ($keySearch as $key => $ks) {
-                    if ($this->tryDataDB('tb_ic', 'descricao', $ic[$ks])) {
+                    if ($this->tryDataDB('tb_empresa', 'descricao', $emp[$ks])) {
 
-                        $idIC[] = $this->idReturn('tb_ic', 'descricao', $ic[$ks]);
+                        $empresa[] = $this->idReturn('tb_empresa', 'descricao', $emp[$ks]);
 
-                    }else{
+                    } else {
 
-                        $this->insertIntoData('tb_ic',$ic[$ks]);
+                        $testeErro["EMPRESA"][] = $this->insertIntoData('tb_empresa', $emp[$ks]);
 
-                        $idIC[] = $this->idReturn('tb_ic', 'descricao', $ic[$ks]);
+                        $empresa[] = $this->idReturn('tb_empresa', 'descricao', $emp[$ks]);
 
                     }
                 }
 
-                if(isset($idIC)){
+                if (isset($empresa)) {
 
-                    /*foreach ($keySearch as $key => $ks) {
-                        if ($this->tryDataDB('tb_sumario', 'descricao', $sumario[$ks])) {
+                    foreach ($keySearch as $key => $ks) {
+                        if ($this->tryDataDB('tb_ic', 'descricao', $ic[$ks])) {
 
-                            $sum[] = $this->idReturn('tb_sumario', 'descricao', $sumario[$ks]);
+                            $idIC[] = $this->idReturn('tb_ic', 'descricao', $ic[$ks]);
 
-                        }else{
+                        } else {
 
-                            $this->insertIntoData('tb_sumario',$ic[$ks]);
+                            $testeErro["IC"][] = $this->insertIntoData('tb_ic', $ic[$ks]);
 
-                            $sum[] = $this->idReturn('tb_sumario', 'descricao', $sumario[$ks]);
+                            $idIC[] = $this->idReturn('tb_ic', 'descricao', $ic[$ks]);
 
                         }
-                    }*/
-
-                    if(isset($sum)){
-                        return $this->idNumTable('tb_sumario');
                     }
+
+                    if (isset($idIC)) {
+
+                        foreach ($keySearch as $key => $ks) {
+                            if ($this->tryDataDB('tb_sumario', 'descricao', $sumario[$ks])) {
+
+                                $sum[] = $this->idReturn('tb_sumario', 'descricao', $sumario[$ks]);
+
+                            } else {
+
+                                $testeErro["SUMARIO"][] = $this->insertIntoData('tb_sumario', $sumario[$ks]);
+
+                                $sum[] = $this->idReturn('tb_sumario', 'descricao', $sumario[$ks]);
+
+                            }
+                        }
+
+                        if (isset($sum)) {
+
+                            foreach ($keySearch as $key => $ks) {
+                                if ($this->tryDataDB('tb_prioridade', 'pri_descricao', $prioridade[$ks])) {
+
+                                    $prio[] = $this->idReturn('tb_prioridade', 'pri_descricao', $prioridade[$ks]);
+
+                                } else {
+
+                                    $testeErro["PRIORIDADE"][] = $this->insertIntoData('tb_prioridade', $prioridade[$ks]);
+
+                                    $prio[] = $this->idReturn('tb_prioridade', 'pri_descricao', $prioridade[$ks]);
+
+                                }
+                            }
+
+                            if (isset($prio)) {
+
+                                foreach ($keySearch as $key => $ks) {
+                                    if ($this->tryDataDB('tb_grupo_designado', 'grupo', $grupoDesignado[$ks])) {
+
+                                        $grupo[] = $this->idReturn('tb_grupo_designado', 'grupo', $grupoDesignado[$ks]);
+
+                                    } else {
+
+                                        $testeErro["GRUPO_DESIGNADO"][] = $this->insertIntoData('tb_grupo_designado', array($grupoDesignado[$ks], $empresa[$key]));
+
+                                        $grupo[] = $this->idReturn('tb_grupo_designado', 'grupo', $grupoDesignado[$ks]);
+
+                                    }
+                                }
+
+                                if (isset($grupo)) {
+                                    try {
+
+                                        $data = new \DateTime();
+                                        $now = new \DateTime('now');
+
+                                        foreach ($keySearch as $key => $ks) {
+                                            if ($this->tryDataDB('tb_ocorrencia', 'incidente', $incidentes[$key])) {
+                                                $testeErro["OCORRENCIA"][] = true;
+                                            } else {
+                                                $cr = $data->createFromFormat("d/m/Y H:i:s",$criado[$ks]);
+                                                $rs = $data->createFromFormat("d/m/Y H:i:s",$resolvido[$ks]);
+
+                                                $testeErro["OCORRENCIA"][] = $this->insertIntoData(
+                                                    'tb_ocorrencia',
+                                                    array(
+                                                        $incidentes[$key],
+                                                        $cr->format("Y-m-d H:i:s"),
+                                                        $rs->format("Y-m-d H:i:s"),
+                                                        $descricaoProblema[$ks],
+                                                        $descricaoResolvido[$ks],
+                                                        $grupo[$key],
+                                                        $idIC[$key],
+                                                        $prio[$key],
+                                                        $sum[$key],
+                                                        $now->format("Y-m-d H:i:s")
+                                                    )
+                                                );
+                                            }
+                                        }
+
+                                        if (isset($testeErro)) {
+
+                                            if (in_array(true, $testeErro["OCORRENCIA"])) {
+
+                                                if (unlink($this->getArquivosXml())) {
+
+                                                    return "Base foi atualizada!! Arquivo ".$this->getArquivosXml()." Excluído!";
+
+                                                }else{
+
+                                                    return "Base foi atualizada!! Erro na Exclusão do Arquivo ".$this->getArquivosXml();
+
+                                                }
+                                            }
+
+                                        } else {
+
+                                            throw new \Exception("ERRO: Variavel testeErro encontra-se sem valores!");
+
+                                        }
+
+                                    } catch (\Exception $e) {
+                                        return array("ERRO: " . $e->getMessage(), "Linha: " . $e->getLine(), "Arquivos: " . $e->getFile());
+                                    }
+                                } else {
+
+                                    throw new \Exception("ERRO: Variavel Grupo encontra-se sem valores!");
+
+                                }
+                            } else {
+
+                                throw new \Exception("ERRO: Variavel prioridade encontra-se sem valores!");
+
+                            }
+                        } else {
+
+                            throw new \Exception("ERRO: Variavel sum encontra-se sem valores!");
+
+                        }
+
+                    }else {
+
+                        throw new \Exception("ERRO: Variavel idIC encontra-se sem valores!");
+
+                    }
+
+                }else {
+
+                    throw new \Exception("ERRO: Variavel empresa encontra-se sem valores!");
 
                 }
 
-            }
 
+            }else {
+
+                throw new \Exception("ERRO: Variavel keySearch encontra-se sem valores!");
+
+            }
+        } else {
+
+            if (unlink($this->getArquivosXml())) {
+                return "Atualização da base já foi realizada!! Arquivo ".$this->getArquivosXml()." Excluído!";
+            }else{
+                return "Atualização da base já foi realizada!! Erro na Exclusão do Arquivo ".$this->getArquivosXml();
+            }
 
         }
         

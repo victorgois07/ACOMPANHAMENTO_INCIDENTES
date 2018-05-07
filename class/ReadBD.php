@@ -50,20 +50,28 @@ class ReadBD extends ConectBD{
 
                             $diff = array_diff($inc, $intersect);
 
-                            foreach ($diff as $item) {
+                            if (!empty($diff)) {
+                                
+                                foreach ($diff as $item) {
 
-                                $df[] = $item;
+                                    $df[] = $item;
 
-                            }
+                                }
 
-                            if (isset($df)) {
+                                if (isset($df)) {
 
-                                return $df;
+                                    return $df;
 
-                            }else{
+                                } else {
 
-                                throw new \Exception("ERRO: Variavel df encontra-se sem valores!");
+                                    throw new \Exception("ERRO: Variavel df encontra-se sem valores! ");
 
+                                }
+                                
+                            } else {
+                                
+                                return false;
+                                
                             }
 
                         }else{

@@ -4,10 +4,7 @@
 
     $insert = new \Classes\InsertBD();
 
-    echo json_encode($insert->implantDataDB());
-    header('Content-Type: application/json');
-
-    /*$date = new \DateTime('now');
+    $date = new \DateTime('now');
 
     $_GET["m"] = !empty($_GET["m"])?$_GET["m"]:$date->format("Y-m");
 
@@ -51,6 +48,6 @@
             echo json_encode($json, JSON_UNESCAPED_UNICODE);
             header('Content-Type: application/json');
         }
-    }*/
+    }
 
 ?>
