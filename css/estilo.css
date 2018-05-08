@@ -120,7 +120,6 @@ table#tableModalDados tr, table#tableModalDados th{
 #modalTableData .modal-dialog {
     max-width: 100%;
     margin: 10px;
-    height: 97%;
 }
 
 #modalTableData .modal-body{

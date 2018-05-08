@@ -486,7 +486,9 @@ class InsertBD extends \Classes\ReadBD{
                 }
             } else {
 
-                throw new \Exception("ERRO: Faltam colunas na planilha XML");
+                $col = array("ID do Incidente*+","ID da Solicitação","Nome*+","Nome do Meio","Sumário*","Status*","Criado em","Site+","Prioridade*","Data da Última Resolução","Data de Fechamento","IC+","Empresa*+","Grupo Designado*+","Empresa de Suporte*","Grupo Proprietário+","Empresa de Suporte do Proprietário","Organização de Suporte*","Notas","Modificado por","Nível de Categorização do Produto 3","Resolução");
+
+                throw new \Exception("ERRO: Faltam colunas na planilha XML!! \n".implode(" , ",$col));
 
             }
         } catch (\Exception $e) {

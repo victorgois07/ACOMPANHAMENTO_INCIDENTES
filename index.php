@@ -163,7 +163,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div id="modalBodyTable" class="modal-body"></div>
+                    <div id="modalBodyTable" class="modal-body d-flex justify-content-center"></div>
                 </div>
             </div>
         </div>
