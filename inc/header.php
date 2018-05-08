@@ -10,4 +10,5 @@
 	<link rel="stylesheet" href="lib/dynatable/jquery.dynatable.css">
     <link rel="stylesheet" href="lib/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="lib/jqueryconfirm/jquery-confirm.min.css">
 </head>

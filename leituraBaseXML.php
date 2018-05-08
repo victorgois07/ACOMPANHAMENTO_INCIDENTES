@@ -23,6 +23,17 @@
 
                     $insert = new \Classes\InsertBD();
 
+                    $insert->parser->loadFile($insert->getArquivosXml());
+
+                    $foo = $insert->parser->getField();
+
+                    $dado = explode("/",$insert->getArquivosXml());
+                    $ex = explode(".",$dado[1]);
+
+                    $criar = fopen("json/".$ex[0].".json","a");
+
+                    fwrite($criar,json_encode($foo));
+
                     $mensagem[] = $insert->implantDataDB();
 
                     echo json_encode(implode(" | ", $mensagem));

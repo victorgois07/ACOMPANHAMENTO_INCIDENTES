@@ -101,14 +101,10 @@
 
                             <br/>
 
-                            <button id="buttonModalSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit"><i class="fa fa-share-square-o"></i> Cadastra</button>
+                            <button id="buttonModalSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit"><i class="fas fa-search"></i> Visualizar</button>
 
                         </form>
 
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -116,6 +112,18 @@
                 <div id="modalContentTable" class="modal-content d-none">
 
                     <img id="imgClose" src="img/error.png">
+
+                    <form id="formExtracaoView" method="post" target="_blank" action="extracao.php">
+
+                        <input type="hidden" id="dados_a_enviar_view" name="dados_a_enviar" />
+
+                        <button id="aExtracaoView" class="btn btn-primary" type="submit">
+
+                            <i class="fa fa-upload" aria-hidden="true"></i>
+
+                        </button>
+
+                    </form>
 
                     <div id="containerTableInfo2" class="container-fluid">
 
