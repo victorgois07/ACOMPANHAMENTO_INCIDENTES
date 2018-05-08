@@ -41,6 +41,112 @@ function nomeData(v) {
     }
 }
 
+function dataNome(v) {
+    switch (v){
+        case "JANEIRO":
+            return "01";
+            break;
+        case "FEVEREIRO":
+            return "02";
+            break;
+        case "MARÇO":
+            return "03";
+            break;
+        case "ABRIL":
+            return "04";
+            break;
+        case "MAIO":
+            return "05";
+            break;
+        case "JUNHO":
+            return "06";
+            break;
+        case "JULHO":
+            return "07";
+            break;
+        case "AGOSTO":
+            return "08";
+            break;
+        case "SETEMBRO":
+            return "09";
+            break;
+        case "OUTUBRO":
+            return "10";
+            break;
+        case "NOVEMBRO":
+            return "11";
+            break;
+        case "DEZEMBRO":
+            return "12";
+            break;
+    }
+}
+
+function modalQuantidadeTableModal() {
+    var tab = [], le = $("tbody#bodyTable tr").length;
+    var string;
+    var tableData;
+
+    for(var i=0; i <= le; i++){
+        string = $("tbody#bodyTable tr:nth-child("+i+")").text().split("h");
+        if (i < le) {
+            tab[i] = ("td_"+string[0] + "h").replace(" ", "_").replace("_a ", "_a_");
+        } else {
+            tab[i] = "td_total";
+        }
+    }
+
+    for (var j=0; j <= le; j++){
+        tableData = $("table#tableIncidentes tbody tr:nth-child("+j+")").children("td:nth-child(2)").map(function()         {
+            return $(this).attr('id',tab[j]);
+        }).get();
+    }
+
+    var dt = $("div#containerTableInfo h2").text().split("/");
+
+    var nDT = dt[1]+"-"+dataNome(dt[0]);
+    
+    $("table#tableIncidentes tbody tr").children("td:nth-child(2)")
+        .on("click", function () {
+
+            $.ajax({
+                    type : 'get',
+                    url : 'dataModalIncidentes.php',
+                    data : {mes: nDT, ate: $(this).attr('id')},
+                    beforeSend: function(){
+                        $("div#loaderModal").removeClass("d-none");
+                    },
+                    success: function (data) {
+                        $("body").off("load");
+                        $("div#loaderModal").addClass("d-none").delay(2000).fadeOut("slow");
+                        $("div#modalTableData").modal('show');
+                        $("div#modalBodyTable").html(data);
+                        $('#tableModalDados').dynatable({
+                            features: {
+                                paginate: false,
+                                sort: false,
+                                pushState: false,
+                                search: false,
+                                recordCount: false,
+                                perPageSelect: false
+                            },
+                            columns:[{
+                                text: 'Criado em',
+                                dataIndex: 'criadoEm',
+                                width: 80
+                            }]
+                        });
+                    }
+            });
+            
+        })
+        .css("cursor","pointer");
+
+
+    
+
+}
+
 
 $(document).ready(function () {
 
@@ -66,6 +172,8 @@ $(document).ready(function () {
         });
         $("table#tableIncidentes tbody tr:last-child td:nth-child(3)").attr('colspan',"2");
         $("table#tableIncidentes tbody tr:last-child td:nth-child(4)").remove();
+
+        modalQuantidadeTableModal();
     });
     
     $("a#buttonReadBaseAtual").on("click", function () {
@@ -243,4 +351,6 @@ $(document).ready(function () {
 
         event.preventDefault();
     })
+
+
 });

@@ -1,6 +1,6 @@
 <?php require_once "inc/header.php"; ?>
 
-    <body>
+    <body onload="setInterval(function() { window.location.reload('true')},180000)">
         <?php
             require_once "class/ManipulacaoDados.php";
             $txtData = new ManipulacaoDados();
@@ -20,7 +20,7 @@
                         <th>Acumulado</th>
                     </tr>
                 </thead>
-                <tbody class="text-center"></tbody>
+                <tbody id="bodyTable" class="text-center"></tbody>
             </table>
         </div>
 
@@ -152,6 +152,20 @@
 
             </div>
 
+        </div>
+
+        <div id="modalTableData" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog d-flex align-items-center" role="document">
+                <div id="modalContentDataTable" class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Incidentes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div id="modalBodyTable" class="modal-body"></div>
+                </div>
+            </div>
         </div>
 
         <div id="loader"></div>

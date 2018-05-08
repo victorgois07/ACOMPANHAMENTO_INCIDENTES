@@ -263,6 +263,60 @@ class ReadBD extends ConectBD{
         }
         
     }
+    
+    public function dadosModalQuantidadeIncidente($tipo, $mes){
+
+        try {
+            
+            switch ($tipo) {
+                case "td_Até_2h":
+                    $sql = $this->conectBD()->prepare("SELECT o.incidente, o.criado, o.resolucao, o.descricao_problema, o.descricao_solucao, d.grupo, i.descricao, p.pri_descricao, s.descricao, e.descricao FROM tb_ocorrencia o inner join tb_grupo_designado d on o.fk_grupo_designado = d.id_grupo_designado inner join tb_ic i on o.fk_ic = i.id_ic inner join tb_prioridade p on p.id_prioridade = o.fk_prioridade inner join tb_sumario s on s.id_sumario = o.fk_sumario inner join tb_empresa e on e.id_empresa = d.fk_empresa WHERE o.resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) <= 7200");
+                    break;
+                case "td_Até_4h":
+                    $sql = $this->conectBD()->prepare("SELECT o.incidente, o.criado, o.resolucao, o.descricao_problema, o.descricao_solucao, d.grupo, i.descricao, p.pri_descricao, s.descricao, e.descricao FROM tb_ocorrencia o inner join tb_grupo_designado d on o.fk_grupo_designado = d.id_grupo_designado inner join tb_ic i on o.fk_ic = i.id_ic inner join tb_prioridade p on p.id_prioridade = o.fk_prioridade inner join tb_sumario s on s.id_sumario = o.fk_sumario inner join tb_empresa e on e.id_empresa = d.fk_empresa WHERE o.resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) <= 14400 AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) > 7200");
+                    break;
+                case "td_Até_6h":
+                    $sql = $this->conectBD()->prepare("SELECT o.incidente, o.criado, o.resolucao, o.descricao_problema, o.descricao_solucao, d.grupo, i.descricao, p.pri_descricao, s.descricao, e.descricao FROM tb_ocorrencia o inner join tb_grupo_designado d on o.fk_grupo_designado = d.id_grupo_designado inner join tb_ic i on o.fk_ic = i.id_ic inner join tb_prioridade p on p.id_prioridade = o.fk_prioridade inner join tb_sumario s on s.id_sumario = o.fk_sumario inner join tb_empresa e on e.id_empresa = d.fk_empresa WHERE o.resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, criado,resolucao) <= 21600 AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) > 14400");
+                    break;
+                case "td_Até_8h":
+                    $sql = $this->conectBD()->prepare("SELECT o.incidente, o.criado, o.resolucao, o.descricao_problema, o.descricao_solucao, d.grupo, i.descricao, p.pri_descricao, s.descricao, e.descricao FROM tb_ocorrencia o inner join tb_grupo_designado d on o.fk_grupo_designado = d.id_grupo_designado inner join tb_ic i on o.fk_ic = i.id_ic inner join tb_prioridade p on p.id_prioridade = o.fk_prioridade inner join tb_sumario s on s.id_sumario = o.fk_sumario inner join tb_empresa e on e.id_empresa = d.fk_empresa WHERE o.resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) <= 28800 AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) > 21600");
+                    break;
+                case "td_Superior_a_8h":
+                    $sql = $this->conectBD()->prepare("SELECT o.incidente, o.criado, o.resolucao, o.descricao_problema, o.descricao_solucao, d.grupo, i.descricao, p.pri_descricao, s.descricao, e.descricao FROM tb_ocorrencia o inner join tb_grupo_designado d on o.fk_grupo_designado = d.id_grupo_designado inner join tb_ic i on o.fk_ic = i.id_ic inner join tb_prioridade p on p.id_prioridade = o.fk_prioridade inner join tb_sumario s on s.id_sumario = o.fk_sumario inner join tb_empresa e on e.id_empresa = d.fk_empresa WHERE o.resolucao LIKE '" . $mes . "-%' AND TIMESTAMPDIFF(SECOND, o.criado,o.resolucao) > 28800");
+                    break;
+                case "td_total":
+                    $sql = $this->conectBD()->prepare("SELECT o.incidente, o.criado, o.resolucao, o.descricao_problema, o.descricao_solucao, d.grupo, i.descricao, p.pri_descricao, s.descricao, e.descricao FROM tb_ocorrencia o inner join tb_grupo_designado d on o.fk_grupo_designado = d.id_grupo_designado inner join tb_ic i on o.fk_ic = i.id_ic inner join tb_prioridade p on p.id_prioridade = o.fk_prioridade inner join tb_sumario s on s.id_sumario = o.fk_sumario inner join tb_empresa e on e.id_empresa = d.fk_empresa WHERE o.resolucao LIKE '" . $mes . "-%'");
+                    break;
+            }
+
+            if (isset($sql)) {
+                
+                if ($sql->execute()) {
+                    
+                    return $sql->fetchAll(\PDO::FETCH_NUM);
+                    
+                } else {
+                    
+                    throw new \Exception("ERRO: ".implode(" ",$sql->errorInfo()));
+                    
+                }
+                
+            }else{
+
+                throw new \Exception("ERRO: Variavel sql encontra-se vazia!");
+                
+            }
+            
+        } catch (\Exception $e) {
+
+            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
+            
+        }
+        
+        
+
+        
+    }
 }
 
 ?>
