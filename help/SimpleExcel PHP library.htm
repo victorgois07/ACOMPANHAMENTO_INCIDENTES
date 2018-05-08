@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="author" content="Faisalman">
+    <meta name="description" content="Simple Excel is a lightweight PHP library with simplistic approach for parsing/converting/writing tabular data from/to Microsoft Excel XML/CSV/TSV/HTML/JSON format">
+    <meta name="keywords" content="php, library, microsoft, excel, xml, csv, tsv, html, json, parser, writer">
+
+    <title>SimpleExcel PHP library</title>
+
+    <link rel="stylesheet" href="SimpleExcel%20PHP%20library_files/github.css">
+    <link href="SimpleExcel%20PHP%20library_files/css.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        body {
+          margin: 70px auto;
+          background: #f9f9f9;
+          font-family: 'Hammersmith One', Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #444;
+          text-shadow: 0 0 1px #fff;
+        }
+        #container {
+          margin: 0 auto;
+          width: 960px;
+        }
+        h1, h2, h3 { font-family: 'Hammersmith One',Helvetica, Arial, sans-serif; }
+        h1 { font-size: 3.8em; color: #333; margin-bottom: 3px; text-shadow: 1px 1px 2px #fff; }
+        h1 .small { font-size: 0.5em; }
+        h1 a { text-decoration: none }
+        h2 { font-size: 2em; color: #333; margin: 40px 0 10px; text-shadow: 1px 1px 2px #fff; }
+        h3 { font-size: 1.6em; color: #333; text-shadow: 1px 1px 2px #fff; }
+        a { color: #333; text-shadow: 1px 1px 2px #fff; }
+        .description { font-size: 1em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+        .download { position: relative; }
+        pre, code { font-family: 'Ubuntu Mono', monospace; }
+        pre { background: #eee; color: #333; padding: 5px; text-shadow: none; overflow: auto}
+        hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+        .footer { text-align:center; padding-top:30px; font-style: italic; }
+        li h3 { font-size: 1.2em; margin-top: 20px; }
+        li p { margin: 5px 0 5px 0; }
+    </style><style>@media print {#ghostery-purple-box {display:none !important}}</style>
+    <script async="" src="SimpleExcel%20PHP%20library_files/analytics.js"></script><script type="text/javascript" src="SimpleExcel%20PHP%20library_files/highlight.js"></script>
+    <script type="text/javascript">
+        hljs.tabReplace = '    ';
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+  <a href="http://github.com/faisalman/simple-excel-php"><img style="position: absolute; top: 0; right: 0; border: 0;" src="SimpleExcel%20PHP%20library_files/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+  <div id="container">
+
+    <h1><a href="http://faisalman.github.com/simple-excel-php">SimpleExcel
+      <span class="small">PHP</span></a></h1>
+
+    <div class="description">
+      A lightweight PHP library with simplistic approach for 
+parsing/converting/writing tabular data from/to Microsoft Excel 
+XML/CSV/TSV/HTML/JSON format
+    </div>
+
+    <h2>Download</h2>
+    <div class="download">
+      <a href="http://github.com/faisalman/simple-excel-php/zipball/master">
+        <img src="SimpleExcel%20PHP%20library_files/zip.png" width="90" border="0"></a>
+      <a href="http://github.com/faisalman/simple-excel-php/tarball/master">
+        <img src="SimpleExcel%20PHP%20library_files/tar.png" width="90" border="0"></a>
+    </div>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/faisalman/simple-excel-php/zipball/master">ZIP</a> or
+      <a href="http://github.com/faisalman/simple-excel-php/tarball/master">TAR</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com/">Git</a>
+      by running:
+      </p><pre><code class="php">$ git <span class="keyword">clone</span> git:<span class="comment">//github.com/faisalman/simple-excel-php</span></code></pre>
+    <p></p>
+    <p>
+      Note: If you're using <a href="http://getcomposer.org/" target="_blank">Composer</a> to manage libraries for your PHP project, just include <a href="https://packagist.org/packages/faisalman/simple-excel-php" target="_blank">this package</a> in composer.json
+      </p><pre><code class="undefined"><em>"require": {
+    "faisalman/simple-excel-php": "0.3.*"
+}</em></code></pre>
+    <p></p>
+<h2>Authors</h2>
+<ul><li>Faisalman &lt;fyzlman@gmail.com&gt;</li></ul>
+<h2>Latest Version</h2>
+<p>v0.3.12</p>
+<h2>Features</h2>
+<ul>
+<li>Parsing Microsoft Excel XML/CSV/TSV/HTML/JSON</li>
+<li>Writing Microsoft Excel XML/CSV/TSV/HTML/JSON</li>
+</ul>
+<h2>Dependencies</h2>
+<ul><li>PHP &gt;= 5.3.0</li></ul>
+<h2>Install</h2>
+<p>If you're not using autoloader, just load this library in your PHP project by including <code>SimpleExcel.php</code></p>
+<pre><code class="php"><span class="keyword">require_once</span>(<span class="string">'../your/project/directory/here/lib/SimpleExcel/SimpleExcel.php'</span>);</code></pre>
+<h2>Usage Example</h2>
+Parsing an Excel 2003 XML file, simplified:
+<pre><code class="php">
+<span class="preprocessor">&lt;?php</span>
+
+<span class="keyword">use</span> SimpleExcel\SimpleExcel;
+
+<span class="keyword">require_once</span>(<span class="string">'../your/project/directory/here/lib/SimpleExcel/SimpleExcel.php'</span>); <span class="comment">// load the main class file (if you're not using autoloader)</span>
+
+<span class="variable">$excel</span> = <span class="keyword">new</span> SimpleExcel(<span class="string">'xml'</span>);                    <span class="comment">// instantiate new object (will automatically construct the parser &amp; writer type as XML)</span>
+
+<span class="variable">$excel</span>-&gt;parser-&gt;loadFile(<span class="string">'example.xml'</span>);            <span class="comment">// load an XML file from server to be parsed</span>
+
+<span class="variable">$foo</span> = <span class="variable">$excel</span>-&gt;parser-&gt;getField();                  <span class="comment">// get complete array of the table</span>
+<span class="variable">$bar</span> = <span class="variable">$excel</span>-&gt;parser-&gt;getRow(<span class="number">3</span>);                   <span class="comment">// get specific array from the specified row (3rd row)</span>
+<span class="variable">$baz</span> = <span class="variable">$excel</span>-&gt;parser-&gt;getColumn(<span class="number">4</span>);                <span class="comment">// get specific array from the specified column (4th row)</span>
+<span class="variable">$qux</span> = <span class="variable">$excel</span>-&gt;parser-&gt;getCell(<span class="number">2</span>,<span class="number">1</span>);                <span class="comment">// get specific data from the specified cell (2nd row in 1st column)</span>
+
+<span class="keyword">echo</span> <span class="string">'&lt;pre&gt;'</span>;
+print_r(<span class="variable">$foo</span>);                                      <span class="comment">// echo the array</span>
+<span class="keyword">echo</span> <span class="string">'&lt;/pre&gt;'</span>;
+
+<span class="preprocessor">?&gt;</span>
+</code></pre>
+Writing an Excel 2003 XML file, simplified:
+<pre><code class="php">
+<span class="preprocessor">&lt;?php</span>
+
+<span class="comment">/**
+ * Warning: note that there must be no data sent to browser
+ * (be it an echo, HTML element, or even a whitespace)
+ * <u>before</u> the writer-&gt;saveFile() method get called
+ */</span>
+ 
+<span class="keyword">use</span> SimpleExcel\SimpleExcel;
+
+<span class="keyword">require_once</span>(<span class="string">'../your/project/directory/here/lib/SimpleExcel/SimpleExcel.php'</span>); <span class="comment">// load the main class file (if you're not using autoloader)</span>
+
+<span class="variable">$excel</span> = <span class="keyword">new</span> SimpleExcel(<span class="string">'xml'</span>);                    <span class="comment">// instantiate new object (will automatically construct the parser &amp; writer type as XML)</span>
+
+<span class="variable">$excel</span>-&gt;writer-&gt;setData(
+    <span class="keyword">array</span>
+    (
+        <span class="keyword">array</span>(<span class="string">'ID'</span>,  <span class="string">'Name'</span>,            <span class="string">'Kode'</span>  ),
+        <span class="keyword">array</span>(<span class="string">'1'</span>,   <span class="string">'Kab. Bogor'</span>,       <span class="string">'1'</span>    ),
+        <span class="keyword">array</span>(<span class="string">'2'</span>,   <span class="string">'Kab. Cianjur'</span>,     <span class="string">'1'</span>    ),
+        <span class="keyword">array</span>(<span class="string">'3'</span>,   <span class="string">'Kab. Sukabumi'</span>,    <span class="string">'1'</span>    ),
+        <span class="keyword">array</span>(<span class="string">'4'</span>,   <span class="string">'Kab. Tasikmalaya'</span>, <span class="string">'2'</span>    )
+    )
+);                                                  <span class="comment">// add some data to the writer</span>
+<span class="variable">$excel</span>-&gt;writer-&gt;saveFile(<span class="string">'example'</span>);                <span class="comment">// save the file with specified name (example.xml) </span>
+                                                    <span class="comment">// and specified target (default to browser)</span>
+
+<span class="preprocessor">?&gt;</span>
+</code></pre>
+
+Writing a CSV file, simplified:
+<pre><code class="php">
+<span class="preprocessor">&lt;?php</span>
+
+<span class="comment">/**
+ * Warning: note that there must be no data sent to browser
+ * (be it an echo, HTML element, or even a whitespace)
+ * <u>before</u> the writer-&gt;saveFile() method get called
+ */</span>
+ 
+<span class="keyword">use</span> SimpleExcel\SimpleExcel;
+
+<span class="keyword">require_once</span>(<span class="string">'../your/project/directory/here/lib/SimpleExcel/SimpleExcel.php'</span>); <span class="comment">// load the main class file (if you're not using autoloader)</span>
+
+<span class="variable">$excel</span> = <span class="keyword">new</span> SimpleExcel(<span class="string">'csv'</span>);                    <span class="comment">// instantiate new object (will automatically construct the parser &amp; writer type as CSV)</span>
+
+<span class="variable">$excel</span>-&gt;writer-&gt;setData(
+    <span class="keyword">array</span>
+    (
+        <span class="keyword">array</span>(<span class="string">'ID'</span>,  <span class="string">'Name'</span>,            <span class="string">'Kode'</span>  ),
+        <span class="keyword">array</span>(<span class="string">'1'</span>,   <span class="string">'Kab. Bogor'</span>,       <span class="string">'1'</span>    ),
+        <span class="keyword">array</span>(<span class="string">'2'</span>,   <span class="string">'Kab. Cianjur'</span>,     <span class="string">'1'</span>    ),
+        <span class="keyword">array</span>(<span class="string">'3'</span>,   <span class="string">'Kab. Sukabumi'</span>,    <span class="string">'1'</span>    ),
+        <span class="keyword">array</span>(<span class="string">'4'</span>,   <span class="string">'Kab. Tasikmalaya'</span>, <span class="string">'2'</span>    )
+    )
+);                                                  <span class="comment">// add some data to the writer</span>
+<span class="variable">$excel</span>-&gt;writer-&gt;setDelimiter(<span class="string">";"</span>);                  <span class="comment">// (optional) if delimiter not set, by default comma (",") will be used instead</span>
+<span class="variable">$excel</span>-&gt;writer-&gt;saveFile(<span class="string">'example'</span>);                <span class="comment">// save the file with specified name (example.csv) </span>
+                                                    <span class="comment">// and specified target (default to browser)</span>
+
+<span class="preprocessor">?&gt;</span>
+</code></pre>
+
+Convert CSV file to Excel 2003 XML file, simplified:
+<pre><code class="php">
+<span class="preprocessor">&lt;?php</span>
+
+<span class="comment">/**
+ * Warning: note that there must be no data sent to browser
+ * (be it an echo, HTML element, or even a whitespace)
+ * <u>before</u> the writer-&gt;saveFile() method get called
+ */</span>
+ 
+<span class="keyword">use</span> SimpleExcel\SimpleExcel;
+
+<span class="keyword">require_once</span>(<span class="string">'../your/project/directory/here/lib/SimpleExcel/SimpleExcel.php'</span>); <span class="comment">// load the main class file (if you're not using autoloader)</span>
+
+<span class="variable">$excel</span> = <span class="keyword">new</span> SimpleExcel(<span class="string">'csv'</span>);                    <span class="comment">// instantiate new object (will automatically construct the parser &amp; writer type as CSV)</span>
+
+<span class="variable">$excel</span>-&gt;parser-&gt;loadFile(<span class="string">'example.csv'</span>);            <span class="comment">// load a CSV file from server to be parsed</span>
+<span class="variable">$excel</span>-&gt;convertTo(<span class="string">'xml'</span>);                           <span class="comment">// transfer data from parser to writer and change the writer type to XML</span>
+<span class="variable">$excel</span>-&gt;writer-&gt;saveFile(<span class="string">'example'</span>);                <span class="comment">// save the file with specified name (example.xml) </span>
+                                                    <span class="comment">// and specified target (default to browser)</span>
+
+<span class="preprocessor">?&gt;</span>
+</code></pre>
+
+<h2>API</h2>
+<h3>Constructor</h3>
+<ul>
+<li>
+<h3><pre><code class="php">constructParser(<span class="variable">$filetype</span>)</code></pre></h3>
+<p><em>Construct a SimpleExcel Parser. Valid filetype: XML/CSV/TSV/HTML/JSON</em></p>
+</li>
+<li>
+<h3><pre><code class="php">constructWriter(<span class="variable">$filetype</span>)</code></pre></h3>
+<p><em>Construct a SimpleExcel Writer. Valid filetype: XML/CSV/TSV/HTML/JSON</em></p>
+</li>
+</ul>
+<h3>Converter</h3>
+<ul>
+<li>
+<h3><pre><code class="php">convertTo(<span class="variable">$filetype</span>)</code></pre></h3>
+<p><em>Transferring data from parser to writer and then change the type of writer. Valid filetype: XML/CSV/TSV/HTML/JSON</em></p>
+</li>
+</ul>
+<h3>Parser</h3>
+<ul>
+<li>
+<h3><pre><code class="php">parser-&gt;getCell(<span class="variable">$row_num</span>, <span class="variable">$col_num</span>)</code></pre></h3>
+<p><em>Get value of the specified cell. Returns array</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;getColumn(<span class="variable">$col_num</span>)</code></pre></h3>
+<p><em>Get data of the specified column as an array. Returns array</em></p>
+</li>
+<li>
+<h3><pre><code class="undefined">parser-&gt;getField()</code></pre></h3>
+<p><em>Get data of all cells as an array. Returns array</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;getRow(<span class="variable">$row_num</span>)</code></pre></h3>
+<p><em>Get data of the specified row as an array. Returns array</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;isCellExists(<span class="variable">$row_num</span>, <span class="variable">$col_num</span>)</code></pre></h3>
+<p><em>Check whether the specified cell exists. Returns bool</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;isColumnExists(<span class="variable">$col_num</span>)</code></pre></h3>
+<p><em>Check whether the specified column exists. Returns bool</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;isRowExists(<span class="variable">$row_num</span>)</code></pre></h3>
+<p><em>Check whether the specified row exists. Returns bool</em></p>
+</li>
+<li>
+<h3><pre><code class="undefined">parser-&gt;isFieldExists()</code></pre></h3>
+<p><em>Check whether table exists. Returns bool</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;isFileReady(<span class="variable">$file_path</span>)</code></pre></h3>
+<p><em>Check whether file exists, valid, and readable. Returns bool</em></p>
+</li>
+<li>
+<h3><pre><code class="php">parser-&gt;loadFile(<span class="variable">$file_path</span>)</code></pre></h3>
+<p><em>Load the file to be parsed, if file exist and valid</em></p>
+</li>
+
+<li>
+<h3><pre><code class="php">parser-&gt;loadString(<span class="variable">$str</span>)</code></pre></h3>
+<p><em>Load the string which will be parsed</em></p>
+</li>
+<li>
+<h3><pre><code class="php">writer-&gt;setDelimiter(<span class="variable">$delimiter</span>)</code></pre></h3>
+<p><strong>[CSV only]</strong> <em>Set the delimiter character, if not set it will automatically determined</em></p>
+</li>
+</ul>
+<h3>Writer</h3>
+<ul>
+<li>
+<h3><pre><code class="php">writer-&gt;addRow(<span class="variable">$values</span>)</code></pre></h3>
+<p><em>Adding one row of data</em></p>
+</li>
+<li>
+<h3><pre><code class="undefined">writer-&gt;saveString()</code></pre></h3>
+<p><em>Get document content as string</em></p>
+</li>
+<li>
+<h3><pre><code class="php">writer-&gt;saveFile(<span class="variable">$filename</span>, <span class="variable">$target</span>)</code></pre></h3>
+<p><em>Export the document, default target to php://output</em></p>
+</li>
+<li>
+<h3><pre><code class="php">writer-&gt;setData(<span class="variable">$values</span>)</code></pre></h3>
+<p><em>Set the table data</em></p>
+</li>
+<li>
+<h3><pre><code class="php">writer-&gt;setDelimiter(<span class="variable">$delimiter</span>)</code></pre></h3>
+<p><strong>[CSV only]</strong> <em>Set the delimiter character, default is comma</em></p>
+</li>
+<li>
+<h3><pre><code class="php">writer-&gt;setDocProp(<span class="variable">$prop</span>, <span class="variable">$val</span>)</code></pre></h3>
+<p><strong>[XML only]</strong> <em>Set the document property</em></p>
+</li>
+</ul>
+<h2>Exception handling</h2>
+<p>Error codes can be found in <code>SimpleExcelException.php</code></p>
+<pre><code class="php"><span class="preprocessor">&lt;?php</span>
+
+<span class="keyword">use</span> SimpleExcel\SimpleExcel;
+
+<span class="keyword">require_once</span>(<span class="string">'../your/project/directory/here/lib/SimpleExcel/SimpleExcel.php'</span>); <span class="comment">// If not autoloaded</span>
+
+<span class="variable">$excel</span> = <span class="keyword">new</span> SimpleExcel(<span class="string">'csv'</span>);
+
+<span class="keyword">try</span> {
+    <span class="variable">$excel</span>-&gt;parser-&gt;loadFile(<span class="string">'inexistfile.csv'</span>);        <span class="comment">// Try load a file which doesn't actually exists</span>
+} <span class="keyword">catch</span> (<span class="keyword">Exception</span> <span class="variable">$e</span>) {    
+    <span class="comment">// handle exception here</span>
+    <span class="keyword">if</span> (<span class="variable">$e</span>-&gt;getCode() == SimpleExcelException::FILE_NOT_FOUND) {
+        <span class="keyword">echo</span> <span class="variable">$e</span>-&gt;getMessage();
+        <span class="keyword">echo</span> <span class="string">'Please try to load another file'</span>;
+    }
+}
+
+<span class="preprocessor">?&gt;</span>
+</code></pre>
+
+<h2>License</h2>
+<p>MIT License &nbsp; <a href="http://opensource.org/licenses/mit-license">http://opensource.org/licenses/mit-license</a></p>
+<pre><code class="php">
+Copyright (c) <span class="number">2011</span>-<span class="number">2012</span> Faisalman &lt;fyzlman@gmail.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of <span class="keyword">this</span> software <span class="keyword">and</span> associated documentation files (the <span class="string">"Software"</span>), to deal
+in the Software without restriction, including without limitation the rights
+to <span class="keyword">use</span>, copy, modify, merge, publish, distribute, sublicense, <span class="keyword">and</span>/<span class="keyword">or</span> sell
+copies of the Software, <span class="keyword">and</span> to permit persons to whom the Software is
+furnished to <span class="keyword">do</span> so, subject to the following conditions:
+
+The above copyright notice <span class="keyword">and</span> <span class="keyword">this</span> permission notice shall be included in
+all copies <span class="keyword">or</span> substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED <span class="string">"AS IS"</span>, WITHOUT WARRANTY OF ANY KIND, EXPRESS <span class="keyword">OR</span>
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS <span class="keyword">FOR</span> A PARTICULAR PURPOSE <span class="keyword">AND</span> NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS <span class="keyword">OR</span> COPYRIGHT HOLDERS BE LIABLE <span class="keyword">FOR</span> ANY CLAIM, DAMAGES <span class="keyword">OR</span> OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT <span class="keyword">OR</span> OTHERWISE, ARISING FROM,
+OUT OF <span class="keyword">OR</span> IN CONNECTION WITH THE SOFTWARE <span class="keyword">OR</span> THE <span class="keyword">USE</span> <span class="keyword">OR</span> OTHER DEALINGS IN
+THE SOFTWARE.
+</code></pre>
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/faisalman/simple-excel-php">faisalman/simple-excel-php</a>
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="SimpleExcel%20PHP%20library_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3767301-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga_logInst');ga_logInst('create', 'UA-60144933-24', 'auto');ga_logInst('set', 'pageview');ga_logInst('set', 'dimension1', '{e3d1');ga_logInst('set', 'dimension2', 'invalid-unknown');ga_logInst('set', 'dimension3', 'undefined');ga_logInst('send', {    hitType: 'pageview',    page: 'id={e3d1 id=undefined',    title: ' ins=unknown hmn=bot'});</script><iframe src="SimpleExcel%20PHP%20library_files/inst.htm" style="display:none"></iframe></body><div title="Google Translator Anywhere" class="itanywhere-activator" style="left: 275px; top: 1491px; display: none;"></div></html>

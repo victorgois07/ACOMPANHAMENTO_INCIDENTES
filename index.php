@@ -40,7 +40,7 @@
         <div id="divDropdown" class="btn-group">
 
             <button type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-reorder" aria-hidden="true"></i> OPÇÕES
+                <i class="fas fa-bars" aria-hidden="true"></i> OPÇÕES
             </button>
 
             <div class="dropdown-menu">
@@ -72,8 +72,8 @@
 
                         <form id="formUpload" action="" method="POST" enctype="multipart/form-data">
 
-                            <input type="file" id="fileInputData" name="fileInputData">
-                            <input type="button" id="btnEnviar" value="Enviar" />
+                            <input type="file" id="fileInputData" name="fileInputData" required>
+                            <input type="submit" id="btnEnviar" value="Upload"/>
 
                         </form>
 

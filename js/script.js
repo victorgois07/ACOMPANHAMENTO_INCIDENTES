@@ -172,8 +172,25 @@ $(document).ready(function () {
     });
 
     $("form#formUpload").on("submit", function (event) {
-
-
+        
+        $.ajax({
+            type: 'POST',
+            url: 'leituraBaseXML.php',
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData:false,
+            beforeSend: function(){
+                $("div#loaderModal").removeClass("d-none");
+            },
+            success: function(data){
+                $("div#loaderModal").addClass("d-none").delay(2000).fadeOut("slow");
+                console.log(data);
+            },
+            error: function (data) {
+                console.log(data)
+            }
+        });
 
         event.preventDefault();
     })

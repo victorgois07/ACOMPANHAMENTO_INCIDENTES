@@ -8,6 +8,6 @@
     <meta http-equiv="refresh" content="5000; url=index.php">
 	<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="lib/dynatable/jquery.dynatable.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
