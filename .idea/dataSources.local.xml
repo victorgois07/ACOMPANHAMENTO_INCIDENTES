@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - db_table_incidentes@localhost" uuid="ebc9978f-77f6-4195-8e0e-b7b0da4bbd34">
+    <data-source name="db_table_incidentes@localhost" uuid="24528be7-e673-456c-9b8b-78796d916114">
+      <database-info product="MySQL" version="5.5.5-10.1.26-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <schema-pattern>db_table_incidentes.*</schema-pattern>
-      <default-schemas>db_table_incidentes.*</default-schemas>
+      <introspection-schemas>*:db_table_incidentes</introspection-schemas>
     </data-source>
   </component>
 </project>

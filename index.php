@@ -1,6 +1,6 @@
 <?php require_once "inc/header.php"; ?>
 
-    <body onload="setInterval(function() { window.location.reload('true')},180000)">
+    <body onload="setInterval(function() { window.location.reload('true')},600000)">
         <?php
             require_once "class/ManipulacaoDados.php";
             $txtData = new ManipulacaoDados();

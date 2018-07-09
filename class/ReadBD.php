@@ -1,113 +1,9 @@
 <?php
 namespace Classes;
 
-require_once "ConectBD.php";
+require_once "ContructSql.php";
 
-class ReadBD extends ConectBD{
-
-    protected function analiseIncidenteDB(){
-
-        try {
-
-            $arrayDadosXml = $this->getContainerDataXml();
-            $inc = $arrayDadosXml["incidente"];
-            $incReplace = str_replace("INC00000", "", $inc);
-
-            foreach ($incReplace as $in) {
-                $twoString[] = $in[0] . $in[1];
-            }
-
-            if (isset($twoString)) {
-                $twoString = array_unique($twoString);
-
-                $comando = "SELECT incidente FROM `tb_ocorrencia` WHERE ";
-
-                foreach ($twoString as $k => $two) {
-                    $finalString[] = "INC00000" . $two . "%";
-
-                    if ((count($twoString) - 1) == $k) {
-                        $comando .= "incidente LIKE ? ORDER BY incidente";
-                    } else {
-                        $comando .= "incidente LIKE ? OR ";
-                    }
-                }
-
-                if (isset($finalString)) {
-
-                    $sql = $this->conectBD()->prepare($comando);
-
-                    if ($sql->execute($finalString)) {
-
-                        foreach ($sql->fetchAll(\PDO::FETCH_NUM) as $val) {
-
-                            $incDB[] = $val[0];
-
-                        }
-
-                        if (isset($incDB)) {
-
-                            $intersect = array_intersect($inc, $incDB);
-
-                            $diff = array_diff($inc, $intersect);
-
-                            if (!empty($diff)) {
-                                
-                                foreach ($diff as $item) {
-
-                                    $df[] = $item;
-
-                                }
-
-                                if (isset($df)) {
-
-                                    return $df;
-
-                                } else {
-
-                                    throw new \Exception("ERRO: Variavel df encontra-se sem valores! ");
-
-                                }
-                                
-                            } else {
-                                
-                                return false;
-                                
-                            }
-
-                        }else{
-
-                            throw new \Exception("ERRO: Variavel finalString encontra-se sem valores!");
-
-                        }
-
-                    } else {
-
-                        throw new \Exception("ERRO: ".implode(" ",$sql->errorInfo()));
-
-                    }
-
-
-
-                }else{
-
-                    throw new \Exception("ERRO: Variavel finalString encontra-se sem valores!");
-
-                }
-
-            }else{
-
-                throw new \Exception("ERRO: Variavel twoString encontra-se sem valores!");
-
-            }
-
-
-        } catch (\Exception $e) {
-
-            return array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile());
-
-        }
-        
-    }
+class ReadBD extends ContructSql {
 
     public function calculoTotal($mes){
 
@@ -313,10 +209,23 @@ class ReadBD extends ConectBD{
             
         }
         
-        
-
-        
     }
+
+    protected function compareOccurrenceDiff():array {
+
+        $arrayDadosXml = $this->getContainerDataXml();
+
+        $inc = $arrayDadosXml["incidente"];
+
+        $incDB = $this->arrangingArrayDB($this->select("SELECT incidente FROM tb_ocorrencia"));
+
+        $intersect = array_intersect($inc,$incDB);
+
+        $diff = array_diff($inc, $intersect);
+
+        return $diff;
+    }
+
 }
 
 ?>

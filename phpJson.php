@@ -19,7 +19,7 @@
                         "tempoDeResolução" => "Superior a 8h",
                         "quantidade" => $dados[0][$k],
                         "%" => $dados[1][$k] . "%",
-                        "acumulado" => $dados[2][$k] > 100?"100%":$dados[2][$k] . "%",
+                        "acumulado" => "100%",
                     );
                 } else {
                     $json[] = array(

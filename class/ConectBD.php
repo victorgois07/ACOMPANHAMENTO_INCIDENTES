@@ -21,11 +21,11 @@ class ConectBD extends ManipuladorExcel{
         try {
 
             $PDO = new \PDO('mysql:host=' . $this->getHost() . ';dbname=' . $this->getBd(), $this->getRoot(), $this->getPassword(), array(
+                \PDO::ATTR_EMULATE_PREPARES => false,
                 \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
-                \PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+                \PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"
             ));
 
-            $PDO->exec("set names utf8");
             $PDO->exec("SET lc_time_names = 'pt_BR'");
 
             if ($PDO) {
