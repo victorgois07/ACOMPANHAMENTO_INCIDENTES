@@ -140,10 +140,7 @@ function modalQuantidadeTableModal() {
             });
             
         })
-        .css("cursor","pointer");
-
-
-    
+        .css("cursor","pointer");    
 
 }
 
