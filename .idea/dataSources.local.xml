@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="db_table_incidentes@localhost" uuid="24528be7-e673-456c-9b8b-78796d916114">
+    <data-source name="bip_base_incidente_painel@localhost" uuid="922fd719-ead9-41b4-a758-62cb20cea84b">
       <database-info product="MySQL" version="5.5.5-10.1.26-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:db_table_incidentes</introspection-schemas>
+      <introspection-schemas>*:bip_base_incidente_painel</introspection-schemas>
     </data-source>
   </component>
 </project>
