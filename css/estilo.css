@@ -48,3 +48,15 @@ table#tableAcompanhamentoIncidentes thead tr:nth-child(2) td{
 .table-striped tbody tr:nth-of-type(odd){
     background-color: #dee8f3;
 }
+
+button#buttonExtracao{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+div#buttonOpcao{
+    position: absolute;
+    top: 15px;;
+    left: 25px;;
+}

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $.ajax({
-        'url': "http://localhost/ACOMPANHAMENTO_INCIDENTES/controller/dataTableDB.php",
+        'url': "controller/dataTableDB.php",
         'method': "GET",
         'contentType': 'application/json'
     }).done( function(data) {

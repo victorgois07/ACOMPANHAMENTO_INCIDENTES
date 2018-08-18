@@ -2,65 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c81ebcf-0f14-4ee9-9a15-f4646d66e297" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/CachedObjectStorage/Igbinary.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Calculation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Calculation/DateTime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Calculation/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Calculation/MathTrig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Cell/AdvancedValueBinder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Cell/DataType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Chart/DataSeries.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Chart/GridLines.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Chart/Layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Reader/Excel5/Style/FillPattern.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Reader/Gnumeric.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/RichText.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Shared/Escher/DggContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Shared/OLE/PPS/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Style.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Style/Conditional.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Worksheet/BaseDrawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Worksheet/ColumnCellIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Worksheet/Drawing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Worksheet/RowDimension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Writer/Excel2007/DocProps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Writer/Excel2007/RelsVBA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Writer/Excel2007/Worksheet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/Writer/PDF/tcPDF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/locale/de/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/locale/fr/functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/locale/ru/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/ExcelData/PHPExcel/PHPExcel/locale/tr/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/manipulacao/Manipulacao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/insertDataExcelDB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bip_base_incidente_painel.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/CODE_OF_CONDUCT.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/UPGRADING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/css/dataTables.uikit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/datatable/js/dataTables.material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery/jquery-3.3.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/database/Read.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/database/Read.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/manipulacao/Manipulacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/manipulacao/Manipulacao.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extracao.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help/SimpleExcel PHP library_files/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help/SimpleExcel PHP library_files/inst.htm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/Base_04-08-2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/Base_14-06-2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/Base_17-07-2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/Base_18-07-2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/Base_31-07-2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/SimpleExcel/SimpleExcel.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bootstrap/jquery.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/font-awesome/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/font-awesome/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/README.md" afterDir="false" />
@@ -388,7 +339,6 @@
       <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/scss/fa-brands.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmind/PAINEL WO.xmind" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -416,8 +366,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -425,11 +375,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manipulacao.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Manipulacao.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/manipulacao/Manipulacao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -437,17 +387,17 @@
       <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="352">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="81" />
+            <state relative-caret-position="119">
+              <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -493,6 +443,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Variavel jail encontra-se sem valores!</find>
+      <find>&lt;?= $manipulacao-&gt;getLocal() ?&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -511,11 +462,11 @@
         <option value="$PROJECT_DIR$/classes/database/Update.php" />
         <option value="$PROJECT_DIR$/classes/database/Delete.php" />
         <option value="$PROJECT_DIR$/controller/dataTableDB.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/classes/database/Read.php" />
+        <option value="$PROJECT_DIR$/css/estilo.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/manipulacao/Manipulacao.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -546,7 +497,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="922" />
+    <option name="width" value="923" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -564,16 +515,6 @@
             <path>
               <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -625,7 +566,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534419661705</updated>
       <workItem from="1534419665239" duration="31153000" />
-      <workItem from="1534590579983" duration="9350000" />
+      <workItem from="1534590579983" duration="12103000" />
     </task>
     <task id="LOCAL-00001" summary="Atualização versão 2.9 - em conclusão">
       <created>1534456843732</created>
@@ -634,15 +575,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534456843732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualização versão 2.9 - em conclusão">
+      <created>1534607489082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534607489082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40503000" />
+    <option name="totallyTimeSpent" value="43256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13946016" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -801,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/dataTableDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/database/Delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -836,34 +776,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="81" />
+        <state relative-caret-position="352">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+    <entry file="file://$PROJECT_DIR$/controller/dataTableDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/manipulacao/Manipulacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/manipulacao/Manipulacao.php">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        <state relative-caret-position="119">
+          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
