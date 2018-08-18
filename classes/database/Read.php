@@ -68,15 +68,15 @@ final class Read extends Dao {
 
     protected function stringhoras(int $key){
         if($key == 0){
-            return "ATÉ 2H";
+            return "Até 2h";
         }elseif ($key == 1){
-            return "ATÉ 4H";
+            return "Até 4h";
         }elseif ($key == 2){
-            return "ATÉ 6H";
+            return "Até 6h";
         }elseif ($key == 3){
-            return "ATÉ 8H";
+            return "Até 8h";
         }elseif ($key == 4){
-            return "SUPERIOR A 8H";
+            return "Superior à 8h";
         }
     }
 
@@ -101,7 +101,14 @@ final class Read extends Dao {
         $porc = 0;
 
         foreach ($comando as $key => $cmd){
-            $arrayPost[] = array($this->stringhoras($key),$cmd,round(($cmd / $this->getTotal())*100), $this->acumuladoData(($porc += round(($cmd / $this->getTotal()) * 100))));
+
+            $arrayPost[] = array(
+                $this->stringhoras($key),
+                $cmd,
+                round(($cmd / $this->getTotal())*100)."%",
+                $this->acumuladoData(($porc += round(($cmd / $this->getTotal()) * 100)))
+            );
+
         }
 
         $tot = array(

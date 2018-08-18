@@ -1,0 +1,50 @@
+body{
+    padding: 10px;
+}
+
+.row{
+    margin: 0;
+}
+
+div#divJumbotronTable{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1#tdTitulo{
+    font-weight: 700;
+    font-size: 35px;
+    padding: 3px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial,sans-serif;
+}
+
+table#tableAcompanhamentoIncidentes thead tr:nth-child(1) td{
+    font-weight: 700;
+    font-size: 35px;
+    border-bottom: transparent !important;
+    border-top: transparent !important;
+    padding: 3px !important;
+}
+
+table#tableAcompanhamentoIncidentes thead tr:nth-child(2) td{
+    border-bottom: transparent !important;
+    padding: 8px !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.table-bordered {
+    border: 2px solid #000;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 2px solid #000;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: #dee8f3;
+}

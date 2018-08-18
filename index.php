@@ -1,41 +1,82 @@
+<?php
+
+    use classes\manipulacao\Manipulacao;
+
+    require_once dirname(__FILE__).DIRECTORY_SEPARATOR."classes/manipulacao/Manipulacao.php";
+
+    $manipulacao = new Manipulacao(new DateTime('now'));
+
+    echo "<pre>";
+    print_r($_SERVER);
+    exit;
+
+?>
+
 <!doctype html>
 <html lang="pt-br">
 
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="lib/datatable/css/dataTables.bootstrap4.min.css">
-        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="<?= $manipulacao->getLocal() ?>lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= $manipulacao->getLocal() ?>lib/datatable/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" href="<?= $manipulacao->getLocal() ?>css/estilo.css">
 
         <title>Acompanhamento de Incidentes</title>
+
     </head>
 
-    <body>
+    <body class="d-flex align-items-center">
 
-        <h1>Hello, world!</h1>
+        <div id="divJumbotronTable" class="jumbotron jumbotron-fluid">
 
-        <table id="tableAcompanhamentoIncidentes" class="table table-striped table-bordered" style="width:100%">
-            <thead>
-            <tr>
-                <th>Tempo de Resolução</th>
-                <th>Quantidade</th>
-                <th>%</th>
-                <th>Acumulado</th>
-            </tr>
-            </thead>
-        </table>
+            <h1 id="tdTitulo"><?= $manipulacao->h1Titulo() ?></h1>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="lib/datatable/js/jquery.dataTables.min.js"></script>
-        <script src="lib/datatable/js/dataTables.bootstrap4.min.js"></script>
-        <script src="js/script.js"></script>
+            <button type="button" class="btn btn-outline-primary"><i class="fa fa"></i></button>
+
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+
+            <table id="tableAcompanhamentoIncidentes" class="table table-striped table-bordered text-center" style="width:100%">
+
+                <thead>
+
+                    <tr>
+
+                        <td colspan="4"><?= $manipulacao->tbMes() ?></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Tempo de Resolução</td>
+
+                        <td>Quantidade</td>
+
+                        <td>%</td>
+
+                        <td>Acumulado</td>
+
+                    </tr>
+
+                </thead>
+
+            </table>
+
+        </div>
+
+        <script src="<?= $manipulacao->getLocal() ?>lib/jquery/jquery-3.3.1.js"></script>
+        <script src="<?= $manipulacao->getLocal() ?>lib/bootstrap/site/docs/4.1/assets/js/vendor/popper.min.js"></script>
+        <script src="<?= $manipulacao->getLocal() ?>lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="<?= $manipulacao->getLocal() ?>lib/datatable/js/jquery.dataTables.min.js"></script>
+        <script src="<?= $manipulacao->getLocal() ?>lib/datatable/js/dataTables.bootstrap4.min.js"></script>
+        <script src="<?= $manipulacao->getLocal() ?>js/script.js"></script>
     </body>
 </html>
