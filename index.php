@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="lib/datatable/css/dataTables.bootstrap4.min.css">
         <link rel="stylesheet" href="lib/Font-Awesome/web-fonts-with-css/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="lib/jqueryconfirm/jquery-confirm.min.css">
         <link rel="stylesheet" href="css/estilo.css">
 
         <title>Acompanhamento de Incidentes</title>
@@ -37,7 +38,7 @@
                 </button>
                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                     <a id="buttonVisualizarMes" class="dropdown-item" href="#"><i class="fa fa-desktop" aria-hidden="true"></i> Visualizar Mês</a>
-                    <a id="buttonReadBaseAtual" class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> Update</a>
+                    <a id="buttonReadBaseAtual" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> Update</a>
                 </div>
             </div>
 
@@ -69,11 +70,49 @@
 
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="modalOpcaoPainel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+
+                    <div id="modalBodyUpdate" class="modal-body d-none">
+
+                        <form id="formUpload" action="" method="POST" enctype="multipart/form-data">
+
+                            <input type="file" id="fileInputData" name="fileInputData" required>
+                            <input type="submit" id="btnEnviar" value="Upload"/>
+
+                        </form>
+
+                    </div>
+
+                    <div id="modalBodyMes" class="modal-body d-none"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="loaderModal" class="d-none"></div>
+        <div id="loader"></div>
+
         <script src="lib/jquery/jquery-3.3.1.js"></script>
         <script src="lib/bootstrap/site/docs/4.1/assets/js/vendor/popper.min.js"></script>
         <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="lib/datatable/js/jquery.dataTables.min.js"></script>
         <script src="lib/datatable/js/dataTables.bootstrap4.min.js"></script>
+        <script src="lib/jqueryconfirm/jquery-confirm.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

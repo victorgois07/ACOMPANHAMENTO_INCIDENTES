@@ -3,6 +3,7 @@
 namespace classes\Database;
 
 use DateTime;
+use Exception;
 use PDOException;
 
 final class Create extends Dao {
@@ -176,42 +177,47 @@ final class Create extends Dao {
         return true;
     }
 
-    protected function dataInsertFinal():array {
+    protected function dataInsertFinal(){
 
-        $excelData = $this->excelData->organizeArrayExcel();
+        try {
+            $excelData = $this->excelData->organizeArrayExcel();
+            $indice = $this->excelData->getIndice();
+            $datetime = new DateTime();
+            foreach ($excelData as $excel) {
 
-        $indice = $this->excelData->getIndice();
+                if ($this->dataExist("SELECT * FROM bip_inc_incidente WHERE inc_codigo_incidente = ?", array($excel[array_search("ID do Incidente*+", $indice)])) == false) {
+                    $c = $datetime::createFromFormat("d/m/Y H:i:s", $excel[array_search("Criado em", $indice)]);
+                    $r = $datetime::createFromFormat("d/m/Y H:i:s", $excel[array_search("Data da Última Resolução", $indice)]);
 
-        $datetime = new DateTime();
+                    $dataIncidente[] = array(
+                        $excel[array_search("ID do Incidente*+", $indice)],
+                        $c->format("Y-m-d H:i:s"),
+                        $r->format("Y-m-d H:i:s"),
+                        $excel[array_search("Notas", $indice)],
+                        $excel[array_search("Resolução", $indice)],
+                        $this->idValueReturn("bip_sum_sumario", "sum_descricao", $excel[array_search("Sumário*", $indice)]),
+                        $this->idValueReturn("bip_grs_grupo_designado", "grs_descricao", $excel[array_search("Grupo Designado*+", $indice)]),
+                        $this->idValueReturn("bip_pri_prioridade", "pri_descricao", $excel[array_search("Prioridade*", $indice)]),
+                        $this->idValueReturn("bip_coi_codigo_ic", "coi_descricao", $excel[array_search("IC+", $indice)])
+                    );
+                }
 
-        foreach ($excelData as $excel) {
+            }
+            if (isset($dataIncidente) && !empty($dataIncidente)) {
 
-            if ($this->dataExist("SELECT * FROM bip_inc_incidente WHERE inc_codigo_incidente = ?",array($excel[array_search("ID do Incidente*+", $indice)])) == false) {
-                $c = $datetime::createFromFormat("d/m/Y H:i:s", $excel[array_search("Criado em", $indice)]);
-                $r = $datetime::createFromFormat("d/m/Y H:i:s", $excel[array_search("Data da Última Resolução", $indice)]);
+                return $dataIncidente;
 
-                $dataIncidente[] = array(
-                    $excel[array_search("ID do Incidente*+", $indice)],
-                    $c->format("Y-m-d H:i:s"),
-                    $r->format("Y-m-d H:i:s"),
-                    $excel[array_search("Notas", $indice)],
-                    $excel[array_search("Resolução", $indice)],
-                    $this->idValueReturn("bip_sum_sumario", "sum_descricao", $excel[array_search("Sumário*", $indice)]),
-                    $this->idValueReturn("bip_grs_grupo_designado", "grs_descricao", $excel[array_search("Grupo Designado*+", $indice)]),
-                    $this->idValueReturn("bip_pri_prioridade", "pri_descricao", $excel[array_search("Prioridade*", $indice)]),
-                    $this->idValueReturn("bip_coi_codigo_ic", "coi_descricao", $excel[array_search("IC+", $indice)])
-                );
+            } else {
+
+                return false;
+
             }
 
-        }
+        } catch (Exception $e) {
 
-        if (isset($dataIncidente) && !empty($dataIncidente)) {
+            ob_end_clean();
 
-            return $dataIncidente;
-
-        }else{
-
-            return null;
+            exit("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
 
         }
     }
@@ -278,7 +284,7 @@ final class Create extends Dao {
             $e++;
         }
 
-        if ($this->dataInsertFinal() !=  null) {
+        if ($this->dataInsertFinal()) {
 
             $this->insertIncidenteFinal();
 

@@ -5,7 +5,7 @@ require_once "PHPExcel/PHPExcel.php";
 final class ExcelData extends PHPExcel {
     public $indice;
 
-    protected function validateFilesName():string{
+    public function validateFilesName():string{
 
         try {
 

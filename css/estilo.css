@@ -60,3 +60,17 @@ div#buttonOpcao{
     top: 15px;;
     left: 25px;;
 }
+
+div#loaderModal, div#loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background-color: #eee;
+    background-image: url('../img/load_2.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1051;
+}
