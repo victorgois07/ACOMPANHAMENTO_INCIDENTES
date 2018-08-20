@@ -14,6 +14,7 @@
             $file = new Files($_FILES['fileInputData'], new DateTime('now'), new Create());
 
             echo json_encode($file->resultInsertData());
+            unlink($file->getDestino());
             header('Content-Type: application/json');
 
         }else{

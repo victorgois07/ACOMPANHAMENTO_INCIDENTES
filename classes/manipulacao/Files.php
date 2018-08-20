@@ -32,17 +32,10 @@ class Files{
 
                     if ($this->getCreate()->insertColsData() == "BASE ATUALIZADA COM SUCESSO!") {
 
-                        if (unlink($this->getDestino())) {
+                        $this->setMessage($this->getMessage()."<br/> Base foi atualizada!! Arquivo ".$this->getCreate()->getExcelData()->validateFilesName()." Excluído!");
 
-                            $this->setMessage($this->getMessage()."<br/> Base foi atualizada!! Arquivo ".$this->getCreate()->getExcelData()->validateFilesName()." Excluído!");
+                        return $this->getMessage();
 
-                            return $this->getMessage();
-
-                        } else {
-
-                            throw new Exception("Base foi atualizada!! Erro na Exclusão do Arquivo ".$this->getCreate()->getExcelData()->validateFilesName());
-
-                        }
                     }else{
 
                         return "BASE JÁ FOI ATUALIZADA";

@@ -54,6 +54,14 @@ div#buttonOpcao{
     left: 25px;
 }
 
+div#loader {
+    background-image: url('../img/load_2.gif');
+}
+
+div#loaderModal{
+    background-image: url('../img/load_4.gif');
+}
+
 div#loaderModal, div#loader{
     position: fixed;
     width: 100%;
@@ -61,7 +69,6 @@ div#loaderModal, div#loader{
     top: 0;
     left:0;
     background-color: #eee;
-    background-image: url('../img/load_2.gif');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,4 +113,13 @@ table#tableDataBase.table-bordered {
 
 table#tableDataBase.table-bordered td {
     border: 1px solid #000;
+}
+
+button#buttonExportDataTable{
+    right: 60px;
+    border-radius: 40px;
+}
+
+img#imgClose{
+    width: 38px;
 }

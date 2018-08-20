@@ -264,6 +264,16 @@ final class Read extends Dao {
 
     }
 
+    private function selectMesesJson(){
+        return $this->arrangingArrayDB($this->select("SELECT DISTINCT(DATE_FORMAT(inc_resolvido,'%M-%Y')) as meses FROM bip_inc_incidente ORDER BY inc_resolvido"));
+    }
+
+    public function view_json_meses(){
+        header('Access-Control-Allow-Origin: *');
+        header('Content-type: application/json');
+        echo json_encode($this->selectMesesJson());
+    }
+
     public function getNow(): DateTime{
         return $this->now;
     }

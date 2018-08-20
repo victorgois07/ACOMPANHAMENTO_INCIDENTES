@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c81ebcf-0f14-4ee9-9a15-f4646d66e297" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/922fd719-ead9-41b4-a758-62cb20cea84b/storage_v2/_src_/schema/bip_base_incidente_painel.4S4yZQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/922fd719-ead9-41b4-a758-62cb20cea84b/storage_v2/_src_/schema/bip_base_incidente_painel.4S4yZQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tableDataBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/Base_20-08-2018.xls" afterDir="false" />
+    <list default="true" id="5c81ebcf-0f14-4ee9-9a15-f4646d66e297" name="Default" comment="Atualização versão 2.9.3 - em conclusão">
+      <change afterPath="$PROJECT_DIR$/controller/jsonMeses.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/CODE_OF_CONDUCT.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/UPGRADING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/922fd719-ead9-41b4-a758-62cb20cea84b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/922fd719-ead9-41b4-a758-62cb20cea84b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery-excel-export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bip_base_incidente_painel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bip_base_incidente_painel.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/database/Read.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/database/Read.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/manipulacao/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/manipulacao/Files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/insertDataExcelDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/insertDataExcelDB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Base_18-08-2018.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Base_20-08-2018.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bootstrap/jquery.min.js" beforeDir="false" />
@@ -376,68 +376,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1926">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/estilo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tableDataBase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/tableDataBase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Read.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/database/Read.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
-              <folding>
-                <element signature="e#36#49#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dao.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/database/Dao.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="33" column="762" selection-start-line="33" selection-start-column="752" selection-end-line="33" selection-end-column="762" />
+            <state relative-caret-position="140">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -467,19 +407,21 @@
         <option value="$PROJECT_DIR$/classes/database/Database.php" />
         <option value="$PROJECT_DIR$/classes/database/Update.php" />
         <option value="$PROJECT_DIR$/classes/database/Delete.php" />
-        <option value="$PROJECT_DIR$/controller/dataTableDB.php" />
         <option value="$PROJECT_DIR$/classes/manipulacao/Manipulacao.php" />
         <option value="$PROJECT_DIR$/classes/ExcelData/ExcelData.php" />
-        <option value="$PROJECT_DIR$/controller/insertDataExcelDB.php" />
-        <option value="$PROJECT_DIR$/classes/manipulacao/Files.php" />
         <option value="$PROJECT_DIR$/classes/database/Create.php" />
         <option value="$PROJECT_DIR$/classes/database/Dao.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql" />
         <option value="$PROJECT_DIR$/css/estilo.css" />
-        <option value="$PROJECT_DIR$/controller/tableDataBase.php" />
+        <option value="$PROJECT_DIR$/classes/manipulacao/Files.php" />
+        <option value="$PROJECT_DIR$/controller/dataTableDB.php" />
+        <option value="$PROJECT_DIR$/controller/insertDataExcelDB.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql" />
         <option value="$PROJECT_DIR$/classes/database/Read.php" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/controller/mesTable.php" />
+        <option value="$PROJECT_DIR$/controller/tableDataBase.php" />
+        <option value="$PROJECT_DIR$/controller/jsonMeses.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -531,17 +473,7 @@
             <path>
               <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -561,15 +493,15 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\config" />
-      <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\class" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\lib" />
       <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\lib\Font-Awesome" />
       <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\classes\ExcelData" />
       <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\classes\PHPExcel" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\config" />
+      <recent name="C:\xampp\htdocs\ACOMPANHAMENTO_INCIDENTES\class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,7 +528,7 @@
       <updated>1534419661705</updated>
       <workItem from="1534419665239" duration="31153000" />
       <workItem from="1534590579983" duration="22254000" />
-      <workItem from="1534762884110" duration="12305000" />
+      <workItem from="1534762884110" duration="25272000" />
     </task>
     <task id="LOCAL-00001" summary="Atualização versão 2.9 - em conclusão">
       <created>1534456843732</created>
@@ -626,14 +558,22 @@
       <option name="project" value="LOCAL" />
       <updated>1534621287379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Atualização versão 2.9.3 - em conclusão">
+      <created>1534775313152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534775313152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65712000" />
+    <option name="totallyTimeSpent" value="78679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
@@ -646,6 +586,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -655,7 +596,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -688,7 +628,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atualização versão 2.9 - em conclusão" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização versão 2.9 - em conclusão" />
+    <MESSAGE value="Atualização versão 2.9.3 - em conclusão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização versão 2.9.3 - em conclusão" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/dataTableDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/database/Delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -834,6 +762,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/database/Create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/database/Dao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/dataTableDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/database/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -844,55 +793,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/manipulacao/Files.php">
+    <entry file="file://$PROJECT_DIR$/controller/insertDataExcelDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="80" column="139" selection-start-line="78" selection-start-column="12" selection-end-line="80" selection-end-column="139" />
+        <state relative-caret-position="272">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
+            <element signature="e#11#39#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/insertDataExcelDB.php">
+    <entry file="file://$PROJECT_DIR$/controller/jsonMeses.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="71" />
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/database/Create.php">
+    <entry file="file://$PROJECT_DIR$/controller/mesTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="421">
+          <caret line="132" column="48" lean-forward="true" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/database/Dao.php">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/tableDataBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/database/Read.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+        <state relative-caret-position="310">
+          <caret line="270" column="35" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="35" />
           <folding>
             <element signature="e#36#49#0#PHP" expanded="true" />
           </folding>
@@ -901,25 +836,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="378">
+          <caret line="167" column="11" lean-forward="true" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql">
+    <entry file="file://$PROJECT_DIR$/classes/manipulacao/Files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="762" selection-start-line="33" selection-start-column="752" selection-end-line="33" selection-end-column="762" />
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#39#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/tableDataBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="54" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1926">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>

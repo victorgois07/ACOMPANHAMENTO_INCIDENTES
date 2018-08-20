@@ -9,13 +9,15 @@
 ?>
 
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" class="no-js">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="lib/datatable/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" href="lib/datatable/css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="lib/Font-Awesome/web-fonts-with-css/css/fontawesome-all.min.css">
         <link rel="stylesheet" href="lib/jqueryconfirm/jquery-confirm.min.css">
         <link rel="stylesheet" href="css/estilo.css">
@@ -37,7 +39,7 @@
                     <i class="fas fa-bars" aria-hidden="true"></i> OPÇÕES
                 </button>
                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                    <a id="buttonVisualizarMes" class="dropdown-item" href="#"><i class="fa fa-desktop" aria-hidden="true"></i> Visualizar Mês</a>
+                    <a id="buttonVisualizarMes" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#"><i class="fa fa-desktop" aria-hidden="true"></i> Visualizar Mês</a>
                     <a id="buttonReadBaseAtual" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> Update</a>
                 </div>
             </div>
@@ -99,7 +101,16 @@
                     </div>
 
                     <div id="modalBodyMes" class="modal-body d-none">
-
+                        <form id="formDataMesSectect" method="get" target="_blank" action="controller/mesTable.php">
+                            <div class="form-group row">
+                                <label for="selectDataTableMes" class="col-sm-2 col-form-label col-form-label-sm">Selecione</label>
+                                <div class="col-sm-10">
+                                    <select name="selectDataTableMes" id="selectDataTableMes" class="form-control form-control-sm"></select>
+                                </div>
+                            </div>
+                            <br>
+                            <button id="buttonSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit">EXTRAIR</button>
+                        </form>
                     </div>
 
                 </div>
@@ -115,6 +126,7 @@
                     <div class="modal-header">
 
                         <h5 class="modal-title" id="titleModalDataTable"></h5>
+                        <button id="buttonExportDataTable" class="btn btn-primary position-absolute"><i class="fa fa-upload"></i></button>
 
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="location.reload(true)">
                             <span aria-hidden="true">&times;</span>
@@ -177,6 +189,8 @@
         <script src="lib/datatable/js/jquery.dataTables.min.js"></script>
         <script src="lib/datatable/js/dataTables.bootstrap4.min.js"></script>
         <script src="lib/jqueryconfirm/jquery-confirm.min.js"></script>
+        <script src="lib/jquery-excel-export/jquery.btechco.excelexport.js"></script>
+        <script src="lib/jquery-excel-export/jquery.base64.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

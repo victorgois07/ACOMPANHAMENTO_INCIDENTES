@@ -18,6 +18,14 @@ $(document).ready(function() {
             "ordering": false
         });
 
+        $("#buttonExtracao").click(function (e) {
+            $("#tableAcompanhamentoIncidentes").btechco_excelexport({
+                containerid: "tableAcompanhamentoIncidentes"
+                , datatype: $datatype.Table
+                , filename: 'acompanhamento_de_incidentes'
+            });
+        });
+
         $("table#tableAcompanhamentoIncidentes tbody tr:last-child td:nth-child(4)").attr("colspan","2");
         $("table#tableAcompanhamentoIncidentes tbody tr:last-child td:nth-child(2)").remove();
         $("table#tableAcompanhamentoIncidentes").css("font-family","Arial,sans-serif");
@@ -54,7 +62,16 @@ $(document).ready(function() {
                     "ordering": false
                 });
 
+                $("#buttonExportDataTable").click(function (e) {
+                    $("#tableDataBase").btechco_excelexport({
+                        containerid: "tableDataBase"
+                        , datatype: $datatype.Table
+                        , filename: 'base_data'
+                    });
+                });
+
             });
+
         });
     });
 
@@ -70,6 +87,20 @@ $(document).ready(function() {
 
         if(/d-none/ig.test(cls) === false){
             $("div#modalBodyMes").addClass("d-none");
+        }
+
+    });
+
+    $("a#buttonVisualizarMes").on("click", function () {
+
+        $("div#modalBodyMes").removeClass("d-none");
+
+        $("h5#exampleModalLabel").text("Tabela mês");
+
+        let cls = document.getElementById('modalBodyUpdate').className;
+
+        if(/d-none/ig.test(cls) === false){
+            $("div#modalBodyUpdate").addClass("d-none");
         }
 
     });
@@ -137,6 +168,12 @@ $(document).ready(function() {
         });
 
         event.preventDefault();
+    });
+
+    $.getJSON('controller/jsonMeses.php', function (data) {
+        $.each(data, function (key, entry) {
+            $('#selectDataTableMes').append($('<option></option>').attr('value', entry).text(entry));
+        })
     });
 
 } );
