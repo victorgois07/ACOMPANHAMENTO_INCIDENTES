@@ -24,7 +24,7 @@
 
     </head>
 
-    <body class="d-flex align-items-center">
+    <body>
 
         <div id="divJumbotronTable" class="jumbotron jumbotron-fluid">
 
@@ -98,11 +98,75 @@
 
                     </div>
 
-                    <div id="modalBodyMes" class="modal-body d-none"></div>
+                    <div id="modalBodyMes" class="modal-body d-none">
+
+                    </div>
 
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="modalBaseTable" tabindex="-1" role="dialog" aria-labelledby="titleModalDataTable" aria-hidden="true">
+
+            <div id="dialogModal" class="modal-dialog" role="document">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="titleModalDataTable"></h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="location.reload(true)">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+
+                    <div id="modalDataTable" class="modal-body">
+
+                        <table id="tableDataBase" class="table table-striped table-bordered text-center" style="width:100%">
+
+                            <thead>
+
+                            <tr>
+
+                                <td>Incidente</td>
+
+                                <td>Sumário</td>
+
+                                <td>IC</td>
+
+                                <td>Prioridade</td>
+
+                                <td>Criado</td>
+
+                                <td>Resolvido</td>
+
+                                <td>Duração</td>
+
+                                <td>Vencido >8h</td>
+
+                                <td>Vencido Prioridade</td>
+
+                                <td>Grupo designado</td>
+
+                                <td>Empresa</td>
+
+                            </tr>
+
+                            </thead>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
 
         <div id="loaderModal" class="d-none"></div>
         <div id="loader"></div>

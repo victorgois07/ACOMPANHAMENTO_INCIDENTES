@@ -34,7 +34,7 @@ class Files{
 
                         if (unlink($this->getDestino())) {
 
-                            $this->setMessage($this->getMessage() . "<br/> Base foi atualizada!! Arquivo ".$this->getCreate()->getExcelData()->validateFilesName()." Excluído!");
+                            $this->setMessage($this->getMessage()."<br/> Base foi atualizada!! Arquivo ".$this->getCreate()->getExcelData()->validateFilesName()." Excluído!");
 
                             return $this->getMessage();
 

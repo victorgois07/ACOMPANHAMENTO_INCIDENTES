@@ -3,6 +3,7 @@
 namespace classes\Database;
 
 use DateTime;
+use Exception;
 
 require_once "Dao.php";
 
@@ -127,6 +128,139 @@ final class Read extends Dao {
     public function readTbody(){
 
         return $this->countScheduleIncidenteCol();
+
+    }
+
+    protected function testVencido(DateTime $horas,String $prioridade):string{
+
+        $dBaixo = new DateTime('08:00:00');
+        $dAlto = new DateTime('04:00:00');
+        $dMedia = new DateTime('06:00:00');
+        $dCritico = new DateTime('02:00:00');
+
+
+        switch ($prioridade){
+
+            case "Baixo":
+
+                return $horas > $dBaixo?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+
+                break;
+
+            case "Média":
+
+                return $horas > $dMedia?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+
+                break;
+
+            case "Alto":
+
+                return $horas > $dAlto?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+
+                break;
+
+            case "Crítico":
+
+                return $horas > $dCritico?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+
+                break;
+
+        }
+    }
+
+    protected function arrangingArrayMultDB(Array $array):array {
+
+        $datetime = new DateTime();
+
+        try {
+
+            foreach ($array as $key => $v) {
+
+                $venc8 = $this->testVencido(new DateTime($v[3]),'Baixo');
+                $vencP = $this->testVencido(new DateTime($v[3]),$v[7]);
+                $empresa = explode(" ",$v[6]);
+                $empresa = count($empresa) == 1?$empresa[0]:$empresa[0]." ".$empresa[1];
+
+                $p[] = array(
+                    $v[0],
+                    $v[8],
+                    $v[4],
+                    $v[7],
+                    $datetime::createFromFormat('Y-m-d H:i:s',$v[1])->format('d/m/Y H:i:s'),
+                    $datetime::createFromFormat('Y-m-d H:i:s',$v[2])->format('d/m/Y H:i:s'),
+                    $v[3],
+                    $venc8,
+                    $vencP,
+                    $v[5],
+                    $empresa
+                );
+
+            }
+
+            if (isset($p)) {
+
+                return $p;
+
+            }else{
+
+                throw new Exception("ERRO: Variavel p encontra-se sem valores!");
+
+            }
+
+        } catch (Exception $e) {
+
+            ob_end_clean();
+
+            exit("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
+
+        }
+
+    }
+
+
+    public function toStringDataBase($stringData){
+
+        switch ($stringData){
+
+            case "Até 2h":
+
+                $comando = $this->arrangingArrayMultDB($this->select("CALL dataTableDB(?,?,?,?)",array('Até 2h',7200,0,$this->getNow()->format("Y-m-%"))));
+
+                break;
+
+            case "Até 4h":
+
+                $comando = $this->arrangingArrayMultDB($this->select("CALL dataTableDB(?,?,?,?)",array('Até 4h',14400,7200,$this->getNow()->format("Y-m-%"))));
+
+                break;
+
+            case "Até 6h":
+
+                $comando = $this->arrangingArrayMultDB($this->select("CALL dataTableDB(?,?,?,?)",array('Até 6h',21600,14400,$this->getNow()->format("Y-m-%"))));
+
+                break;
+
+            case "Até 8h":
+
+                $comando = $this->arrangingArrayMultDB($this->select("CALL dataTableDB(?,?,?,?)",array('Até 8h',28800,21600,$this->getNow()->format("Y-m-%"))));
+
+                break;
+
+            case "Superior à 8h":
+
+                $comando = $this->arrangingArrayMultDB($this->select("CALL dataTableDB(?,?,?,?)",array('Superior à 8h',28800,0,$this->getNow()->format("Y-m-%"))));
+
+                break;
+
+            case "TOTAL":
+
+                $comando = $this->arrangingArrayMultDB($this->select("CALL dataTableDB(?,?,?,?)",array('TOTAL',0,0,$this->getNow()->format("Y-m-%"))));
+
+                break;
+
+        }
+
+        return $comando;
 
     }
 

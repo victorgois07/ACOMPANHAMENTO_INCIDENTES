@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $("div#divJumbotronTable").height($(window).height());
+
     $.ajax({
         'url': "controller/dataTableDB.php",
         'method': "GET",
@@ -21,10 +23,42 @@ $(document).ready(function() {
         $("table#tableAcompanhamentoIncidentes").css("font-family","Arial,sans-serif");
         $("table#tableAcompanhamentoIncidentes tbody").css({
             "font-weight":700,
-            "font-size":"60px"
+            "font-size":"65px"
         });
+
         $("table#tableAcompanhamentoIncidentes tbody tr td").css("padding",0);
+
+        $("table#tableAcompanhamentoIncidentes tbody tr td:nth-child(2)").css({
+            "cursor":"pointer"
+        }).on("click", function () {
+
+            $("#modalBaseTable").modal('show');
+
+            $("#dialogModal").addClass("w-100 p-3 mw-100");
+
+            $("h5#titleModalDataTable").text("Incidentes "+$(this).prev().text());
+
+            $.ajax({
+                'url': "controller/tableDataBase.php",
+                'method': "GET",
+                'data': {horas:$(this).prev().text()},
+                'contentType': "application/json;charset=utf-8",
+                'dataType': "json"
+            }).done( function(data) {
+
+                $('#tableDataBase').dataTable({
+                    "aaData": data,
+                    "paging": false,
+                    "info": false,
+                    "searching": false,
+                    "ordering": false
+                });
+
+            });
+        });
     });
+
+
 
     $("a#buttonReadBaseAtual").on("click", function () {
 
