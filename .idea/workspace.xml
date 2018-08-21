@@ -2,348 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c81ebcf-0f14-4ee9-9a15-f4646d66e297" name="Default" comment="Atualização versão 2.9.3 - em conclusão">
-      <change afterPath="$PROJECT_DIR$/controller/jsonMeses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Font-Awesome/UPGRADING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jquery-excel-export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bip_base_incidente_painel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bip_base_incidente_painel.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/database/Read.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/database/Read.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/manipulacao/Files.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/manipulacao/Files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/insertDataExcelDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/insertDataExcelDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Base_18-08-2018.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/Base_20-08-2018.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bootstrap/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/metadata/shims.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/metadata/shims.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/brands/creative-commons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/brands/creative-commons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/bell-slash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/bell-slash.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/bus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/bus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/cloud-download-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/cloud-download-alt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/compass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/compass.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/eye-dropper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/eye-dropper.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/magic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/magic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/map-pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/map-pin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/meh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/meh.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/money-bill-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/money-bill-alt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/paint-brush.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/paint-brush.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/tachometer-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/tachometer-alt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/user-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/user-circle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/user-secret.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/raw-svg/solid/user-secret.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/svg-sprites/fa-brands.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/advanced-options/svg-sprites/fa-brands.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAccessibleIcon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAdn.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAmazonPay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAndroid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAngular.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAppStore.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faApper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faApplePay.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAviato.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faAws.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faBandcamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faBitbucket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faBlackTie.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faBluetoothB.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faCcAmex.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faCcPaypal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faCloudsmith.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faDashcube.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faDeploydog.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faDiscord.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faDiscourse.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faEdge.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faFacebookSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faFirstOrder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faFlipboard.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faFontAwesome.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faFoursquare.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGgCircle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGitSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGlide.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGoodreads.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGoodreadsG.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGooglePlusSquare.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGratipay.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGripfire.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faGulp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faHouzz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faJsfiddle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faJsfiddle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faKickstarter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faLeanpub.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faMagento.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPage4.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPagelines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPalfed.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPhabricator.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPhoenixFramework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPhp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPiedPiperPp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPinterestSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPushed.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faPushed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faQuinscape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faReact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faReddit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faReplyd.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faRocketchat.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSass.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSearchengin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSellcast.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSkype.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSlack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSnapchatGhost.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSoundcloud.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStaylinked.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStaylinked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faSteam.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStrava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStripe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStripeS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStumbleupon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faStumbleuponCircle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faVaadin.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faVimeo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faVimeoV.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faWhatsappSquare.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faWhmcs.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faWikipediaW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faWordpress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faWordpressSimple.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faYCombinator.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faYandex.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/faYandex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faAddressCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faBellSlash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faCalendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faCalendarCheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faChartBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faCheckSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faClipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faClone.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faCommentAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faComments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faDotCircle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faEdit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faFileArchive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faFileExcel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faFileVideo.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faFolderOpen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faHandPointDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faHandPointer.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faHandPointer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faHandshake.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faHeart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faHourglass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faKeyboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faLightbulb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faMoneyBillAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faObjectUngroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faRegistered.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faShareSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faSmile.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faSnowflake.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faStopCircle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faThumbsDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/faUser.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAddressBook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAdjust.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAllergies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAngleDoubleLeft.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAngleLeft.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faArrowAltCircleUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faArrowsAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAssistiveListeningSystems.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faAudioDescription.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBackward.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBed.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBook.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBookmark.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBoxes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBraille.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faBus.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCalculator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCalendarCheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCalendarMinus.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCameraRetro.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCapsules.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCapsules.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCaretSquareDown.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCaretSquareRight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCaretSquareUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCaretUp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCaretUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCartArrowDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faChartBar.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faChessKing.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faChessRook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faChevronCircleLeft.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faChevronCircleUp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCircleNotch.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCloudDownloadAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCodeBranch.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCog.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faColumns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCommentSlash.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCopy.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCopyright.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCrop.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCrosshairs.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faCubes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faDesktop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faDolly.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faDolly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faDonate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faDove.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faEnvelopeOpen.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faEuroSign.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faExchangeAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faExclamationCircle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faExpandArrowsAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faExternalLinkSquareAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFastForward.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFemale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFighterJet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFileCode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFileMedical.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFileMedicalAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFilePdf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFileWord.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFire.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faFootballBall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faGamepad.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faGavel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faGem.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faGem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faGift.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faGlobe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHandHolding.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHandPaper.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHandPointDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHandPointer.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHandRock.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHandScissors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHashtag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHistory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHourglass.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHourglassHalf.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faHourglassStart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faIdBadge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faIdCard.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faLeaf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faLevelDownAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faLevelUpAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faListUl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faLock.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faLockOpen.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faLongArrowAltUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMapSigns.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMarsDouble.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMedkit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMicrophone.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMinus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faMousePointer.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faNeuter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faNewspaper.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faNotesMedical.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faObjectUngroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faParagraph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPauseCircle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPencilAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPeopleCarry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPhoneSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPlus.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPlusCircle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPlusSquare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPoundSign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPrescriptionBottle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faPrescriptionBottleAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faQuestion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faQuidditch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRedo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRedoAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRegistered.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRegistered.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faReply.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faReplyAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRetweet.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRibbon.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRssSquare.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRubleSign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faRupeeSign.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSearch.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faServer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faShare.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faShareAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faShip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faShippingFast.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faShower.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSignInAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSlidersH.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSmile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSortAlphaUp.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSortNumericDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSpaceShuttle.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faSpinner.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faStar.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faStar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faStop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faStreetView.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faTachometerAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faTasks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faThLarge.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faThList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faThermometerFull.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faThermometerFull.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faThumbsUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faTransgenderAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faTrashAlt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faTrophy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faUnderline.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faUniversity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faUnlockAlt.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faUserTimes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faVials.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faVolleyballBall.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faWeight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faWrench.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faXRay.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/faYenSign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/index.es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/shakable.es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/css/fa-solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/less/_larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/less/fa-regular.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/advanced-options/use-with-node-js/fontawesome/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/svg-with-js/js/fa-regular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/svg-with-js/js/fa-regular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/svg-with-js/js/fa-v4-shims.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/svg-with-js/js/fa-v4-shims.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/svg-with-js/js/fontawesome.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/svg-with-js/js/fontawesome.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/css/fa-brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/css/fa-solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/scss/fa-brands.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/lib/font-awesome/web-fonts-with-css/webfonts/fa-brands-400.woff2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -373,11 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="-1707">
+              <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -420,8 +90,8 @@
         <option value="$PROJECT_DIR$/controller/mesTable.php" />
         <option value="$PROJECT_DIR$/controller/tableDataBase.php" />
         <option value="$PROJECT_DIR$/controller/jsonMeses.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -450,7 +120,7 @@
       <path value="$PROJECT_DIR$/../../php/PEAR" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="915" />
     <option name="height" value="867" />
@@ -463,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,13 +144,12 @@
             <path>
               <item name="ACOMPANHAMENTO_INCIDENTES" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACOMPANHAMENTO_INCIDENTES" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,6 +199,7 @@
       <workItem from="1534419665239" duration="31153000" />
       <workItem from="1534590579983" duration="22254000" />
       <workItem from="1534762884110" duration="25272000" />
+      <workItem from="1534876247608" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="Atualização versão 2.9 - em conclusão">
       <created>1534456843732</created>
@@ -569,52 +240,51 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78679000" />
+    <option name="totallyTimeSpent" value="79734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14372164" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32867134" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1381748" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32867134" />
       <window_info anchor="right" id="Database" order="0" weight="0.32969153" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -637,6 +307,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
@@ -669,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="80" column="139" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="80" selection-end-column="139" />
-          <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,13 +387,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql" />
     <entry file="file://$PROJECT_DIR$/classes/database/Read.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -787,9 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#36#50#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,9 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="e#11#39#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,34 +472,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/mesTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="132" column="48" lean-forward="true" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/mesTable.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/922fd719-ead9-41b4-a758-62cb20cea84b/console.sql" />
     <entry file="file://$PROJECT_DIR$/classes/database/Read.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="270" column="35" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="35" />
-          <folding>
-            <element signature="e#36#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="167" column="11" lean-forward="true" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -845,9 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,8 +504,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="-1707">
+          <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>

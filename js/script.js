@@ -15,15 +15,11 @@ $(document).ready(function() {
             "paging": false,
             "info": false,
             "searching": false,
-            "ordering": false
-        });
-
-        $("#buttonExtracao").click(function (e) {
-            $("#tableAcompanhamentoIncidentes").btechco_excelexport({
-                containerid: "tableAcompanhamentoIncidentes"
-                , datatype: $datatype.Table
-                , filename: 'acompanhamento_de_incidentes'
-            });
+            "ordering": false,
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
         });
 
         $("table#tableAcompanhamentoIncidentes tbody tr:last-child td:nth-child(4)").attr("colspan","2");
@@ -59,15 +55,11 @@ $(document).ready(function() {
                     "paging": false,
                     "info": false,
                     "searching": false,
-                    "ordering": false
-                });
-
-                $("#buttonExportDataTable").click(function (e) {
-                    $("#tableDataBase").btechco_excelexport({
-                        containerid: "tableDataBase"
-                        , datatype: $datatype.Table
-                        , filename: 'base_data'
-                    });
+                    "ordering": false,
+                    dom: 'Bfrtip',
+                    buttons: [
+                        'copy', 'csv', 'excel', 'pdf', 'print'
+                    ]
                 });
 
             });

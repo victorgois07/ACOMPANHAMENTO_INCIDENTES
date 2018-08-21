@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="lib/datatable/css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="lib/Font-Awesome/web-fonts-with-css/css/fontawesome-all.min.css">
         <link rel="stylesheet" href="lib/jqueryconfirm/jquery-confirm.min.css">
+        <link rel="stylesheet" href="lib/file_export_datatable/buttons.dataTables.min.css">
         <link rel="stylesheet" href="css/estilo.css">
 
         <title>Acompanhamento de Incidentes</title>
@@ -189,8 +190,13 @@
         <script src="lib/datatable/js/jquery.dataTables.min.js"></script>
         <script src="lib/datatable/js/dataTables.bootstrap4.min.js"></script>
         <script src="lib/jqueryconfirm/jquery-confirm.min.js"></script>
-        <script src="lib/jquery-excel-export/jquery.btechco.excelexport.js"></script>
-        <script src="lib/jquery-excel-export/jquery.base64.js"></script>
+        <script src="lib/file_export_datatable/dataTables.buttons.min.js"></script>
+        <script src="lib/file_export_datatable/buttons.flash.min.js"></script>
+        <script src="lib/file_export_datatable/jszip.min.js"></script>
+        <script src="lib/file_export_datatable/pdfmake.min.js"></script>
+        <script src="lib/file_export_datatable/vfs_fonts.js"></script>
+        <script src="lib/file_export_datatable/buttons.html5.min.js"></script>
+        <script src="lib/file_export_datatable/buttons.print.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
