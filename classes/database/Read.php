@@ -274,6 +274,142 @@ final class Read extends Dao {
         echo json_encode($this->selectMesesJson());
     }
 
+    private function converterStringMes(String $mes):string{
+
+        $mes = explode("-",$mes);
+
+        switch ($mes[0]){
+            case "janeiro":
+                return $mes[1]."-01-%";
+                break;
+            case "fevereiro":
+                return $mes[1]."-02-%";
+                break;
+            case "março":
+                return $mes[1]."-03-%";
+                break;
+            case "abril":
+                return $mes[1]."-04-%";
+                break;
+            case "maio":
+                return $mes[1]."-05-%";
+                break;
+            case "junho":
+                return $mes[1]."-06-%";
+                break;
+            case "julho":
+                return $mes[1]."-07-%";
+                break;
+            case "agosto":
+                return $mes[1]."-08-%";
+                break;
+            case "setembro":
+                return $mes[1]."-09-%";
+                break;
+            case "outubro":
+                return $mes[1]."-10-%";
+                break;
+            case "novembro":
+                return $mes[1]."-11-%";
+                break;
+            case "dezembro":
+                return $mes[1]."-12-%";
+                break;
+        }
+    }
+
+    private function selectDataMes(int $time,String $mes):int{
+
+        switch ($time){
+
+            case 7200:
+
+                $comando = $this->select("SELECT COUNT(*) FROM bip_inc_incidente WHERE inc_resolvido LIKE ? AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) <= 7200",array($mes));
+
+                return !empty($comando[0][0]) && isset($comando[0][0])?$comando[0][0]:0;
+
+                break;
+
+            case 14400:
+
+                $comando = $this->select("SELECT COUNT(*) FROM bip_inc_incidente WHERE inc_resolvido LIKE ? AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) <= 14400 AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) > 7200",array($mes));
+
+                return !empty($comando[0][0]) && isset($comando[0][0])?$comando[0][0]:0;
+
+                break;
+
+            case 21600:
+
+                $comando = $this->select("SELECT COUNT(*) FROM bip_inc_incidente WHERE inc_resolvido LIKE ? AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) <= 21600 AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) > 14400",array($mes));
+
+                return !empty($comando[0][0]) && isset($comando[0][0])?$comando[0][0]:0;
+
+                break;
+
+            case 28800:
+
+                $comando = $this->select("SELECT COUNT(*) FROM bip_inc_incidente WHERE inc_resolvido LIKE ? AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) <= 28800 AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) > 21600",array($mes));
+
+                return !empty($comando[0][0]) && isset($comando[0][0])?$comando[0][0]:0;
+
+                break;
+
+            default:
+
+                $comando = $this->select("SELECT COUNT(*) FROM bip_inc_incidente WHERE inc_resolvido LIKE ? AND TIMESTAMPDIFF(SECOND, inc_criado,inc_resolvido) > 28800",array($mes));
+
+                return !empty($comando[0][0]) && isset($comando[0][0])?$comando[0][0]:0;
+
+                break;
+
+        }
+    }
+
+    private function finalViewTableMes(String $mes):array {
+
+        $t = $this->select("SELECT COUNT(*) FROM bip_inc_incidente WHERE inc_resolvido LIKE ?",array($mes));
+        $total = $t[0][0];
+
+        $comando = array(
+            $this->selectDataMes(7200,$mes),
+            $this->selectDataMes(14400,$mes),
+            $this->selectDataMes(21600,$mes),
+            $this->selectDataMes(28800,$mes),
+            $this->selectDataMes(0,$mes),
+        );
+
+        $porc = 0;
+
+        foreach ($comando as $key => $cmd){
+
+            $arrayPost[] = array(
+                $this->stringhoras($key),
+                $cmd,
+                round(($cmd / $total)*100)."%",
+                $this->acumuladoData(($porc += round(($cmd / $total) * 100)))
+            );
+
+        }
+
+        $tot = array(
+            "TOTAL",
+            "TOTAL",
+            $total,
+            "100%"
+        );
+
+        array_push($arrayPost,$tot);
+
+        return $arrayPost;
+
+    }
+
+    public function getJsonDataMes($mes):void{
+        header('Access-Control-Allow-Origin: *');
+        header('Content-type: application/json');
+        echo json_encode($this->finalViewTableMes($this->converterStringMes($mes)));
+    }
+
     public function getNow(): DateTime{
         return $this->now;
     }

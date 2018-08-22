@@ -38,7 +38,11 @@ $(document).ready(function() {
             "cursor":"pointer"
         }).on("click", function () {
 
-            $("#modalBaseTable").modal('show');
+            $("#modalBaseTable").modal({
+                show: true,
+                backdrop: 'static',
+                keyboard: false
+            });
 
             $("#dialogModal").addClass("w-100 p-3 mw-100");
 
@@ -154,9 +158,6 @@ $(document).ready(function() {
 
                 }
 
-
-
-
             },
             error: function (data) {
                 console.log(data)
@@ -170,6 +171,59 @@ $(document).ready(function() {
         $.each(data, function (key, entry) {
             $('#selectDataTableMes').append($('<option></option>').attr('value', entry).text(entry));
         })
+    });
+
+    $("form#formDataMesSectect").on("submit", function (event) {
+
+        $.ajax({
+            type: 'POST',
+            url: 'controller/dataMesTableDB.php',
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData:false,
+            beforeSend: function(){
+                $("div#loaderModal").removeClass("d-none");
+                $("div#modalOpcaoPainel").modal('hide');
+            },
+            success: function(data){
+                $("div#loaderModal").addClass("d-none").delay(2000).fadeOut("slow");
+
+                $("#modalMesSelectData").modal({
+                    show: true,
+                    backdrop: 'static',
+                    keyboard: false
+                });
+
+                let txt = $("select#selectDataTableMes").val();
+
+                $("#tdMesSelectData").text(txt.replace(/-/g,"/"));
+
+                $('#tableMesSelectData').dataTable({
+                    "aaData": data,
+                    "paging": false,
+                    "info": false,
+                    "searching": false,
+                    "ordering": false,
+                    dom: 'Bfrtip',
+                    buttons: [
+                        'copy', 'excel', 'print'
+                    ]
+                });
+
+                $("div.dt-buttons button:nth-child(1),div.dt-buttons button:nth-child(2),div.dt-buttons button:nth-child(3)").prepend("<i class='fa fa-upload'></i> ").addClass("btn btn-outline-primary");
+
+                $("table#tableMesSelectData tbody tr:last-child td:nth-child(4)").attr("colspan","2");
+                $("table#tableMesSelectData tbody tr:last-child td:nth-child(2)").remove();
+
+
+            },
+            error: function (data) {
+                console.log(data)
+            }
+        });
+
+        event.preventDefault();
     });
 
 } );

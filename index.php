@@ -34,12 +34,12 @@
             <h1 id="tdTitulo"><?= $manipulacao->h1Titulo() ?></h1>
 
             <div id="buttonOpcao" class="btn-group" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-keyboard="false" data-backdrop="static">
                     <i class="fas fa-bars" aria-hidden="true"></i> OPÇÕES
                 </button>
                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                    <a id="buttonVisualizarMes" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#"><i class="fa fa-desktop" aria-hidden="true"></i> Visualizar Mês</a>
-                    <a id="buttonReadBaseAtual" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#"><i class="fa fa-upload" aria-hidden="true"></i> Update</a>
+                    <a id="buttonVisualizarMes" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#" data-keyboard="false" data-backdrop="static"><i class="fa fa-desktop" aria-hidden="true"></i> Visualizar Mês</a>
+                    <a id="buttonReadBaseAtual" data-toggle="modal" data-target="#modalOpcaoPainel" class="dropdown-item" href="#" data-keyboard="false" data-backdrop="static"><i class="fa fa-upload" aria-hidden="true"></i> Update</a>
                 </div>
             </div>
 
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                             <br>
-                            <button id="buttonSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit">Extrair</button>
+                            <button id="buttonSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit"><i class="fa fa-sign-out-alt"></i> Extrair</button>
                         </form>
                     </div>
 
@@ -173,6 +173,49 @@
 
             </div>
 
+        </div>
+
+        <div class="modal fade" id="modalMesSelectData" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="h5MesSelectData"><strong>Base do Mês</strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="location.reload(true)">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <table id="tableMesSelectData" class="table table-striped table-bordered text-center" style="width:100%">
+
+                            <thead>
+
+                            <tr>
+
+                                <td id="tdMesSelectData" colspan="4"></td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Tempo de Resolução</td>
+
+                                <td>Quantidade</td>
+
+                                <td>%</td>
+
+                                <td>Acumulado</td>
+
+                            </tr>
+
+                            </thead>
+
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 

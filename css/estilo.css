@@ -93,7 +93,7 @@ div#modalDataTable{
     padding: 0;
 }
 
-div#modalBaseTable, div#dialogModal {
+div#modalBaseTable, div#dialogModal{
     padding: 0 !important;
 }
 
@@ -147,4 +147,59 @@ div.dt-buttons button{
 select#selectDataTableMes {
     font-size: 15px;
     text-transform: uppercase;
+}
+
+button.dt-button, div.dt-button, a.dt-button{
+    padding: 5px;
+}
+
+td#tdMesSelectData{
+    text-transform: uppercase;
+}
+
+table#tableMesSelectData thead tr:nth-child(1) td{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 3px !important;
+}
+
+table#tableMesSelectData thead tr:nth-child(2) td{
+    padding: 8px !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+table#tableMesSelectData.table-bordered {
+    border: 2px solid #000;
+}
+
+table#tableMesSelectData.table-bordered td {
+    border: 2px solid #000;
+}
+
+table#tableMesSelectData tbody {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#modalMesSelectData .modal-dialog {
+    max-width: 95%;
+}
+
+#modalMesSelectData .modal-header{
+    padding: 10px;
+}
+
+#modalMesSelectData .modal-body{
+    padding: 20px;
+}
+
+div#tableMesSelectData_wrapper div.dt-buttons {
+    right: 70px !important;
+    top: -70px !important;
+}
+
+.fade{
+    transition: none;
+    background-color: rgba(0,0,0,.8);
 }
