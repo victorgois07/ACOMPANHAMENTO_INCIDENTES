@@ -9,12 +9,11 @@
 ?>
 
 <!doctype html>
-<html lang="pt-br" class="no-js">
+<html lang="pt-br">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="lib/datatable/css/dataTables.bootstrap4.min.css">
         <link rel="stylesheet" href="lib/datatable/css/jquery.dataTables.min.css">
@@ -100,10 +99,10 @@
                     </div>
 
                     <div id="modalBodyMes" class="modal-body d-none">
-                        <form id="formDataMesSectect" method="get" target="_blank" action="controller/mesTable.php">
+                        <form id="formDataMesSectect" method="post"action="">
                             <div class="form-group row">
                                 <div class="col-sm-12">
-                                    <select name="selectDataTableMes" id="selectDataTableMes" class="form-control form-control-sm"></select>
+                                    <label for="selectDataTableMes"></label><select name="selectDataTableMes" id="selectDataTableMes" class="form-control form-control-sm"></select>
                                 </div>
                             </div>
                             <br>

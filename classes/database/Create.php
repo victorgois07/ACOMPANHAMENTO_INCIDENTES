@@ -82,21 +82,29 @@ final class Create extends Dao {
 
     protected function dataColExcel($key){
 
-        $excelData = $this->excelData->organizeArrayExcel();
+        try {
 
-        $indice = $this->excelData->getIndice();
+            $excelData = $this->excelData->organizeArrayExcel();
 
-        foreach ($excelData as $excel) {
-            $data[] = $excel[array_search($key,$indice)];
+            $indice = $this->excelData->getIndice();
+
+            foreach ($excelData as $excel) {
+                $data[] = $excel[array_search($key, $indice)];
+            }// Remove os valores nulos
+
+            $array = array_filter(array_unique($data));// Recria as chaves do array
+
+            $array = array_values($array);
+
+            return $array;
+
+        } catch (Exception $e) {
+
+            ob_end_clean();
+
+            exit("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
+
         }
-
-        // Remove os valores nulos
-        $array = array_filter(array_unique($data));
-
-        // Recria as chaves do array
-        $array = array_values($array);
-
-        return $array;
 
     }
 
@@ -225,11 +233,20 @@ final class Create extends Dao {
 
     protected function insertIncidenteFinal(){
 
-        foreach ($this->dataInsertFinal() as $insert){
-            $this->insert("INSERT INTO bip_inc_incidente (inc_codigo_incidente, inc_criado, inc_resolvido, inc_decricao_problema, inc_descricao_resolucao, inc_sum_sumario_id, inc_grs_grupo_designado_id, inc_pri_prioridade_id, inc_coi_codigo_ic_id) VALUES (?,?,?,?,?,?,?,?,?)",$insert);
+        try {
+
+            foreach ($this->dataInsertFinal() as $insert) {
+                $this->insert("INSERT INTO bip_inc_incidente (inc_codigo_incidente, inc_criado, inc_resolvido, inc_decricao_problema, inc_descricao_resolucao, inc_sum_sumario_id, inc_grs_grupo_designado_id, inc_pri_prioridade_id, inc_coi_codigo_ic_id) VALUES (?,?,?,?,?,?,?,?,?)", $insert);
+            }
+
+            return true;
+
+        } catch (Exception $e) {
+            ob_end_clean();
+
+            exit("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
         }
 
-        return true;
     }
 
     public function insertColsData():string{

@@ -14,7 +14,9 @@
             $file = new Files($_FILES['fileInputData'], new DateTime('now'), new Create());
 
             echo json_encode($file->resultInsertData());
+
             unlink($file->getDestino());
+
             header('Content-Type: application/json');
 
         }else{
@@ -25,9 +27,9 @@
 
     } catch (Exception $e) {
 
-        echo json_encode(array("ERRO: ".$e->getMessage(),"Linha: ".$e->getLine(),"Arquivos: ".$e->getFile()));
+        ob_end_clean();
 
-        header('Content-Type: application/json');
+        exit("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
 
     }
 

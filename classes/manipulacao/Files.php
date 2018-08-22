@@ -47,6 +47,7 @@ class Files{
                     throw new Exception("Erro durante o upload do arquivos!!");
 
                 }
+
             }else {
 
                 throw new Exception("Extensão do arquivos inválida!! Favor converter arquivos para XLS (EXCEL2003)");
@@ -71,7 +72,7 @@ class Files{
 
             ob_end_clean();
 
-            json_encode("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
+            exit("ERRO: ".$e->getMessage()."<br/>LINHA: ".$e->getLine()."<br/>CODE: ".$e->getCode()."<br/>ARQUIVO: ".$e->getFile());
         }
     }
 

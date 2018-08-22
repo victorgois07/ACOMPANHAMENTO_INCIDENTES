@@ -112,48 +112,76 @@ final class ExcelData extends PHPExcel {
 
     }
 
-    private function checkColumnExist():bool{
-        $excelData = $this->dataExcel();
+    private function checkColumnExist(){
 
-        $indice = $excelData[0];
+        try {
 
-        $check = array(
-            "Empresa de Suporte*",
-            "Grupo Designado*+",
-            "Notas",
-            "Resolução",
-            "Criado em",
-            "Prioridade*",
-            "Data da Última Resolução",
-            "IC+",
-            "ID do Incidente*+",
-            "Sumário*"
-        );
+            $excelData = $this->dataExcel();
 
-        foreach ($check as $ch){
-            if(!in_array($ch,$indice)){
-                return false;
+            $indice = $excelData[0];
+
+            $check = array(
+                "Empresa de Suporte*",
+                "Grupo Designado*+",
+                "Notas",
+                "Resolução",
+                "Criado em",
+                "Prioridade*",
+                "Data da Última Resolução",
+                "IC+",
+                "ID do Incidente*+",
+                "Sumário*"
+            );
+
+            foreach ($check as $ch) {
+                if (!in_array($ch, $indice)) {
+                    return false;
+                }
             }
-        }
 
-        return true;
+            return true;
+
+        } catch (Exception $e) {
+
+            ob_end_clean();
+
+            unlink($this->validateFilesName());
+
+            exit("ERRO: ".$e->getMessage());
+
+        }
 
     }
 
-    public function organizeArrayExcel():array {
+    public function organizeArrayExcel() {
 
-        if ($this->checkColumnExist() == true) {
+        try {
 
-            $excel = $this->dataExcel();
+            if ($this->checkColumnExist()) {
 
-            $this->setIndice($excel[0]);
+                $excel = $this->dataExcel();
 
-            for($i=1;$i < count($excel) - 2; $i++){
-                $data[] = $excel[$i];
+                $this->setIndice($excel[0]);
+
+                for ($i = 1; $i < count($excel) - 2; $i++) {
+                    $data[] = $excel[$i];
+                }
+
+                return $data;
+
+            }else{
+
+                throw new Exception("Error no arquivos da Base, faltam colunas!!");
+
             }
 
-            return $data;
+        } catch (Exception $e) {
 
+            ob_end_clean();
+
+            unlink($this->validateFilesName());
+
+            exit("ERRO: ".$e->getMessage());
         }
 
     }
