@@ -1,3 +1,7 @@
+*{
+    font-family: Arial,sans-serif;
+}
+
 .row{
     margin: 0;
 }
@@ -15,7 +19,6 @@ h1#tdTitulo{
     padding: 3px !important;
     text-align: center;
     text-transform: uppercase;
-    font-family: Arial,sans-serif;
 }
 
 table#tableAcompanhamentoIncidentes thead tr:nth-child(1) td{
@@ -42,16 +45,10 @@ table#tableAcompanhamentoIncidentes.table-bordered td {
     background-color: rgb(221,235,247);
 }
 
-button#buttonExtracao{
-    position: absolute;
-    top: 15px;
-    right: 25px;
-}
-
 div#buttonOpcao{
     position: absolute;
-    top: 15px;;
-    left: 25px;
+    top: 10px;
+    left: 10px;
 }
 
 div#loader {
@@ -115,11 +112,39 @@ table#tableDataBase.table-bordered td {
     border: 1px solid #000;
 }
 
-button#buttonExportDataTable{
-    right: 60px;
-    border-radius: 40px;
-}
-
 img#imgClose{
     width: 38px;
+}
+
+div.dt-buttons {
+    position: absolute;
+    float: none;
+    right: 0;
+    top: -50px;
+}
+
+div.dt-buttons button{
+    margin-right: -5px;
+}
+
+#tableDataBase_wrapper div.dt-buttons{
+    right: 80px;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.btn-outline-primary {
+    color: #007bff !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: #007bff !important;
+}
+
+select#selectDataTableMes {
+    font-size: 15px;
+    text-transform: uppercase;
 }

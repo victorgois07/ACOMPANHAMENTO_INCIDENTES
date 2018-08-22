@@ -33,8 +33,6 @@
 
             <h1 id="tdTitulo"><?= $manipulacao->h1Titulo() ?></h1>
 
-            <button id="buttonExtracao" type="button" class="btn btn-outline-primary"><i class="fa fa-upload" aria-hidden="true"></i> EXTRAÇÃO</button>
-
             <div id="buttonOpcao" class="btn-group" role="group">
                 <button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-bars" aria-hidden="true"></i> OPÇÕES
@@ -104,13 +102,12 @@
                     <div id="modalBodyMes" class="modal-body d-none">
                         <form id="formDataMesSectect" method="get" target="_blank" action="controller/mesTable.php">
                             <div class="form-group row">
-                                <label for="selectDataTableMes" class="col-sm-2 col-form-label col-form-label-sm">Selecione</label>
-                                <div class="col-sm-10">
+                                <div class="col-sm-12">
                                     <select name="selectDataTableMes" id="selectDataTableMes" class="form-control form-control-sm"></select>
                                 </div>
                             </div>
                             <br>
-                            <button id="buttonSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit">EXTRAIR</button>
+                            <button id="buttonSubmitMes" class="btn btn-primary btn-lg btn-block" type="submit">Extrair</button>
                         </form>
                     </div>
 
@@ -127,7 +124,6 @@
                     <div class="modal-header">
 
                         <h5 class="modal-title" id="titleModalDataTable"></h5>
-                        <button id="buttonExportDataTable" class="btn btn-primary position-absolute"><i class="fa fa-upload"></i></button>
 
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="location.reload(true)">
                             <span aria-hidden="true">&times;</span>

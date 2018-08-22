@@ -149,19 +149,19 @@ final class Read extends Dao {
 
             case "Média":
 
-                return $horas > $dMedia?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+                return $horas > $dMedia?$horas->diff($dMedia)->format('%H:%I:%S'):"NO PRAZO";
 
                 break;
 
             case "Alto":
 
-                return $horas > $dAlto?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+                return $horas > $dAlto?$horas->diff($dAlto)->format('%H:%I:%S'):"NO PRAZO";
 
                 break;
 
             case "Crítico":
 
-                return $horas > $dCritico?$horas->diff($dBaixo)->format('%H:%I:%S'):"NO PRAZO";
+                return $horas > $dCritico?$horas->diff($dCritico)->format('%H:%I:%S'):"NO PRAZO";
 
                 break;
 

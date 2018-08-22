@@ -18,9 +18,11 @@ $(document).ready(function() {
             "ordering": false,
             dom: 'Bfrtip',
             buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print'
+                'copy', 'excel', 'print'
             ]
         });
+
+        $("div.dt-buttons button:nth-child(1),div.dt-buttons button:nth-child(2),div.dt-buttons button:nth-child(3)").prepend("<i class='fa fa-upload'></i> ").addClass("btn btn-outline-primary");
 
         $("table#tableAcompanhamentoIncidentes tbody tr:last-child td:nth-child(4)").attr("colspan","2");
         $("table#tableAcompanhamentoIncidentes tbody tr:last-child td:nth-child(2)").remove();
@@ -58,9 +60,11 @@ $(document).ready(function() {
                     "ordering": false,
                     dom: 'Bfrtip',
                     buttons: [
-                        'copy', 'csv', 'excel', 'pdf', 'print'
+                        'copy', 'excel', 'print'
                     ]
                 });
+
+                $("div.dt-buttons button:nth-child(1),div.dt-buttons button:nth-child(2),div.dt-buttons button:nth-child(3)").prepend("<i class='fa fa-upload'></i> ").addClass("btn btn-outline-primary");
 
             });
 
