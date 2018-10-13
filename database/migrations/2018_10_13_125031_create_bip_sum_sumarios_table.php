@@ -31,6 +31,9 @@ class CreateBipSumSumariosTable extends Migration
 	 */
 	public function down()
 	{
+        Schema::create('bip_inc_incidentes', function(Blueprint $table){
+            $table->dropForeign('bip_inc_incidentes_inc_sum_sumario_id_foreign');
+        });
 		Schema::drop('bip_sum_sumarios');
 	}
 }

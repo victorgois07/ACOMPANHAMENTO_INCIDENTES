@@ -20,6 +20,10 @@ class CreateBipIncIncidentesTable extends Migration
             $table->increments('inc_incidente_id');
 
             $table->string('inc_codigo_incidente',15)->unique();
+            $table->integer('inc_sum_sumario_id');
+            $table->integer('inc_grs_grupo_designado_id');
+            $table->integer('inc_pri_prioridade_id');
+            $table->integer('inc_coi_codigo_ic_id');
 
             $table->foreign('inc_sum_sumario_id')
                 ->references('sum_sumario_id')
@@ -55,7 +59,16 @@ class CreateBipIncIncidentesTable extends Migration
 	{
 
         Schema::create('bip_inc_incidentes', function(Blueprint $table){
-            $table->dropForeign(['inc_sum_sumario_id','inc_grs_grupo_designado_id','inc_pri_prioridade_id','inc_coi_codigo_ic_id']);
+            $table->dropForeign([
+                'bip_inc_incidentes_inc_sum_sumario_id_foreign',
+                'bip_inc_incidentes_inc_grs_grupo_designado_id_foreign',
+                'bip_inc_incidentes_inc_pri_prioridade_id_foreign',
+                'bip_inc_incidentes_inc_coi_codigo_ic_id_foreign'
+            ]);
+        });
+
+        Schema::create('bip_inh_incidente_historicos', function(Blueprint $table){
+            $table->dropForeign('bip_inh_incidente_historicos_inh_inc_incidente_id_foreign');
         });
 	    
 		Schema::drop('bip_inc_incidentes');

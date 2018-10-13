@@ -32,6 +32,9 @@ class CreateBipHisHistoricosTable extends Migration
 	 */
 	public function down()
 	{
+        Schema::create('bip_inh_incidente_historicos', function(Blueprint $table){
+            $table->dropForeign('bip_inh_incidente_historicos_inh_his_historico_id_foreign');
+        });
 		Schema::drop('bip_his_historicos');
 	}
 }

@@ -13,6 +13,8 @@ use Prettus\Repository\Traits\TransformableTrait;
  */
 class BipGrsGrupoDesignado extends Model implements Transformable
 {
+    use SoftDeletes;
+    use Notifiable;
     use TransformableTrait;
 
     /**
@@ -20,6 +22,8 @@ class BipGrsGrupoDesignado extends Model implements Transformable
      *
      * @var array
      */
-    protected $fillable = [];
+    public $timestamps = true;
+    public $table = 'bip_grs_grupo_designado';
+    protected $fillable = ['grs_descricao','grs_emp_empresa_id'];
 
 }

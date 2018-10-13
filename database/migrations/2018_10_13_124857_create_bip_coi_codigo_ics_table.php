@@ -31,6 +31,9 @@ class CreateBipCoiCodigoIcsTable extends Migration
 	 */
 	public function down()
 	{
+        Schema::create('bip_inc_incidentes', function(Blueprint $table){
+            $table->dropForeign('bip_inc_incidentes_inc_coi_codigo_ic_id_foreign');
+        });
 		Schema::drop('bip_coi_codigo_ics');
 	}
 }

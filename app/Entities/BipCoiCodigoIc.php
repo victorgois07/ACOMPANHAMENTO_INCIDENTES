@@ -3,6 +3,8 @@
 namespace App\Entities;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Notifications\Notifiable;
 use Prettus\Repository\Contracts\Transformable;
 use Prettus\Repository\Traits\TransformableTrait;
 
@@ -13,6 +15,8 @@ use Prettus\Repository\Traits\TransformableTrait;
  */
 class BipCoiCodigoIc extends Model implements Transformable
 {
+    use SoftDeletes;
+    use Notifiable;
     use TransformableTrait;
 
     /**
@@ -20,6 +24,8 @@ class BipCoiCodigoIc extends Model implements Transformable
      *
      * @var array
      */
-    protected $fillable = [];
+    public $timestamps = true;
+    public $table = 'bip_coi_codigo_ic';
+    protected $fillable = ['coi_descricao'];
 
 }

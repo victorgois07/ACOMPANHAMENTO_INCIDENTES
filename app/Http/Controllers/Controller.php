@@ -13,7 +13,7 @@ class Controller extends BaseController
 
     public function homepage(){
 
-        return view('welcome',[
+        return view('home.home',[
             'title' => 'Painel Incidentes'
         ]);
     }

@@ -31,6 +31,9 @@ class CreateBipPriPrioridadesTable extends Migration
 	 */
 	public function down()
 	{
+        Schema::create('bip_inc_incidentes', function(Blueprint $table){
+            $table->dropForeign('bip_inc_incidentes_inc_pri_prioridade_id_foreign');
+        });
 		Schema::drop('bip_pri_prioridades');
 	}
 }

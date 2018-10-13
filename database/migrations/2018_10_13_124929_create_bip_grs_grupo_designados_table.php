@@ -19,6 +19,7 @@ class CreateBipGrsGrupoDesignadosTable extends Migration
 		Schema::create('bip_grs_grupo_designados', function(Blueprint $table) {
             $table->increments('grs_grupo_designado_id');
             $table->string('grs_descricao',100)->unique();
+            $table->integer('grs_emp_empresa_id');
 
             $table->foreign('grs_emp_empresa_id')
                 ->references('emp_empresa_id')
@@ -38,8 +39,13 @@ class CreateBipGrsGrupoDesignadosTable extends Migration
 	public function down()
 	{
         Schema::create('bip_grs_grupo_designados', function(Blueprint $table){
-            $table->dropForeign('grs_emp_empresa_id');
+            $table->dropForeign('bip_grs_grupo_designados_grs_emp_empresa_id_foreign');
         });
+
+        Schema::create('bip_inc_incidentes', function(Blueprint $table){
+            $table->dropForeign('bip_inc_incidentes_inc_grs_grupo_designado_id_foreign');
+        });
+
 		Schema::drop('bip_grs_grupo_designados');
 	}
 }

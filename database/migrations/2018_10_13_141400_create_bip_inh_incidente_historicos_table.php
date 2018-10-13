@@ -21,6 +21,8 @@ class CreateBipInhIncidenteHistoricosTable extends Migration
 
             $table->dateTime('inh_criado');
             $table->dateTime('inh_resolvido');
+            $table->integer('inh_inc_incidente_id');
+            $table->integer('inh_his_historico_id');
 
             $table->foreign('inh_inc_incidente_id')
                 ->references('inc_incidente_id')
@@ -45,7 +47,7 @@ class CreateBipInhIncidenteHistoricosTable extends Migration
 	public function down()
 	{
         Schema::create('bip_inh_incidente_historicos', function(Blueprint $table){
-            $table->dropForeign(['inh_inc_incidente_id','inh_his_historico_id']);
+            $table->dropForeign(['bip_inh_incidente_historicos_inh_inc_incidente_id_foreign','bip_inh_incidente_historicos_inh_his_historico_id_foreign']);
         });
 		Schema::drop('bip_inh_incidente_historicos');
 	}
