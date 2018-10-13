@@ -29,6 +29,8 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(\App\Repositories\BipGrsGrupoDesignadoRepository::class, \App\Repositories\BipGrsGrupoDesignadoRepositoryEloquent::class);
         $this->app->bind(\App\Repositories\BipPriPrioridadeRepository::class, \App\Repositories\BipPriPrioridadeRepositoryEloquent::class);
         $this->app->bind(\App\Repositories\BipSumSumarioRepository::class, \App\Repositories\BipSumSumarioRepositoryEloquent::class);
+        $this->app->bind(\App\Repositories\BipHisHistoricoRepository::class, \App\Repositories\BipHisHistoricoRepositoryEloquent::class);
+        $this->app->bind(\App\Repositories\BipInhIncidenteHistoricoRepository::class, \App\Repositories\BipInhIncidenteHistoricoRepositoryEloquent::class);
         //:end-bindings:
     }
 }

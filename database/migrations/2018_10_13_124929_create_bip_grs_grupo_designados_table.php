@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
@@ -16,9 +17,16 @@ class CreateBipGrsGrupoDesignadosTable extends Migration
 	public function up()
 	{
 		Schema::create('bip_grs_grupo_designados', function(Blueprint $table) {
-            $table->increments('id');
+            $table->increments('grs_grupo_designado_id');
+            $table->string('grs_descricao',100)->unique();
+
+            $table->foreign('grs_emp_empresa_id')
+                ->references('emp_empresa_id')
+                ->on('BipEmpEmpresas')
+                ->onDelete('cascade');
 
             $table->timestamps();
+            $table->softDeletes();
 		});
 	}
 
@@ -29,6 +37,9 @@ class CreateBipGrsGrupoDesignadosTable extends Migration
 	 */
 	public function down()
 	{
+        Schema::create('bip_grs_grupo_designados', function(Blueprint $table){
+            $table->dropForeign('grs_emp_empresa_id');
+        });
 		Schema::drop('bip_grs_grupo_designados');
 	}
 }

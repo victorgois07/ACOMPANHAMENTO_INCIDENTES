@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
@@ -16,9 +17,10 @@ class CreateBipSumSumariosTable extends Migration
 	public function up()
 	{
 		Schema::create('bip_sum_sumarios', function(Blueprint $table) {
-            $table->increments('id');
-
+            $table->increments('sum_sumario_id');
+            $table->string('sum_descricao',500)->unique();
             $table->timestamps();
+            $table->softDeletes();
 		});
 	}
 

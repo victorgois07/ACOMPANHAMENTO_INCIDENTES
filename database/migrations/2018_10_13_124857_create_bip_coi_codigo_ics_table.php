@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
@@ -16,9 +17,10 @@ class CreateBipCoiCodigoIcsTable extends Migration
 	public function up()
 	{
 		Schema::create('bip_coi_codigo_ics', function(Blueprint $table) {
-            $table->increments('id');
-
+            $table->increments('coi_codigo_ic_id');
+            $table->string('coi_descricao',100)->unique();
             $table->timestamps();
+            $table->softDeletes();
 		});
 	}
 

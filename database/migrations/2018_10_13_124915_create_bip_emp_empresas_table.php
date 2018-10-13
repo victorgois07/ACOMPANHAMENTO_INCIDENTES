@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
@@ -16,9 +17,10 @@ class CreateBipEmpEmpresasTable extends Migration
 	public function up()
 	{
 		Schema::create('bip_emp_empresas', function(Blueprint $table) {
-            $table->increments('id');
-
+            $table->increments('emp_empresa_id');
+            $table->string('emp_empresa_id',100)->unique();
             $table->timestamps();
+            $table->softDeletes();
 		});
 	}
 

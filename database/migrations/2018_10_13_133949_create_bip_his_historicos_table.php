@@ -5,9 +5,9 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 /**
- * Class CreateBipPriPrioridadesTable.
+ * Class CreateBipHisHistoricosTable.
  */
-class CreateBipPriPrioridadesTable extends Migration
+class CreateBipHisHistoricosTable extends Migration
 {
 	/**
 	 * Run the migrations.
@@ -16,9 +16,10 @@ class CreateBipPriPrioridadesTable extends Migration
 	 */
 	public function up()
 	{
-		Schema::create('bip_pri_prioridades', function(Blueprint $table) {
-            $table->increments('pri_prioridade_id');
-            $table->string('pri_descricao',25)->unique();
+		Schema::create('bip_his_historicos', function(Blueprint $table) {
+            $table->increments('his_historico_id');
+            $table->text('his_decricao_problema');
+            $table->text('his_decricao_resolucao');
             $table->timestamps();
             $table->softDeletes();
 		});
@@ -31,6 +32,6 @@ class CreateBipPriPrioridadesTable extends Migration
 	 */
 	public function down()
 	{
-		Schema::drop('bip_pri_prioridades');
+		Schema::drop('bip_his_historicos');
 	}
 }
