@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/',['uses' => 'Controller@homepage']);
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
