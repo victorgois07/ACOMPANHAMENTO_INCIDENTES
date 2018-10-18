@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
+import $ from 'jquery';
+import 'popper.js/dist/popper.min';
 import './app.css';
 
-const Example = () => (
-    <div className="container">
-        <h1>TESTE</h1>
-        <button className="btn btn-danger">TESTE</button>
-    </div>
-);
+class Example extends Component{
+    render() {
+        return (
+            <div className="container">
+                <h1>Acompanhamento</h1>
+            </div>
+        );
+    }
+}
 
 export default Example;
 
