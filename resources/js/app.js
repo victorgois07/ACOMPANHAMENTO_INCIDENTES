@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import Example from "./components/Example";
+import Home from './components/Home';
 
-ReactDOM.render(<Example />, document.getElementById('example'));
+ReactDOM.render(<Home />, document.getElementById('example'));

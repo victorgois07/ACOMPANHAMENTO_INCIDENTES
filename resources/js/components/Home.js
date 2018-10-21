@@ -3,17 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
 import $ from 'jquery';
 import 'popper.js/dist/popper.min';
+import Header from './Header';
+
 import './app.css';
 
-class Example extends Component{
+class Home extends Component{
     render() {
         return (
-            <div className="container">
-                <h1>Acompanhamento</h1>
+            <div className="container-fluir">
+                <Header/>
+                
             </div>
         );
     }
 }
 
-export default Example;
-
+export default Home;
