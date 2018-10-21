@@ -4,7 +4,7 @@ class Header extends Component{
     render() {
 
         let dat = new Date();
-        let alpha = new Date(dat.getFullYear(),dat.getMonth()+1,1);
+        let alpha = new Date(dat.getFullYear(),dat.getMonth(),1);
 
         return (
             <header id="main-header">
