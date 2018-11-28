@@ -4,7 +4,7 @@
 
     require_once dirname(__FILE__).DIRECTORY_SEPARATOR."classes/manipulacao/Manipulacao.php";
 
-    $manipulacao = new Manipulacao(new DateTime('now'));
+    $manipulacao = new Manipulacao(new DateTime('2018-08-30'));
 
 ?>
 

@@ -18,7 +18,7 @@ class Manipulacao{
     }
 
     public function tbMes(){
-        return utf8_encode(strtoupper(strftime("%B/%Y")));
+        return utf8_encode(strtoupper(strftime("%B/%Y",mktime(0,0,0,8,30,2018))));
     }
 
     public function getNow(): DateTime{
